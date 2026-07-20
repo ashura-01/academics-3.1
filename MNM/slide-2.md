@@ -1,4 +1,4 @@
-# lacture 2
+# lecture 2
 
 
 ## processor bus

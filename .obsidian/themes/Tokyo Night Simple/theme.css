@@ -80,7 +80,7 @@ body {
      correct background + text variables. --- */
   --nav-item-background-hover: rgba(140, 150, 255, 0.1) !important;
   --nav-item-color-hover: #e0e5ff !important;
-  --nav-item-background-active: rgba(154, 216, 255, 0.15) !important; /* soft red-tinted bg */
+  --nav-item-background-active: rgba(40, 51, 101, 0.367) !important; /* soft red-tinted bg */
   --nav-item-color-active: #ff9a9a !important; /* Keeps active items red */
 }
 
@@ -90,3 +90,25 @@ body {
 .cm-header-4, .markdown-rendered h4 { color: #c4cbff !important; }
 .cm-header-5, .markdown-rendered h5 { color: #e0e5ff !important; }
 .cm-header-6, .markdown-rendered h6 { color: #ffffff !important; }
+
+/* === BULLET POINT COLOR === */
+
+/* Reading view (rendered markdown) */
+.markdown-rendered ul > li::marker {
+  color: #8c96ff !important;
+}
+
+/* Nested/ordered list numbers too, if you want them to match */
+.markdown-rendered ol > li::marker {
+  color: #8c96ff !important;
+}
+
+/* Live Preview / editing mode bullets */
+.cm-line .list-bullet::after {
+  background-color: #8c96ff !important;
+}
+
+/* Live Preview numbered list markers */
+.cm-formatting-list-ol {
+  color: #8c96ff !important;
+}
