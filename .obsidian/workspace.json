@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "d3fcd5aeed86edef",
+    "type": "split",
+    "children": [
+      {
+        "id": "08a257c48ecf2440",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8019f907f28b6dd",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "918085c458f68949",
+    "type": "split",
+    "children": [
+      {
+        "id": "2dd8081280a3d3f3",
+        "type": "tabs",
+        "dimension": 62.33140655105973,
+        "children": [
+          {
+            "id": "45dde854ab63284f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a4fbdfca63a9f502",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cb4c0bbc14cd6fdb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "18ebae186c1dbc7e",
+        "type": "tabs",
+        "dimension": 37.66859344894027,
+        "children": [
+          {
+            "id": "7cb9af7cb1c7a235",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 289.5
+  },
+  "right": {
+    "id": "a13cf556feee131e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f65f4f86ea544193",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49d6772e101a0a3b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ca7045ce5c189496",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "23f9a972d5795339",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c64af93322d29225",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "07c9875d2195a0fc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "3c87678abc1f138a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "f8019f907f28b6dd",
+  "lastOpenFiles": [
+    "recon & enum/Search_Engine_Discovery.md",
+    "recon & enum/network_services.md",
+    "recon & enum/crawlers.md",
+    "attachments/Pasted image 20260720172012.png",
+    "attachments",
+    "Pasted image 20260720171532.png",
+    "recon & enum/well-known URIs.md",
+    "recon & enum/web_recon.md",
+    "recon & enum/foot_printing.md",
+    "solved labs/kenobi_thm.md.tmp.12980.e45483ca6dee",
+    "solved labs/kenobi_thm.md.tmp.12980.0cccddbd60a4",
+    "solved labs/vulnversity_thm.md.tmp.12980.12049d9b09cf",
+    "recon & enum/network_services.md.tmp.12980.1d167c73282a",
+    "web_exploitation/server_basics.md.tmp.12980.d9cb37bfb0f9",
+    "AI & Agent/AI-hacking.md.tmp.12980.d98b79e47b17",
+    "solved labs/vulnversity_thm.md.tmp.12980.34c7e6f19fed",
+    "solved labs/kenobi_thm.md.tmp.12980.176d5de1ef86",
+    "solved labs/relevent_thm.md.tmp.12980.305fab4284ea",
+    "Untitled.canvas",
+    "web_exploitation/ssrf__notes.md",
+    "web_exploitation/csrf-notes.md",
+    "web_exploitation/server_basics.md",
+    "web_exploitation/foot_printing.md",
+    "solved labs/kenobi_thm.md",
+    "AI & Agent/AI-hacking.md",
+    "kill-servers/foot_printing.md",
+    "solved labs/vulnversity_thm.md",
+    "solved labs/funbox_offec.md",
+    "solved labs/relevent_thm.md",
+    "kill-servers/ssrf__notes.md",
+    "kill-servers/csrf-notes.md",
+    "kill-servers/server_basics.md",
+    "Server  Knowledge.md",
+    "recon & enum/network-services.md",
+    "kill-servers/Server  Knowledge.md",
+    "Server Knowledge.md",
+    "network-services.md",
+    "test.md",
+    "Server Knowledge 37709698c45c80c18acbd6009a3e1ff1.md"
+  ]
+}
