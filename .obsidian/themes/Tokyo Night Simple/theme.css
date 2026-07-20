@@ -4,10 +4,9 @@
   /* --background-primary: #030008; */
   --background-secondary: #0000122a;
   --background-secondary-alt: #0000009b;
-  
+
   /* === LAYOUT BORDER === */
   --background-modifier-border: #02000b50 !important;
-  
   --background-modifier-hover: #292e42;
   --background-modifier-active-hover: #292e42;
 
@@ -44,40 +43,45 @@
 }
 
 /* === TABLE STYLING === */
-.markdown-rendered table, 
-.markdown-rendered th, 
+.markdown-rendered table,
+.markdown-rendered th,
 .markdown-rendered td {
-    border: 1px solid rgba(140, 150, 255, 0.4) !important;
-    background-color: rgba(0, 0, 18, 0.2) !important;
+  border: 1px solid rgba(140, 150, 255, 0.4) !important;
+  background-color: rgba(0, 0, 18, 0.2) !important;
 }
 .markdown-rendered th {
-    background-color: rgba(76, 59, 186, 0.2) !important;
-    color: #a8b0ff !important;
+  background-color: rgba(76, 59, 186, 0.2) !important;
+  color: #a8b0ff !important;
 }
 
 body {
-    --graph-line: rgba(147, 153, 255, 0.35) !important; 
-    --graph-line-highlight: #a3acff !important;    
-    
-    --graph-node: #707aff !important;             
-    --graph-node-resolved: #8c96ff !important;    
-    --graph-node-unresolved: #c7adff !important;  
+  --graph-line: rgba(147, 153, 255, 0.35) !important;
+  --graph-line-highlight: #a3acff !important;
+  --graph-node: #707aff !important;
+  --graph-node-resolved: #8c96ff !important;
+  --graph-node-unresolved: #c7adff !important;
 
-    --h1-color: #707aff !important; 
-    --h2-color: #8c96ff !important; 
-    --h3-color: #a8b0ff !important; 
-    --h4-color: #c4cbff !important; 
-    --h5-color: #e0e5ff !important; 
-    --h6-color: #ffffff !important; 
+  --h1-color: #707aff !important;
+  --h2-color: #8c96ff !important;
+  --h3-color: #a8b0ff !important;
+  --h4-color: #c4cbff !important;
+  --h5-color: #e0e5ff !important;
+  --h6-color: #ffffff !important;
 
-    --icon-color: #8c9fff94 !important;
-    --icon-color-hover: #ffa8a8 !important;
-    --icon-color-active: #ff9a9a !important;
-    --icon-color-focused: #ff9a9ad3 !important;
-    --collapse-icon-color: #8c96ff !important;
-    --collapse-icon-color-hover: #a8b0ff !important;
-    --nav-item-color-hover: rgba(140, 150, 255, 0.1) !important;
-    --nav-item-color-active: #ff9a9a !important; /* Keeps active items red */
+  --icon-color: #8c9fff94 !important;
+  --icon-color-hover: #ffa8a8 !important;
+  --icon-color-active: #ff9a9a !important;
+  --icon-color-focused: #ff9a9ad3 !important;
+  --collapse-icon-color: #8c96ff !important;
+  --collapse-icon-color-hover: #a8b0ff !important;
+
+  /* --- FIX: was --nav-item-color-hover set to a near-transparent value,
+     which made hovered file/folder text invisible. Split into the
+     correct background + text variables. --- */
+  --nav-item-background-hover: rgba(140, 150, 255, 0.1) !important;
+  --nav-item-color-hover: #e0e5ff !important;
+  --nav-item-background-active: rgba(154, 216, 255, 0.15) !important; /* soft red-tinted bg */
+  --nav-item-color-active: #ff9a9a !important; /* Keeps active items red */
 }
 
 .cm-header-1, .markdown-rendered h1 { color: #707aff !important; }
@@ -86,5 +90,3 @@ body {
 .cm-header-4, .markdown-rendered h4 { color: #c4cbff !important; }
 .cm-header-5, .markdown-rendered h5 { color: #e0e5ff !important; }
 .cm-header-6, .markdown-rendered h6 { color: #ffffff !important; }
-
-/* === STUBBORN ACTIVE / SELECTED STATE OVERRIDES === */
