@@ -69,6 +69,13 @@ body {
     --h4-color: #c4cbff !important; 
     --h5-color: #e0e5ff !important; 
     --h6-color: #ffffff !important; 
+
+    --icon-color: #8c9fff94 !important;
+    --icon-color-hover: #ffa8a8 !important;
+    --icon-color-active: #ff9a9a !important;
+    --collapse-icon-color: #8c96ff !important;
+    --collapse-icon-color-hover: #a8b0ff !important;
+    --nav-item-color-hover: rgba(140, 150, 255, 0.1) !important;
 }
 
 .cm-header-1, .markdown-rendered h1 { color: #707aff !important; }

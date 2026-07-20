@@ -11,10 +11,14 @@
             "id": "f8019f907f28b6dd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "MNM/slide-2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "slide-2"
             }
           }
         ]
@@ -168,12 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "MNM/slide-2.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of slide-2"
             }
           },
           {
@@ -207,6 +212,10 @@
   },
   "active": "f8019f907f28b6dd",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "MNM/slide-2.md",
+    "slide-2.md",
+    "MNM",
     "recon & enum/Search_Engine_Discovery.md",
     "recon & enum/network_services.md",
     "recon & enum/crawlers.md",
@@ -224,8 +233,6 @@
     "AI & Agent/AI-hacking.md.tmp.12980.d98b79e47b17",
     "solved labs/vulnversity_thm.md.tmp.12980.34c7e6f19fed",
     "solved labs/kenobi_thm.md.tmp.12980.176d5de1ef86",
-    "solved labs/relevent_thm.md.tmp.12980.305fab4284ea",
-    "Untitled.canvas",
     "web_exploitation/ssrf__notes.md",
     "web_exploitation/csrf-notes.md",
     "web_exploitation/server_basics.md",
@@ -242,9 +249,6 @@
     "Server  Knowledge.md",
     "recon & enum/network-services.md",
     "kill-servers/Server  Knowledge.md",
-    "Server Knowledge.md",
-    "network-services.md",
-    "test.md",
-    "Server Knowledge 37709698c45c80c18acbd6009a3e1ff1.md"
+    "Server Knowledge.md"
   ]
 }
