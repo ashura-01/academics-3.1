@@ -210,9 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fca5170bf692dc38",
+  "active": "45dde854ab63284f",
   "lastOpenFiles": [
-    "slide-1.md",
+    "attachments",
+    "MNM/slide-1.md",
     "MNM/slide-2.md",
     "Untitled.canvas",
     "slide-2.md",
@@ -249,7 +250,6 @@
     "kill-servers/server_basics.md",
     "Server  Knowledge.md",
     "recon & enum/network-services.md",
-    "kill-servers/Server  Knowledge.md",
-    "Server Knowledge.md"
+    "kill-servers/Server  Knowledge.md"
   ]
 }
