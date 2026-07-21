@@ -192,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -210,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45dde854ab63284f",
+  "active": "07c9875d2195a0fc",
   "lastOpenFiles": [
     "Econimics/lacture-01.md",
     "Econimics",
