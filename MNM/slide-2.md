@@ -19,3 +19,4 @@ connected directly to north bridge/GHCH. AGP is a high speed bus with clock spee
 
 
 
+
