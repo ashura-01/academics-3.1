@@ -21,18 +21,20 @@
 ### B. Goods vs. Bads
 
 - **Goods:** Anything that provides **utility** (satisfaction or happiness). 
-  - *Tangible (physical):* Car, computer, food.
-  - *Intangible (non-physical):* Friendship, love, health.
+	  - *Tangible (physical):* Car, computer, food.
+	  - *Intangible (non-physical):* Friendship, love, health.
   
 - **Bads:** Anything that provides **disutility** (dissatisfaction or unhappiness). 
-  - *Examples:* The flu, pollution, constant nagging.
+	  - *Examples:* The flu, pollution, constant nagging.
   
 - **Key Point:** People will pay money to get *goods* (e.g., buy medicine) and will also pay money to get rid of *bads* (e.g., pay a doctor to cure the flu).
 
 ### C. Choice (The Direct Result of Scarcity)
+
 - Because resources are limited (scarcity exists), people **must make choices**. We have to decide which wants to satisfy and which to ignore.
 
 ### D. Opportunity Cost (The True Cost of a Choice)
+
 - **Definition:** The **opportunity cost** of an item is the **value of the next best alternative** that you give up when making a choice.
 - **Crucial Rule:** Every single choice has an opportunity cost.
 - **Example:** If you choose to attend this economics lecture, your opportunity cost is *not* the tuition fee. It is the value of the next best thing you gave up (e.g., watching TV, taking a nap, or working a part-time job).
