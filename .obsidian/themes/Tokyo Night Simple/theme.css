@@ -11,7 +11,7 @@
 --background-modifier-active-hover: #292e42;
 
 /* Text */
---text-normal: #d5ddff;
+--text-normal: #c0caf5;
 --text-faint: #565f89;
 --text-muted: #a9b1d6;
 --text-accent: #62e0ff !important; /* Updated to match your active red style */
