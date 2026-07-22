@@ -11,10 +11,14 @@
             "id": "5d04ff0d3c277d30",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DSD/Lecture1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lecture1"
             }
           }
         ]
@@ -168,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Econimics/Economics Introduction.md",
+                "file": "DSD/Lecture1.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Economics Introduction"
+              "title": "Outline of Lecture1"
             }
           },
           {
@@ -206,10 +210,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45dde854ab63284f",
+  "active": "5d04ff0d3c277d30",
   "lastOpenFiles": [
-    "Econimics/Demand and Supply Analysis.md",
     "Econimics/Economics Introduction.md",
+    "DSD/Lecture1.md",
+    "DSD/Lecture3.md",
+    "DSD",
+    "Econimics/Demand and Supply Analysis.md",
     "Econimics/lacture-01.md",
     "Econimics/attachments/three_fundamental_questions.png",
     "Econimics/attachments/scarcity_choice_opportunity_cost.png",
@@ -235,7 +242,6 @@
     "solved labs/vulnversity_thm.md.tmp.12980.12049d9b09cf",
     "recon & enum/network_services.md.tmp.12980.1d167c73282a",
     "web_exploitation/server_basics.md.tmp.12980.d9cb37bfb0f9",
-    "AI & Agent/AI-hacking.md.tmp.12980.d98b79e47b17",
     "web_exploitation/ssrf__notes.md",
     "web_exploitation/csrf-notes.md",
     "web_exploitation/server_basics.md",
@@ -247,8 +253,6 @@
     "solved labs/funbox_offec.md",
     "solved labs/relevent_thm.md",
     "kill-servers/ssrf__notes.md",
-    "kill-servers/csrf-notes.md",
-    "kill-servers/server_basics.md",
-    "Server  Knowledge.md"
+    "kill-servers/csrf-notes.md"
   ]
 }
