@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Econimics/Demand and Supply Analysis.md",
+                "file": "Econimics/lacture-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Demand and Supply Analysis"
+              "title": "lacture-01"
             }
           }
         ]
@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Econimics/Demand and Supply Analysis.md",
+                "file": "Econimics/lacture-01.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Demand and Supply Analysis"
+              "title": "Outline of lacture-01"
             }
           },
           {
@@ -212,8 +212,8 @@
   },
   "active": "20854fda36e0fdd1",
   "lastOpenFiles": [
-    "Econimics/lacture-01.md",
     "Econimics/Demand and Supply Analysis.md",
+    "Econimics/lacture-01.md",
     "Econimics",
     "MNM/slide-2.md",
     "attachments",
