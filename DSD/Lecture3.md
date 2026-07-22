@@ -271,7 +271,7 @@ flowchart LR
 
 ---
 
-## 📌 Shift Register
+## Shift Register
 
 A register capable of shifting its binary info left or right. Consists of a chain of flip-flops in cascade — output of one FF feeds the input of the next. All FFs share a common clock pulse (CP), which shifts data from one stage to the next.
 
@@ -311,7 +311,7 @@ sequenceDiagram
 
 ---
 
-## 📌 Serial Transfer Using Shift Register
+## Serial Transfer Using Shift Register
 
 A digital system operates in **serial mode** when information is transferred/manipulated **one bit at a time** — bits are shifted out of the source register into the destination register.
 
@@ -342,7 +342,7 @@ flowchart LR
 
 > After the 4th shift, the shift control goes to 0, and both registers A and B hold the same value **1011** (register A's content circulates back via SO→SI).
 
-### ✍️ Handwritten follow-up example
+### Handwritten follow-up example
 
 $$A = 10111 \qquad B = 01101$$
 
@@ -350,7 +350,7 @@ After the **5th shift**, the last shift will make both registers equal to the sa
 
 ---
 
-## 📌 Serial Adder Implementation with Shift Register
+## Serial Adder Implementation with Shift Register
 
 ```mermaid
 flowchart LR
@@ -372,7 +372,7 @@ flowchart LR
 
 ---
 
-## 📌 Practice Questions (Lecture 3.2, from slides)
+## Practice Questions (Lecture 3.2, from slides)
 
 1. Differences between Asynchronous and Synchronous Sequential Circuits
 2. Design a 3-bit binary counter using J-K flip-flops
@@ -385,9 +385,9 @@ flowchart LR
 
 ---
 
-## ✍️ Handwritten Worked Solutions (25/06/26 onward)
+## Handwritten Worked Solutions (25/06/26 onward)
 
-### 🔹 3-bit Binary Counter using T Flip-Flops
+### 3-bit Binary Counter using T Flip-Flops
 
 **Excitation Table for T Flip-Flop** (0 → Hold, 1 → Toggle):
 
@@ -452,7 +452,7 @@ flowchart LR
 
 ---
 
-### 🔹 D Flip-Flop
+### D Flip-Flop
 
 **Excitation Table:**
 
@@ -467,7 +467,7 @@ flowchart LR
 
 ---
 
-### 🔹 J-K Flip-Flop
+### J-K Flip-Flop
 
 **Truth Table:**
 
@@ -493,7 +493,7 @@ flowchart LR
 
 ---
 
-### 🔹 Additional Sequential Design Exercise (2-bit, input x)
+### Additional Sequential Design Exercise (2-bit, input x)
 
 **State Diagram:**
 
@@ -543,12 +543,12 @@ flowchart LR
 
 ---
 
-## 🗂 Related Notes
+## Related Notes
 - [[Lecture1]] — Introduction, Half/Full Adders, Binary Adder
 
-## 📚 Sources
+## Sources
 - Lecture 3.1 & 3.2 slides — Prepared by Mohsena Ashraf
 - Handwritten class notes dated 18/06/26, 21/06/26, 25/06/26
 - Reference book: *Digital Logic and Computer Design (Indian Edition)*, M. Morris Mano — Ch. 9.1–9.18
 
-> 📝 **Note:** The handwritten notes also contain Lecture 4 material (Booth's Algorithm / Modified Booth's UV method for signed multiplication, dated 02/07/26). That content is outside the scope of Lecture 1 & Lecture 3 and has been left out of this note — let me know if you'd like a separate `Lecture4.md` for it.
+> **Note:** The handwritten notes also contain Lecture 4 material (Booth's Algorithm / Modified Booth's UV method for signed multiplication, dated 02/07/26). That content is outside the scope of Lecture 1 & Lecture 3 and has been left out of this note — let me know if you'd like a separate `Lecture4.md` for it.
