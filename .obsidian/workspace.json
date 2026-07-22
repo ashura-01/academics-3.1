@@ -212,6 +212,12 @@
   },
   "active": "5d04ff0d3c277d30",
   "lastOpenFiles": [
+    "DSD/Lecture3.md.tmp.40777.017571a58ed5",
+    "DSD/Lecture3.md.tmp.40777.0aa189a54ced",
+    "DSD/Lecture3.md.tmp.40777.521d63728cdc",
+    "DSD/Lecture3.md.tmp.40777.4dd5aab931b3",
+    "DSD/Lecture3.md.tmp.40777.b8b2937f03f9",
+    "DSD/Lecture3.md.tmp.40777.f8939d279adb",
     "DSD/Lecture1.md",
     "Econimics/Economics Introduction.md",
     "DSD/Lecture3.md",
@@ -237,11 +243,6 @@
     "recon & enum/well-known URIs.md",
     "recon & enum/web_recon.md",
     "recon & enum/foot_printing.md",
-    "solved labs/kenobi_thm.md.tmp.12980.e45483ca6dee",
-    "solved labs/kenobi_thm.md.tmp.12980.0cccddbd60a4",
-    "solved labs/vulnversity_thm.md.tmp.12980.12049d9b09cf",
-    "recon & enum/network_services.md.tmp.12980.1d167c73282a",
-    "web_exploitation/server_basics.md.tmp.12980.d9cb37bfb0f9",
     "web_exploitation/ssrf__notes.md",
     "web_exploitation/csrf-notes.md",
     "web_exploitation/server_basics.md",
@@ -252,7 +253,6 @@
     "solved labs/vulnversity_thm.md",
     "solved labs/funbox_offec.md",
     "solved labs/relevent_thm.md",
-    "kill-servers/ssrf__notes.md",
-    "kill-servers/csrf-notes.md"
+    "kill-servers/ssrf__notes.md"
   ]
 }

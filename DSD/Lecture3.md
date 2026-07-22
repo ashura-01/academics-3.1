@@ -136,7 +136,7 @@ A combinational circuit that performs the **reverse operation** of a decoder.
 - **Application:** Octal to Binary conversion
 - Examples: 4:2, 8:3, 16:4 Encoder
 
-### 🔹 8-to-3 Encoder
+### 8-to-3 Encoder
 
 **Truth Table:**
 
@@ -171,7 +171,7 @@ $$Z = D_1 + D_3 + D_5 + D_7$$
 
 ---
 
-### 🔹 Priority Encoder ⭐
+### Priority Encoder
 
 An encoder with a **priority function**:
 - Multiple inputs may be true simultaneously
@@ -204,7 +204,7 @@ flowchart LR
 
 ---
 
-## 📌 Practice Problems (Lecture 3.1)
+## Practice Problems (Lecture 3.1)
 
 1. A combinational circuit is specified by:
    $$F_1(A,B,C) = \sum(2,4,7) \qquad F_2(A,B,C) = \sum(0,3) \qquad F_3(A,B,C) = \sum(0,2,3,4,7)$$
@@ -212,7 +212,7 @@ flowchart LR
 2. Implement a full adder with a decoder and NAND gates.
 3. Design a combinational circuit that compares two 4-bit numbers to check if they are equal. Output = 1 if equal, 0 otherwise. State the equation.
 
-### ✍️ Handwritten Practice (from notes)
+### Handwritten Practice (from notes)
 - Design a Full Adder using **2 Half Adders**, built using a **Decoder**.
 
 ---
@@ -220,7 +220,7 @@ flowchart LR
 
 # Lecture 3.2 — Sequential Circuits
 
-## 📌 Sequential Circuits
+## Sequential Circuits
 
 Systems in practice include memory elements. A sequential circuit consists of a **combinational circuit** to which **storage elements** are connected to form a feedback path.
 
@@ -245,7 +245,7 @@ flowchart LR
 
 ---
 
-## 📌 Register
+## Register
 
 A **register** = a group of binary storage cells (flip-flops) suitable for holding binary information.
 
