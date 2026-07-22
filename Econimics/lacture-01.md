@@ -1,4 +1,3 @@
-
 # INTRODUCTION TO ECONOMICS
 
 ---
