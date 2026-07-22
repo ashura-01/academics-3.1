@@ -16,7 +16,7 @@ flowchart LR
     DLD --> Enc["Encoder → 2ⁿ × n"]
 ```
 
-## 📌 Decoder
+##  Decoder
 
 A combinational circuit that converts binary information from **n input lines** to a maximum of **2ⁿ unique output lines**.
 
@@ -26,7 +26,7 @@ A combinational circuit that converts binary information from **n input lines** 
 - A 3-to-8 line decoder decodes any 3-bit code into 8 outputs
 - Examples: 3:8, 2:4, 4:16 Decoder
 
-### 🔹 3-to-8 Decoder
+### 3-to-8 Decoder
 
 **Truth Table:**
 
@@ -67,7 +67,7 @@ $$D_4 = xy'z' \quad D_5 = xy'z \quad D_6 = xyz' \quad D_7 = xyz$$
 
 ---
 
-### 🔹 Implementation Using a Decoder
+###  Implementation Using a Decoder
 
 Any combinational function can be implemented by OR-ing the minterms (decoder outputs) that appear in its sum-of-minterms expression.
 
@@ -125,7 +125,7 @@ flowchart LR
 
 ---
 
-## 📌 Encoder
+##  Encoder
 
 A combinational circuit that performs the **reverse operation** of a decoder.
 

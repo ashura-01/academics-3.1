@@ -257,10 +257,10 @@ flowchart LR
 
 ---
 
-## 🗂 Related Notes
+##  Related Notes
 - [[Lecture3]] — Decoders, Encoders, and Sequential Circuits
 
-## ✍️ Handwritten Reference (18/06/26)
+## Handwritten Reference (18/06/26)
 - Book: *Digital Logic and Computer Design (Indian Edition)* — M. Morris Mano, Ch. 9.1–9.18
 - Sketch: Analog vs Discrete vs Digital signal → Function/Algorithm block → Output
 - Adder section mirrors slide content: Half Adder (2 no./digit add → sum, cout), Full Adder (3 no./digit add → sum, cout)

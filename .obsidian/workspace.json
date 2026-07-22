@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSD/Lecture1.md",
+                "file": "DSD/Lecture3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture1"
+              "title": "Lecture3"
             }
           }
         ]
@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSD/Lecture1.md",
+                "file": "DSD/Lecture3.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture1"
+              "title": "Outline of Lecture3"
             }
           },
           {
@@ -212,8 +212,8 @@
   },
   "active": "5d04ff0d3c277d30",
   "lastOpenFiles": [
-    "Econimics/Economics Introduction.md",
     "DSD/Lecture1.md",
+    "Econimics/Economics Introduction.md",
     "DSD/Lecture3.md",
     "DSD",
     "Econimics/Demand and Supply Analysis.md",
