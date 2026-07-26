@@ -113,7 +113,9 @@ $$C(x\bmod y) = C\big(x - y\lfloor x/y\rfloor\big) = Cx - Cy\lfloor x/y\rfloor =
 
 ## 6. Proof: $(x \bmod ny) \bmod y = x \bmod y$
 
-**Case 1 — $y=0$:** then $ny=0$ too, so $(x\bmod 0)\bmod 0 = x \bmod 0 = x \bmod y$ (both sides equal $x$ by the $x\bmod 0=x$ convention).
+**Case 1 — $y=0$:** then $ny=0$ too, 
+so $(x\bmod 0)\bmod 0 = x \bmod 0 = x \bmod y$ 
+(both sides equal $x$ by the $x\bmod 0=x$ convention).
 
 **Case 2 — $y\ne 0$:** let $z = x - ny\lfloor x/ny\rfloor$ (i.e. $z = x\bmod ny$). Then
 
