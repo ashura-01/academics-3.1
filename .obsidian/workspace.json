@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSD/Lecture3.md",
+                "file": "MACS/Integer Functions.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture3"
+              "title": "Outline of Integer Functions"
             }
           },
           {
@@ -192,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -210,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5d04ff0d3c277d30",
+  "active": "07c9875d2195a0fc",
   "lastOpenFiles": [
     "MACS/The Josephus Problem.md",
     "MACS/Integer Functions.md",
