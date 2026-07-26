@@ -348,6 +348,104 @@ The ordinary Josephus recurrence is the special case $d=c=2$, $\alpha_1=1$, $\be
 
 ---
 
+## 8. Controlling the Elimination Order with LCM
+
+A different flavor of problem: instead of solving for the survivor, we choose the **step size $m$** (eliminate every $m$-th person, not just every 2nd) so that a *whole group* of people is eliminated before any other group.
+
+### Two groups: n good, n bad ($2n$ people total)
+
+> [!question] Setup
+> $2n$ people stand in a circle. Positions $1,\dots,n$ are "good," positions $n+1,\dots,2n$ are "bad." Find an integer $m$ such that executing every $m$-th person eliminates **all bad guys first**.
+
+**Claim:** $m = \operatorname{lcm}(n+1, n+2, \dots, 2n)$ works.
+
+**Justification:** While $k$ people remain in the circle, with $n+1\le k\le 2n$, we have $k\mid m$ by construction (every integer in that range divides the LCM). Counting $m$ steps around a $k$-person circle is the same as going around exactly $m/k$ full times — an integer number of laps — so the $m$-th count always lands back on the same (currently "next-up") person, which forces the eliminations to proceed strictly through the circle in the fixed descending order $2n, 2n-1,\dots,n+1$ while $k\ge n+1$ people remain — i.e. through the bad half before ever reaching a good position.
+
+$$\boxed{m = \operatorname{lcm}(n+1,n+2,\dots,2n)}$$
+
+> [!example] n = 3
+> Total people $=2n=6$. Good $=\{1,2,3\}$, bad $=\{4,5,6\}$.
+> $$m = \operatorname{lcm}(4,5,6) = \mathbf{60}$$
+
+### Three groups: n good, n mixed, n bad ($3n$ people total)
+
+> [!question] Setup
+> $3n$ people in a circle: first $n$ good, middle $n$ mixed (good and bad), last $n$ bad. Find $m$ such that executing every $m$-th person eliminates **all bad first, then all middle, then all good.**
+
+**Claim:** $m = \operatorname{lcm}(n+1, n+2, \dots, 3n)$ works, by the identical argument: for every remaining-count $k$ with $n+1\le k\le 3n$, $k\mid m$, so the elimination order while $k$ people remain is simply
+
+$$3n,\ 3n-1,\ \dots,\ n+1$$
+
+i.e. strictly descending position numbers. Consequently:
+- positions $2n+1$ to $3n$ (bad) are eliminated first,
+- positions $n+1$ to $2n$ (middle) are eliminated next,
+- positions $1$ to $n$ (good) are eliminated last.
+
+$$\boxed{m = \operatorname{lcm}(n+1,n+2,\dots,3n)}$$
+
+---
+
+## 9. Counter-Clockwise Variant
+
+> [!question] Setup
+> Same rules (eliminate every 2nd remaining person), but the circle is **traversed counter-clockwise**, while people are still **numbered sequentially clockwise**. With $n$ people, counting starts at person $n$ (moving counter-clockwise from "1" means the first step lands on $n$). Let $J_{acw}(n)$ be the survivor.
+
+### Case n = 2m (even)
+
+Starting at $2n$ and moving anti-clockwise, the first lap eliminates $2n-1, 2n-3,\dots,3,1$ — i.e. **all odd-numbered people**. The remaining people are $2,4,6,\dots,2n$. Renumbering consecutively, old $k \to$ new $k'$ via $k=2k'$, and the reduced circle is again a size-$n$ Josephus (CCW) problem, so:
+
+$$\boxed{J_{acw}(2n) = 2\,J_{acw}(n), \qquad n\ge 1}$$
+
+### Case n = 2m+1 (odd)
+
+Starting at $2n+1$ and moving anti-clockwise, the first lap eliminates $2n, 2n-2,\dots,2$ (all evens), and immediately after eliminating person $2$, person $2n+1$ is also eliminated (the count wraps). Remaining: $1,3,5,\dots,2n-1$. Renumbering via $k = 2k'-1$:
+
+$$\boxed{J_{acw}(2n+1) = 2\,J_{acw}(n) - 1, \qquad n\ge 1}$$
+
+### Full recurrence
+
+$$J_{acw}(1) = 1$$
+$$J_{acw}(2n) = 2\,J_{acw}(n), \qquad n\ge 1$$
+$$J_{acw}(2n+1) = 2\,J_{acw}(n) - 1, \qquad n\ge 1$$
+
+**Small-value table**
+
+| n | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
+|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|
+| $J_{acw}(n)$ | 1 | 2 | 1 | 4 | 3 | 2 | 1 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 16 |
+
+**Observations:**
+- For $n=1,2,4,8,16,\dots$ (powers of 2): $J_{acw}(2^m) = 2^m$.
+- For $n$ between $2^m$ and $2^{m+1}$, $J_{acw}(n)$ runs **downward** sequentially: $2^m, 2^m-1,\dots,1$ — the mirror image of the clockwise case (which increases by 2 within a group, this one decreases by 1).
+
+### Closed form
+
+Write $n = 2^m+l$, $0\le l < 2^m$ ($2^m$ = largest power of 2 not exceeding $n$). Then
+
+$$\boxed{J_{acw}(2^m+l) = 2^m - l, \qquad m\ge 0,\ 0\le l<2^m}$$
+
+**Proof (induction on m):**
+
+*Base case ($m=0$):* $l=0$, so $J_{acw}(1) = 2^0 - 0 = 1$ ✓.
+
+*Inductive hypothesis:* assume $J_{acw}(2^m+l) = 2^m - l$ for all $0\le l<2^m$.
+
+*Sub-case $l$ even:* $2^{m+1}+l = 2n$ with $n = 2^m + \tfrac{l}{2}$:
+$$J_{acw}(2^{m+1}+l) = J_{acw}(2n) = 2J_{acw}(n) = 2\left(2^m - \tfrac{l}{2}\right) = 2^{m+1} - l$$
+
+*Sub-case $l$ odd:* $2^{m+1}+l = 2n+1$ with $n = 2^m + \tfrac{l-1}{2}$:
+$$J_{acw}(2^{m+1}+l) = J_{acw}(2n+1) = 2J_{acw}(n) - 1 = 2\left(2^m - \tfrac{l-1}{2}\right) - 1 = 2^{m+1} - (l-1) - 1 = 2^{m+1} - l$$
+
+Both cases give $2^{m+1}-l$, completing the induction. $\blacksquare$
+
+> [!example] J_acw(20)
+> $20 = 2^4 + 4$, so $J_{acw}(20) = 2^4 - 4 = \mathbf{12}$.
+
+> [!tip] Relationship to the clockwise result
+> $J_{cw}(n) = 2l+1$ climbs by 2 through each power-of-two block; $J_{acw}(n) = 2^m-l$ descends by 1 through each block — reflecting that CCW traversal effectively reverses the direction in which surviving numbers get filled in.
+
+---
+
 ## Summary Cheat-Sheet
 
 | Result | Formula |
@@ -358,6 +456,10 @@ The ordinary Josephus recurrence is the special case $d=c=2$, $\alpha_1=1$, $\be
 | Generalized recurrence | $f(1)=\alpha;\ f(2n)=2f(n)+\beta;\ f(2n+1)=2f(n)+\gamma$ |
 | Generalized closed form | $f(2^m+l) = 2^m\alpha + (2^m-1-l)\beta + l\gamma$ |
 | Radix-$d$ generalization | $f((b_m\cdots b_0)_d) = (\alpha_{b_m}\beta_{b_{m-1}}\cdots\beta_{b_0})_c$ |
+| LCM trick (2 groups, size n each) | $m = \operatorname{lcm}(n+1,\dots,2n)$ eliminates bad half first |
+| LCM trick (3 groups, size n each) | $m = \operatorname{lcm}(n+1,\dots,3n)$ eliminates bad → middle → good |
+| CCW recurrence | $J_{acw}(1)=1;\ J_{acw}(2n)=2J_{acw}(n);\ J_{acw}(2n+1)=2J_{acw}(n)-1$ |
+| CCW closed form | $J_{acw}(2^m+l) = 2^m - l,\ 0\le l<2^m$ |
 
 ## Related
 - [[Integer Functions]] — floor/mod machinery used throughout this derivation.
