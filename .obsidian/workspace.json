@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ddcf9a126ff0b5ba",
+        "id": "944b61f8ddf0296e",
         "type": "tabs",
         "children": [
           {
-            "id": "497ac17d51dbf30c",
+            "id": "5d04ff0d3c277d30",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MACS/Integer Functions.md",
+                "file": "DSD/Lecture3.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Integer Functions"
+              "title": "Outline of Lecture3"
             }
           },
           {
@@ -210,9 +210,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c87678abc1f138a",
+  "active": "5d04ff0d3c277d30",
   "lastOpenFiles": [
     "DSD/Lecture3.md",
+    "MACS/images/josephus_n20.png",
+    "MACS/images/josephus_n10.png",
+    "MACS/images/floor_ceiling.png",
+    "MACS/images/bit_rotation.png",
+    "MACS/images",
+    "MACS/The Josephus Problem.md",
+    "MACS/Integer Functions.md",
+    "MACS",
     "DSD/Lecture3.md.tmp.40777.d0959bf11682",
     "DSD/Lecture3.md.tmp.40777.f361bcd382dd",
     "DSD/Lecture3.md.tmp.40777.cabbc4562dcd",
@@ -221,8 +229,6 @@
     "DSD/Lecture3.md.tmp.40777.ab06a4209525",
     "DSD/Lecture3.md.tmp.40777.c12a8322f3b4",
     "DSD/Lecture3.md.tmp.40777.811d36b3b26c",
-    "DSD/Lecture3.md.tmp.40777.f91afb5d1acf",
-    "DSD/Lecture3.md.tmp.40777.5675a6e293e0",
     "DSD/Lecture1.md",
     "Econimics/Economics Introduction.md",
     "Econimics/Demand and Supply Analysis.md",
@@ -250,8 +256,6 @@
     "AI & Agent/AI-hacking.md",
     "kill-servers/foot_printing.md",
     "solved labs/vulnversity_thm.md",
-    "solved labs/funbox_offec.md",
-    "solved labs/relevent_thm.md",
-    "kill-servers/ssrf__notes.md"
+    "solved labs/funbox_offec.md"
   ]
 }
