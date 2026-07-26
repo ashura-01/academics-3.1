@@ -187,12 +187,12 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -210,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5d04ff0d3c277d30",
+  "active": "3c87678abc1f138a",
   "lastOpenFiles": [
     "DSD/Lecture3.md.tmp.40777.d0959bf11682",
     "DSD/Lecture3.md.tmp.40777.f361bcd382dd",
