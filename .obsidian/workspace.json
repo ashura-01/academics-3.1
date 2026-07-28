@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACS/The Josephus Problem.md",
+                "file": "DSD/Lecture3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Josephus Problem"
+              "title": "Lecture3"
             }
           }
         ]
@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MACS/The Josephus Problem.md",
+                "file": "DSD/Lecture3.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Josephus Problem"
+              "title": "Outline of Lecture3"
             }
           },
           {
@@ -212,8 +212,9 @@
   },
   "active": "5d04ff0d3c277d30",
   "lastOpenFiles": [
-    "MACS/Integer Functions.md",
+    "DSD/Lecture1.md",
     "MACS/The Josephus Problem.md",
+    "MACS/Integer Functions.md",
     "MACS/attachments/josephus_n20.png",
     "MACS/attachments/josephus_n10.png",
     "MACS/attachments/floor_ceiling.png",
@@ -233,7 +234,6 @@
     "DSD/Lecture3.md.tmp.40777.b9baf5ae68f2",
     "DSD/Lecture3.md.tmp.40777.ab06a4209525",
     "DSD/Lecture3.md.tmp.40777.c12a8322f3b4",
-    "DSD/Lecture1.md",
     "Econimics/Economics Introduction.md",
     "Econimics/Demand and Supply Analysis.md",
     "Econimics/lacture-01.md",
