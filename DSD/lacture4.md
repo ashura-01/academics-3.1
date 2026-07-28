@@ -263,16 +263,16 @@ flowchart TD
     - $SC = n/2$
 2. **Encoding rule** (examine $Q_{i+1}, Q_i, Q_{i-1}$)
     
-| Qi+1​ | QiQi​ | Qi−1Qi−1​ | Operation                  |
-| ----- | ----- | --------- | -------------------------- |
-| 0     | 0     | 0         | A = A + (0×M)A = A + (0×M) |
-| 0     | 0     | 1         | A = A + (1×M)A = A + (1×M) |
-| 0     | 1     | 0         | A = A + (1×M)A = A + (1×M) |
-| 0     | 1     | 1         | A = A + (2×M)A = A + (2×M) |
-| 1     | 0     | 0         | A = A + (−2×M)A=A+(−2×M)   |
-| 1     | 0     | 1         | A = A + (−1×M)A=A+(−1×M)   |
-| 1     | 1     | 0         | A = A + (−1×M)A=A+(−1×M)   |
-| 1     | 1     | 1         | A = A + (0×M)A=A+(0×M)     |
+| Qi+1​ | QiQi​ | Qi−1Qi−1​ | Operation                    |
+| ----- | ----- | --------- | ---------------------------- |
+| 0     | 0     | 0         | A = A + (0×M)A = A + (0×M)   |
+| 0     | 0     | 1         | A = A + (1×M)A = A + (1×M)   |
+| 0     | 1     | 0         | A = A + (1×M)A = A + (1×M)   |
+| 0     | 1     | 1         | A = A + (2×M)A = A + (2×M)   |
+| 1     | 0     | 0         | A = A + (−2×M)A = A + (−2×M) |
+| 1     | 0     | 1         | A = A + (−1×M)A = A + (−1×M) |
+| 1     | 1     | 0         | A = A + (−1×M)A = A + (−1×M) |
+| 1     | 1     | 1         | A = A + (0×M)A = A + (0×M)   |
 1. **Arithmetic right shift**
     
     - Perform **two** arithmetic right shifts by one bit each.
@@ -394,8 +394,5 @@ $$\boxed{9 \times (-5) = -45} \quad\checkmark$$
 
 ## Related
 
-- [[Computer Arithmetic]]
-- [[2's Complement Representation]]
-- [[ALU Design]]
 
-#computer-architecture #booth-algorithm #binary-multiplication
+#c
