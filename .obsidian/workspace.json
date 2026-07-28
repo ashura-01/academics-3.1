@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lacture4.md",
+                "file": "DSD/lacture4.md",
                 "mode": "source",
                 "source": false
               },
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lacture4.md",
+                "file": "DSD/lacture4.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -225,10 +225,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c87678abc1f138a",
+  "active": "45dde854ab63284f",
   "lastOpenFiles": [
     "DSD/Lecture3.md",
-    "lacture4.md",
+    "DSD/lacture4.md",
     "DSD/Lecture1.md",
     "MACS/The Josephus Problem.md",
     "MACS/Integer Functions.md",
