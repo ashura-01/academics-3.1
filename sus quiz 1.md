@@ -39,7 +39,7 @@ So sustainability isn't just an "environment topic" — it's also about **econom
 
 ## § 3. History of Sustainability Thinking (timeline — easiest way to memorize)
 
-```
+```elm
 Industrial Revolution  →  Pollution + health problems begin
         ↓
 1962 — "Silent Spring" (Rachel Carson) → book that woke people up about ecological limits
@@ -148,7 +148,7 @@ Respiratory disease → water scarcity → ecosystem damage → climate change. 
 
 ### The Old Way vs New Way
 
-```
+```elm
 OLD (Linear):    Take  →  Make  →  Dispose      (a straight line, ends in waste)
 
 NEW (Circular):  Reduce → Reuse → Repair → Recycle → Recover   (a loop, nothing wasted)
@@ -170,14 +170,59 @@ Less resource extraction + less pollution + **new green jobs** and innovation. I
 
 ## § 8. UN Sustainable Development Goals (SDGs)
 
-- **17 goals**, active **2015–2030**
-- Cover everything from poverty to peace to climate
-- **Environment-focused goals to remember:**
-    - **SDG 13** — Climate Action
-    - **SDG 14** — Life Below Water
-    - **SDG 15** — Life on Land
+### What are they, really?
 
-Mnemonic: **13-14-15** are the "green trio" — climate, sea, land, in that numerical order.
+In 2015, the United Nations got 193 countries to agree on a shared "to-do list" for the world, running from **2015 to 2030**. That to-do list is the SDGs. Before this, there was an earlier version called the Millennium Development Goals (2000–2015) — the SDGs are basically the upgraded, more ambitious sequel.
+
+Think of the SDGs as a **report card for the whole planet** — 17 subjects, and every country is supposed to improve its grade in each one by 2030.
+
+### Why 17 goals and not just "protect the environment"?
+
+Because the UN's core idea is: **you can't fix the environment while ignoring poverty, health, and inequality** — they're all tangled together. Example: a farmer in poverty may be forced to cut down forest just to survive, even if they don't want to. So "poverty" and "environment" aren't separate problems — they feed each other. That's why the SDGs cover social + economic + environmental goals all in one list, instead of three separate lists.
+
+### All 17, grouped so they're easier to hold in your head
+
+Instead of memorizing 17 random items, group them into 4 buckets:
+
+|Bucket|Goals|What it's about|
+|---|---|---|
+|**People**|1 No Poverty, 2 Zero Hunger, 3 Good Health, 4 Quality Education, 5 Gender Equality|Basic human needs & fairness|
+|**Planet**|6 Clean Water & Sanitation, 12 Responsible Consumption, 13 Climate Action, 14 Life Below Water, 15 Life on Land|The environment (this is where your 3 focus goals live)|
+|**Prosperity**|7 Affordable Clean Energy, 8 Decent Work, 9 Industry/Innovation, 10 Reduced Inequalities, 11 Sustainable Cities|Economy & infrastructure|
+|**Peace & Partnership**|16 Peace/Justice/Strong Institutions, 17 Partnerships for the Goals|Cooperation & governance|
+
+Mnemonic for the 4 buckets: **"4 P's"** — People, Planet, Prosperity, Peace (partnerships tags along with peace).
+
+### Zooming into your "green trio" — what each one actually means
+
+- **SDG 13 — Climate Action** Not just "stop climate change" in the abstract — it specifically means: countries must build resilience to climate disasters, integrate climate policy into national planning, and improve education/awareness about climate change. This is the direct link to everything in § 4 (greenhouse gases, IPCC, climate justice).
+    
+- **SDG 14 — Life Below Water** About oceans, seas, and marine resources — protecting them from overfishing, plastic pollution, and acidification (oceans absorb a lot of the CO₂ humans produce, which makes water more acidic and harms marine life). This links to § 6 (pollution) — a lot of plastic pollution ends up in oceans.
+    
+- **SDG 15 — Life on Land** About forests, land ecosystems, desertification, and stopping biodiversity loss on land. This is the direct link to § 5 (biodiversity) — habitat destruction, species extinction, conservation strategies (CBD) all connect here.
+    
+
+So really, **13-14-15 aren't three random numbers** — they map exactly onto three earlier topics in this chapter:
+
+```
+SDG 13 (Climate Action)      ↔ § 4 Climate Change
+SDG 14 (Life Below Water)    ↔ § 6 Pollution (ocean/plastic angle)
+SDG 15 (Life on Land)        ↔ § 5 Biodiversity
+```
+
+That's a much stronger memory hook than just "13-14-15 green trio" — you're not memorizing numbers, you're recognizing that **the SDGs are just a formal checklist version of everything already studied in this chapter.**
+
+### Why "17 puzzle pieces" matters more than it sounds
+
+The UN's own framing is that the goals are **"integrated and indivisible"** — meaning progress on one goal often depends on progress on others. Example chain:
+
+```
+Poverty (1) → forces overuse of land/forests → hurts Life on Land (15)
+                                              → worsens Climate Action (13)
+                                              → increases disasters → deepens Poverty (1) again
+```
+
+It's a loop, not a line — same idea as the Circular Economy in § 7, just applied to global policy instead of products.
 
 > [!tip] Memory hook All 17 goals work together — think of them as **17 puzzle pieces**. Remove one (say, poverty) and the whole picture (sustainable world) doesn't work.
 
