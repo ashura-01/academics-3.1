@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sus quiz 1.md",
+                "file": "sus/sus quiz 1.md",
                 "mode": "source",
                 "source": false
               },
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sus quiz 1.md",
+                "file": "sus/sus quiz 1.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -239,10 +239,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07c9875d2195a0fc",
+  "active": "45dde854ab63284f",
   "lastOpenFiles": [
     "DSD/Lecture3.md",
-    "sus quiz 1.md",
+    "sus/sus quiz 1.md",
     "sus",
     "DSD/lacture4.md",
     "DSD/Lecture1.md",
