@@ -10,13 +10,13 @@
 
 Easy way to remember: _"Borrow, don't steal from the future."_
 
-### The 3 Pillars (mnemonic: **E-E-S** → "Every Ecosystem Survives")
+### The 3 Pillars (mnemonic: **E-E-S** → "Environmental Economic Social"
 
-|Pillar|What it means|Simple example|
-|---|---|---|
-|🜃 **Environmental**|Protect natural resources|Don't cut down all the trees|
-|⚖ **Economic**|Keep growth going long-term|Don't burn through all your money/resources at once|
-|👥 **Social**|Fairness & well-being for everyone|Equal access to clean water|
+| Pillar               | What it means                      | Simple example                                      |
+| -------------------- | ---------------------------------- | --------------------------------------------------- |
+| 🜃 **Environmental** | Protect natural resources          | Don't cut down all the trees                        |
+| ⚖ **Economic**       | Keep growth going long-term        | Don't burn through all your money/resources at once |
+| 👥 **Social**        | Fairness & well-being for everyone | Equal access to clean water                         |
 
 ### Key Principles (4 words to remember: **I-R-E-S**)
 
