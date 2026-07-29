@@ -204,7 +204,7 @@ Mnemonic for the 4 buckets: **"4 P's"** — People, Planet, Prosperity, Peace (p
 
 So really, **13-14-15 aren't three random numbers** — they map exactly onto three earlier topics in this chapter:
 
-```
+```elm
 SDG 13 (Climate Action)      ↔ § 4 Climate Change
 SDG 14 (Life Below Water)    ↔ § 6 Pollution (ocean/plastic angle)
 SDG 15 (Life on Land)        ↔ § 5 Biodiversity
