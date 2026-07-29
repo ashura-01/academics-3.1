@@ -5,7 +5,6 @@ tags: [DSD, lecture, decoder, encoder, sequential-circuits, flip-flop, shift-reg
 book: "Digital Logic and Computer Design (Indian Edition) — M. Morris Mano"
 date: 2026-06-21
 ---
-
 # Lecture 3.1 — Decoders & Encoders
 
 > Prepared By - Mohsena Ashraf
