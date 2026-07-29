@@ -227,6 +227,7 @@
   },
   "active": "c5baf2d3e66cb99a",
   "lastOpenFiles": [
+    "sus",
     "DSD/lacture4.md",
     "DSD/Lecture3.md",
     "DSD/Lecture1.md",
@@ -272,7 +273,6 @@
     "solved labs/kenobi_thm.md",
     "AI & Agent/AI-hacking.md",
     "kill-servers/foot_printing.md",
-    "solved labs/vulnversity_thm.md",
-    "solved labs/funbox_offec.md"
+    "solved labs/vulnversity_thm.md"
   ]
 }
