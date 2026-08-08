@@ -195,6 +195,7 @@ MOV SI, 4000H
 MOV AX, [SI+5]
 ```
 This wants a 16-bit word starting at address `4005H` — an *odd* address. Here's the problem: the low byte of this word lives at `4005H` (Odd bank) but the high byte lives at `4006H` (Even bank) — they're split across *both* physical chips in a way that a single access can't cleanly capture, because the "aligned" wiring assumes a word starts on an even boundary. So the CPU is forced to do **two separate bus cycles**:
+
 - **Cycle ① — First Access, from the Odd bank:** `BHE̅=0, A0=1`. The CPU grabs the byte at `4005H` from the Odd bank.
 - **Cycle ② — Next Access, from the Even bank:** `BHE̅=1, A0=0`. The CPU then grabs the byte at `4006H` from the Even bank.
 
