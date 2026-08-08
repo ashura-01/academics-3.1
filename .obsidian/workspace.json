@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "944b61f8ddf0296e",
+        "id": "1ad2f5c8a8d1560f",
         "type": "tabs",
         "children": [
           {
-            "id": "c5baf2d3e66cb99a",
+            "id": "d5d790b59d9b1b3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -212,25 +212,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5baf2d3e66cb99a",
+  "active": "d5d790b59d9b1b3d",
   "lastOpenFiles": [
-    "MNM/8086 Hardware Structure - Lecture 5.md",
     "DSD/lacture4.md",
+    "MNM/8086 Hardware Structure - Lecture 5.md",
+    "MNM/attachments/wait_state_circuit.png",
+    "MNM/attachments/tristate_buffer.png",
+    "MNM/attachments/transceiver.png",
+    "MNM/attachments/ss0_table.png",
+    "MNM/attachments/schmitt_trigger.png",
+    "MNM/attachments/s2s1s0_timing.png",
+    "MNM/attachments/reset_operation.png",
+    "MNM/attachments/reset_figure94.png",
+    "MNM/attachments/ready_wait_state.png",
+    "MNM/attachments/ready_sync_circuit.png",
+    "MNM/attachments",
     "sus/sus quiz 1.md",
     "sus",
     "DSD/Lecture3.md",
     "DSD/Lecture1.md",
     "MACS/The Josephus Problem.md",
     "MACS/Integer Functions.md",
-    "MACS/attachments/josephus_n20.png",
-    "MACS/attachments/josephus_n10.png",
-    "MACS/attachments/floor_ceiling.png",
-    "MACS/attachments/bit_rotation.png",
     "MACS/attachments",
-    "MACS/images/josephus_n20.png",
-    "MACS/images/josephus_n10.png",
-    "MACS/images/floor_ceiling.png",
-    "MACS/images/bit_rotation.png",
     "MACS/images",
     "MACS",
     "DSD/Lecture3.md.tmp.40777.d0959bf11682",
@@ -238,12 +241,9 @@
     "DSD/Lecture3.md.tmp.40777.cabbc4562dcd",
     "DSD/Lecture3.md.tmp.40777.dd9a60c40404",
     "DSD/Lecture3.md.tmp.40777.b9baf5ae68f2",
-    "DSD/Lecture3.md.tmp.40777.ab06a4209525",
     "Econimics/Economics Introduction.md",
     "Econimics/Demand and Supply Analysis.md",
     "Econimics/lacture-01.md",
-    "Econimics/attachments/three_fundamental_questions.png",
-    "Econimics/attachments/scarcity_choice_opportunity_cost.png",
     "MNM/slide-2.md",
     "MNM/slide-1.md",
     "Untitled.canvas",
@@ -259,7 +259,6 @@
     "web_exploitation/server_basics.md",
     "web_exploitation/foot_printing.md",
     "solved labs/kenobi_thm.md",
-    "AI & Agent/AI-hacking.md",
-    "kill-servers/foot_printing.md"
+    "AI & Agent/AI-hacking.md"
   ]
 }
