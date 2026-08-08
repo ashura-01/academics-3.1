@@ -148,7 +148,17 @@ The 8086's data bus is 16 bits wide — it *wants* to move 2 bytes at a time whe
 
 (This is actually reused visually from the earlier "Accessing 16-bit Odd Address" slide, but conceptually it follows the address table shown right after the banks diagram in your source, which listed addresses 0 through 4 in binary alongside their hex values 8, 9, A, B, C.)
 
-The pattern to notice: address `0` (binary `...000`) → hex `8`, has A0=0 → goes to the **Even** bank. Address `1` (binary `...001`) → hex `9`, has A0=1 → goes to the **Odd** bank. Address `2` (`...010`) → hex `A` → A0=0 → **Even** bank again. This strict alternation (even, odd, even, odd...) is exactly why the two physical chips are literally called the Even Bank and the Odd Bank — every consecutive byte in memory alternates which physical chip it actually lives in.
+**The pattern to notice:** address `0` → full binary `0000 0000 0000 0000 000`**`0`**, so `A0=0` → goes to the **Even bank**. Address `1` → full binary `0000 0000 0000 0000 000`**`1`**, so `A0=1` → goes to the **Odd bank**. Address `2` → `0000 0000 0000 0000 001`**`0`**, `A0=0` → **Even bank** again. Address `3` → `...001`**`1`**, `A0=1` → **Odd bank**. This strict alternation (Even, Odd, Even, Odd...) is exactly why the two physical chips are literally called the Even Bank and the Odd Bank — every consecutive byte address alternates which physical chip it actually lives in.
+
+But here's the part the original explanation got wrong: **it's not that each address gets its own new row.** Look again at addresses 0 and 1 — their binary is identical except for that last bolded bit. That means `A19...A1` (everything left of the bold digit) is exactly the same for both — so both banks are pointed at the **same row number** simultaneously. `A0` doesn't pick a row; it picks **which of the two banks is allowed to answer**. Same story for addresses 2 and 3 — identical upper bits, different only in `A0`, landing on the _next_ row (row 1) in both banks.
+
+| Address | Full 20-bit binary               | Row inside its bank | Bank |
+| ------- | -------------------------------- | ------------------- | ---- |
+| 0       | `0000 0000 0000 0000 000`**`0`** | row 0               | Even |
+| 1       | `0000 0000 0000 0000 000`**`1`** | row 0               | Odd  |
+| 2       | `0000 0000 0000 0000 001`**`0`** | row 1               | Even |
+| 3       | `0000 0000 0000 0000 001`**`1`** | row 1               | Odd  |
+| 4       | `0000 0000 0000 0000 010`**`0`** | row 2               | Even |
 
 ### Now the four access patterns, one at a time
 
@@ -174,14 +184,15 @@ Example code:
 MOV SI, 4000H
 MOV AL, [SI+3]
 ```
-Now we're reading from `4003H`, an odd address, so `A0 = 1`. This time the **Odd Bank** is the one that activates (`BHE̅ = 0`), and it places its byte on the *upper* half of the data bus (`D8–D15`) — even though we're only moving one byte, notice it appears on the upper wires, not the lower ones, simply because that's which physical chip it lives in. The Even bank is silent this time (`A0=1` disables it).
+Now we're reading from `4003H`, an odd address, so `A0 = 1`. This time the **Odd Bank** is the one that activates (`BHE̅ = 0`), and it places its byte on the *upper* half of the data bus
+(`D8–D15`) — even though we're only moving one byte, notice it appears on the upper wires, not the lower ones, simply because that's which physical chip it lives in. The Even bank is silent this time (`A0=1` disables it).
 
 **Pattern 3 — Accessing 16-bit data starting at an EVEN address (the "fast path")**
 
 ![[access_16bit_even.png]]
 
 Example code:
-```
+```elm
 MOV SI, 4000H
 MOV AX, [SI+2]
 ```
