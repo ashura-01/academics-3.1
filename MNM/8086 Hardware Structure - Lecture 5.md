@@ -1,10 +1,12 @@
 ---
-tags: [microprocessor, 8086, hardware, CO, exam-prep]
+tags:
+  - microprocessor
+  - hardware
+  - CO
+  - exam-prep
 source: Lecture5.pdf — Prof. Dr. Shamim Akhter
 ---
----
 
-## tags: [microprocessor, 8086, hardware, CO, exam-prep] source: Lecture5.pdf — Prof. Dr. Shamim Akhter
 
 # 🧠 8086 Hardware Structure — Every Figure, Fully Explained
 
