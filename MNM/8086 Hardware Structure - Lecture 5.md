@@ -253,7 +253,7 @@ This reads a full 16-bit word starting at `4002H` into register `AX`. Because th
 
 Example code:
 
-```
+```c
 MOV SI, 4000H
 MOV AX, [SI+5]
 ```
