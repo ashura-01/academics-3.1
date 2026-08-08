@@ -194,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -212,7 +212,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "98cc9e533c94f21b",
+  "active": "3c87678abc1f138a",
   "lastOpenFiles": [
     "MNM/8086 Architecture.md",
     "MNM/Basics of Computer Systems.md",
