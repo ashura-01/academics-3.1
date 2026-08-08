@@ -1,5 +1,9 @@
 ---
-tags: [microprocessor, 8086, hardware, CO, exam-prep]
+tags:
+  - microprocessor
+  - hardware
+  - CO
+  - exam-prep
 source: Lecture5.pdf — Prof. Dr. Shamim Akhter
 ---
 
