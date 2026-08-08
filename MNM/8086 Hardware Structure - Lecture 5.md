@@ -228,8 +228,11 @@ MOV SI, 4000H
 MOV AL, [SI+3]
 ```
 
-Now we're reading from `4003H`, an odd address, so `A0 = 1`. This time the **Odd Bank** is the one that activates (`BHE̅ = 0`), and it places its byte on the _upper_ half of the data bus 
-(`D8–D15`) — even though we're only moving one byte, notice it appears on the upper wires, not the lower ones, simply because that's which physical chip it lives in. The Even bank is silent this time (`A0=1` disables it).
+Reading `4003H` (odd address) → `A0 = 1`, `BHE̅ = 0` → the Odd Bank activates.
+
+Since this byte physically lives inside the Odd Bank chip, and that chip is permanently wired only to the **upper** data wires (D8–D15), the byte comes out on D8–D15 — even though we only asked for 1 byte into `AL`. It's not that the CPU "chose" the upper wires; it's just the only path the Odd Bank has. The Even Bank stays completely silent this cycle (`A0=1` disables it, so it doesn't drive anything).
+
+**Rule of thumb:** even addresses → data travels on D0–D7 (Even bank's wires). Odd addresses → data travels on D8–D15 (Odd bank's wires). It's about _which chip holds the byte_, not the size of the data being moved.
 
 **Pattern 3 — Accessing 16-bit data starting at an EVEN address (the "fast path")**
 
