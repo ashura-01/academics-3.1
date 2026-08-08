@@ -223,12 +223,13 @@ This loads register `SI` with `4000H`, then reads a single byte from address `40
 
 Example code:
 
-```
+```elm
 MOV SI, 4000H
 MOV AL, [SI+3]
 ```
 
-Now we're reading from `4003H`, an odd address, so `A0 = 1`. This time the **Odd Bank** is the one that activates (`BHE̅ = 0`), and it places its byte on the _upper_ half of the data bus (`D8–D15`) — even though we're only moving one byte, notice it appears on the upper wires, not the lower ones, simply because that's which physical chip it lives in. The Even bank is silent this time (`A0=1` disables it).
+Now we're reading from `4003H`, an odd address, so `A0 = 1`. This time the **Odd Bank** is the one that activates (`BHE̅ = 0`), and it places its byte on the _upper_ half of the data bus 
+(`D8–D15`) — even though we're only moving one byte, notice it appears on the upper wires, not the lower ones, simply because that's which physical chip it lives in. The Even bank is silent this time (`A0=1` disables it).
 
 **Pattern 3 — Accessing 16-bit data starting at an EVEN address (the "fast path")**
 
