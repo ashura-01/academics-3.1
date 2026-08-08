@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MNM/8086 Hardware Structure - Lecture 5.md",
+                "file": "MNM/Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8086 Hardware Structure - Lecture 5"
+              "title": "Home"
             }
           }
         ]
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MNM/8086 Hardware Structure - Lecture 5.md",
+                "file": "MNM/Home.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -212,13 +212,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07c9875d2195a0fc",
+  "active": "98cc9e533c94f21b",
   "lastOpenFiles": [
     "MNM/8086 Architecture.md",
-    "MNM/Basics of Computer Systems.md",
-    "MNM/x86 Based PC.md",
-    "MNM/8086 Hardware Structure - Lecture 5.md",
     "MNM/Home.md",
+    "MNM/x86 Based PC.md",
+    "MNM/Basics of Computer Systems.md",
+    "MNM/8086 Hardware Structure - Lecture 5.md",
     "MNM/attachments/L1_abstraction-diagram.png",
     "MNM/attachments/L1_cisc-vs-risc-table.png",
     "MNM/attachments/L1_computer-architecture-bus-diagram.png",
