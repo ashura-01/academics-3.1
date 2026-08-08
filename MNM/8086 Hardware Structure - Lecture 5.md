@@ -157,10 +157,12 @@ The pattern to notice: address `0` (binary `...000`) → hex `8`, has A0=0 → g
 ![[access_even.png]]
 
 The example code shown is:
-```
+
+```elm
 MOV SI, 4000H
 MOV AL, [SI+2]
 ```
+
 This loads register `SI` with `4000H`, then reads a single byte from address `4002H` into `AL`. Since `4002H` is an even address, `A0 = 0`. Looking at the diagram: the arrow into the **Even Bank** is active (data flows on `D0–D7`), while `BHE̅ = 1` (disabled), so the **Odd Bank stays completely silent** — it doesn't drive the bus at all. Only 8 bits move, and they move on the *lower* half of the data bus.
 
 **Pattern 2 — Accessing an ODD address only (8-bit read/write)**
