@@ -213,6 +213,7 @@ Outputs can be: **0**, **1**, or **Z (high impedance / disconnected)**. When dis
 ![[transceiver.png]]
 
 One `DIR` (direction) pin decides which way data flows:
+
 | DIR | Action |
 |---|---|
 | 0 | B → A |
@@ -227,10 +228,10 @@ One `DIR` (direction) pin decides which way data flows:
 
 ### Real chips used to build an 8086 system
 
-| Chip | Role |
-|---|---|
-| `74LS373` / `8282` | Octal Latch — captures the address |
-| `74LS244` | Octal 3-state Buffer |
+| Chip               | Role                                        |
+| ------------------ | ------------------------------------------- |
+| `74LS373` / `8282` | Octal Latch — captures the address          |
+| `74LS244`          | Octal 3-state Buffer                        |
 | `74LS245` / `8286` | Bus Transceiver — bidirectional data buffer |
 
 ---
