@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1ad2f5c8a8d1560f",
+        "id": "14e2382a5a014f8c",
         "type": "tabs",
         "children": [
           {
-            "id": "d5d790b59d9b1b3d",
+            "id": "98cc9e533c94f21b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -212,9 +212,8 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5d790b59d9b1b3d",
+  "active": "98cc9e533c94f21b",
   "lastOpenFiles": [
-    "DSD/lacture4.md",
     "MNM/8086 Hardware Structure - Lecture 5.md",
     "MNM/attachments/wait_state_circuit.png",
     "MNM/attachments/tristate_buffer.png",
@@ -227,6 +226,7 @@
     "MNM/attachments/ready_wait_state.png",
     "MNM/attachments/ready_sync_circuit.png",
     "MNM/attachments",
+    "DSD/lacture4.md",
     "sus/sus quiz 1.md",
     "sus",
     "DSD/Lecture3.md",
