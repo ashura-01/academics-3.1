@@ -94,27 +94,27 @@ Together, Substitution Effect + Income Effect ⇒ **quantity demanded rises as p
 
 The **Law of Supply** describes how sellers react to price changes: as the price of a good rises, producers are willing to supply more of it to maximize profits.
 
-#### Core Concepts
+ **Core Concepts**
 
 - **Direct Relationship:** Price and quantity supplied move in the same direction (Price $\uparrow \implies$ Quantity Supplied $\uparrow$).
 - **Profit Incentive:** Higher selling prices make production more profitable, encouraging firms to produce more.
 - **Curve Direction:** The supply curve slopes **upward** from left to right.
-    
 
-#### Movement vs. Shift
 
-- **Movement Along the Curve:**
+ **Movement vs. Shift**
+
+- Movement Along the Curve:
     
     - **Cause:** A change in the good's **own price**.
     - **Result:** Change in _Quantity Supplied_.
     
-- **Shift of the Entire Curve:**
+- Shift of the Entire Curve:
     
     - **Cause:** Non-price factors (input costs, technology, number of sellers, taxes/subsidies, expectations).
     - **Result:** Change in _Supply_.
-    
 
-#### Examples
+
+ **Examples**
 
 - **Law of Supply:** If the market price of **Laptops** rises from $\$500$ to $\$800$, factories run overtime to produce more units.
     
