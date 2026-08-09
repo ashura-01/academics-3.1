@@ -106,7 +106,12 @@ The **law of supply**: price and quantity supplied are **directly (positively) r
 - **TU (Total Utility)** = the *total* satisfaction from consuming a given quantity of a good. Example: eating 3 slices of pizza gives you some total amount of happiness — that's TU at Q=3.
 - **MU (Marginal Utility)** = the *extra* (additional) satisfaction from consuming **one more** unit, on top of what you already had. Formula:
 $$MU = \frac{\Delta TU}{\Delta Q}$$
-where $\Delta TU$ = "change in Total Utility" and $\Delta Q$ = "change in Quantity" (i.e., +1 unit). Example: if TU from 2 slices of pizza = 19 utils, and TU from 3 slices = 27 utils, then $MU$ of the 3rd slice $= 27-19 = 8$ utils.
+where $\Delta TU$ = "change in Total Utility" and $\Delta Q$ = "change in Quantity" (i.e., +1 unit). 
+**Example:** 
+if TU from 2 slices of pizza = 19 utils, 
+and TU from 3 slices = 27 utils,
+then $MU$ of the 3rd slice $= 27-19 = 8$ utils.
+
 - In practice, MU usually **falls** as you consume more of something (you're less hungry after each slice) — this is the *Law of Diminishing Marginal Utility*, and it's part of *why* demand curves slope downward (see §1.3 above).
 
 Now that TU/MU are defined, here's the actual graded content: the **budget constraint**.
