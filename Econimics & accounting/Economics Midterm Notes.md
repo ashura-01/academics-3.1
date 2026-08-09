@@ -90,8 +90,37 @@ Together, Substitution Effect + Income Effect ⇒ **quantity demanded rises as p
 > 4. (Bonus) Tie it to diminishing marginal utility.
 > 5. Draw a simple downward-sloping *D* curve with P on the y-axis and Q on the x-axis.
 
-### 1.4 Supply — quick contrast (for completeness)
-The **law of supply** is the mirror image: price and quantity *supplied* are **directly (positively) related** — as price rises, producers are willing to supply more, because production becomes more profitable at higher prices. The supply curve slopes **upward**. The same movement-vs-shift logic applies: a change in the good's own price causes a *movement along* the supply curve (change in quantity supplied); a change in input costs, technology, number of sellers, taxes/subsidies, or expectations causes the *entire supply curve to shift* (change in supply).
+### 1.4 Supply
+
+The **Law of Supply** describes how sellers react to price changes: as the price of a good rises, producers are willing to supply more of it to maximize profits.
+
+#### Core Concepts
+
+- **Direct Relationship:** Price and quantity supplied move in the same direction (Price $\uparrow \implies$ Quantity Supplied $\uparrow$).
+- **Profit Incentive:** Higher selling prices make production more profitable, encouraging firms to produce more.
+- **Curve Direction:** The supply curve slopes **upward** from left to right.
+    
+
+#### Movement vs. Shift
+
+- **Movement Along the Curve:**
+    
+    - **Cause:** A change in the good's **own price**.
+    - **Result:** Change in _Quantity Supplied_.
+    
+- **Shift of the Entire Curve:**
+    
+    - **Cause:** Non-price factors (input costs, technology, number of sellers, taxes/subsidies, expectations).
+    - **Result:** Change in _Supply_.
+    
+
+#### Examples
+
+- **Law of Supply:** If the market price of **Laptops** rises from $\$500$ to $\$800$, factories run overtime to produce more units.
+    
+- **Movement Along Curve:** Laptop prices drop $\rightarrow$ Sellers produce fewer units $\rightarrow$ **Slide down** the existing supply curve.
+    
+- **Shift of Curve:** Cost of microchips drops $\rightarrow$ Laptops become cheaper to manufacture $\rightarrow$ **Entire supply curve shifts right**.
 
 ---
 
