@@ -67,7 +67,21 @@ Together, Substitution Effect + Income Effect ⇒ **quantity demanded rises as p
 
 ![[attachments/02_downward_sloping_demand.png]]
 
-**A third, more technical justification** (useful if you want to go deeper): the **law of diminishing marginal utility**. As explained in the Utility Theory section below, each additional unit of a good yields less extra satisfaction (marginal utility) than the one before it. A rational consumer is only willing to buy an additional unit if the price falls enough to match that lower marginal benefit — which is precisely why lower prices are needed to induce higher quantities demanded.
+**A third, more technical justification** (useful if you want to go deeper): the **law of diminishing marginal utility**. 
+
+- **Less Extra Satisfaction:** Every extra unit of a good gives the consumer less additional satisfaction (marginal utility) than the previous unit.
+    
+- **Rational Decision:** consumer will only buy another unit if its price drops enough to match that lower level of satisfaction.
+    
+- **Why Prices Must Fall:** Lower prices are required to convince consumers to buy larger quantities.
+
+### Example
+
+- **1st Bottle of Water:** You are extremely thirsty, so the extra satisfaction is **high** $\rightarrow$ You are willing to pay **full price**.
+    
+- **2nd Bottle:** Your thirst is quenched, so the extra satisfaction is **lower** $\rightarrow$ You are only willing to buy it at a **reduced price**.
+    
+- **3rd Bottle:** You are no longer thirsty, so the extra satisfaction is **almost zero** $\rightarrow$ You will only take it if it is **extremely cheap or on sale**.
 
 > [!tip] Exam Tip — likely 4-mark answer structure
 > 1. Define the law of demand (inverse price–quantity relationship).
