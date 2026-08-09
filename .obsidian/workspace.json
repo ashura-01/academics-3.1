@@ -11,10 +11,14 @@
             "id": "3d1c4417e4ae5eda",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Econimics & accounting/Economics Midterm Notes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Economics Midterm Notes"
             }
           }
         ]
@@ -170,6 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Econimics & accounting/Economics Midterm Notes.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -209,17 +214,18 @@
   },
   "active": "3d1c4417e4ae5eda",
   "lastOpenFiles": [
-    "Econimics & accounting/attachments/accounting_principles.png",
-    "Econimics & accounting/attachments/assumptions.png",
-    "Econimics & accounting/attachments/basic_equation.png",
-    "Econimics & accounting/attachments/career_opportunities.png",
-    "Econimics & accounting/attachments/decreases_owners_equity.png",
-    "Econimics & accounting/attachments/external_users_1.png",
-    "Econimics & accounting/attachments/forms_of_business_ownership.png",
-    "Econimics & accounting/attachments/four_financial_statements.png",
-    "Econimics & accounting/attachments/gaap_diagram.png",
-    "Econimics & accounting/attachments/increases_owners_equity.png",
-    "Econimics & accounting/attachments/internal_users.png",
+    "Econimics & accounting/attachments/01_movement_vs_shift_demand.png",
+    "Econimics & accounting/attachments/02_downward_sloping_demand.png",
+    "Econimics & accounting/attachments/03_total_marginal_utility.png",
+    "Econimics & accounting/attachments/04_budget_constraint_basic.png",
+    "Econimics & accounting/attachments/05_budget_constraint_changes.jpg",
+    "Econimics & accounting/attachments/06_indifference_map.jpg",
+    "Econimics & accounting/attachments/07_two_indifference_curves_mrs.jpg",
+    "Econimics & accounting/attachments/08_indifference_curves_cannot_cross.jpg",
+    "Econimics & accounting/attachments/09_convex_indifference_curve_mrs.jpg",
+    "Econimics & accounting/attachments/10_consumer_optimum.jpg",
+    "Econimics & accounting/attachments/11_perfect_substitutes_complements.jpg",
+    "Econimics & accounting/Economics Midterm Notes.md",
     "Econimics & accounting/Accounting in Action - Chapter 1.md",
     "Econimics/Demand and Supply Analysis.md",
     "Econimics & accounting/attachments",
@@ -254,7 +260,6 @@
     "recon & enum/Search_Engine_Discovery.md",
     "recon & enum/network_services.md",
     "recon & enum/crawlers.md",
-    "recon & enum/well-known URIs.md",
-    "recon & enum/web_recon.md"
+    "recon & enum/well-known URIs.md"
   ]
 }
