@@ -193,14 +193,87 @@ This means 1 unit of X costs the same as 1.25 units of Y (X's opportunity cost, 
 > - **Price change → line rotates** (pivots on one fixed intercept, slope changes).
 > - **Income change → line shifts parallel** (both intercepts move by the same proportion, slope unchanged).
 
-#### 2.2.2 Practice Problems (from the course handout — solve these by hand)
-Diagram each budget constraint and calculate the slope at each stage:
+#### 2.2.2 Practice Problems — Fully Solved
 
-1. (i) Income = 4000; $P_X$ = 50; $P_Y$ = 100. (ii) Income falls to 3000, prices unchanged. (iii) After the income drop, $P_X$ falls to 40, $P_Y$ unchanged.
-2. (i) Income = 3000; $P_X$ = 25; $P_Y$ = 200. (ii) Only $P_X$ increases to 30. (iii) Income stays 3000, $P_X$ stays 25, but $P_Y$ drops to 160.
-3. (i) Income = 2000; $P_X$ = 40; $P_Y$ = 150. (ii) Income doubles, prices unchanged. (iii) After the income boost, $P_Y$ rises to 250, $P_X$ unchanged.
+**Method for every part (memorize this):**
+$$Q_X^{max} = \frac{I}{P_X} \ \text{(at } Q_Y=0\text{)} \qquad Q_Y^{max} = \frac{I}{P_Y} \ \text{(at } Q_X=0\text{)} \qquad \text{Slope} = \frac{P_X}{P_Y}$$
+Plot the two intercepts, join with a straight line — that's the budget constraint.
 
-**Method for every part:** find the two intercepts ($Q_X^{max} = I/P_X$ at $Q_Y=0$; $Q_Y^{max} = I/P_Y$ at $Q_X=0$), plot them, connect with a straight line, then compute slope $= P_X/P_Y$.
+---
+
+##### Problem 1
+*(i) Income = 4000; $P_X$=50; $P_Y$=100. (ii) Income falls to 3000, prices unchanged. (iii) After the income drop, $P_X$ falls to 40, $P_Y$ unchanged.*
+
+**(i) I = 4000, $P_X$ = 50, $P_Y$ = 100**
+$$Q_X^{max} = \frac{4000}{50} = 80 \qquad Q_Y^{max} = \frac{4000}{100} = 40 \qquad \text{Slope} = \frac{50}{100} = 0.5$$
+
+**(ii) I falls to 3000 (prices unchanged)**
+$$Q_X^{max} = \frac{3000}{50} = 60 \qquad Q_Y^{max} = \frac{3000}{100} = 30 \qquad \text{Slope} = \frac{50}{100} = 0.5$$
+*Slope is unchanged (0.5 → 0.5) because relative prices didn't change — only income fell. The line shifts inward, parallel to the original.*
+
+**(iii) I = 3000, $P_X$ falls to 40 ($P_Y$ = 100 unchanged)**
+$$Q_X^{max} = \frac{3000}{40} = 75 \qquad Q_Y^{max} = \frac{3000}{100} = 30 \qquad \text{Slope} = \frac{40}{100} = 0.4$$
+*The Y-intercept stays at 30 (income and $P_Y$ unchanged from stage ii), but the X-intercept rotates outward from 60 → 75 because X got cheaper. Slope falls from 0.5 → 0.4.*
+
+![[attachments/14_practice_problem_1.png]]
+
+| Stage | $Q_X^{max}$ | $Q_Y^{max}$ | Slope | What moved |
+|---|---|---|---|---|
+| (i) Original | 80 | 40 | 0.5 | — |
+| (ii) Income ↓ to 3000 | 60 | 30 | 0.5 | Parallel shift inward |
+| (iii) $P_X$ ↓ to 40 | 75 | 30 | 0.4 | Rotates outward on X-axis |
+
+---
+
+##### Problem 2
+*(i) Income = 3000; $P_X$=25; $P_Y$=200. (ii) Only $P_X$ increases to 30. (iii) Income stays 3000, $P_X$ stays 25, but $P_Y$ drops to 160.*
+
+**(i) I = 3000, $P_X$ = 25, $P_Y$ = 200**
+$$Q_X^{max} = \frac{3000}{25} = 120 \qquad Q_Y^{max} = \frac{3000}{200} = 15 \qquad \text{Slope} = \frac{25}{200} = 0.125$$
+
+**(ii) $P_X$ rises to 30 (I = 3000, $P_Y$ = 200 unchanged)**
+$$Q_X^{max} = \frac{3000}{30} = 100 \qquad Q_Y^{max} = \frac{3000}{200} = 15 \qquad \text{Slope} = \frac{30}{200} = 0.15$$
+*The Y-intercept stays at 15 (only $P_X$ changed). The X-intercept shrinks 120 → 100 (X got more expensive), so the line rotates inward on the X-axis. Slope rises 0.125 → 0.15.*
+
+**(iii) Back to $P_X$ = 25, but $P_Y$ drops to 160 (I = 3000 throughout)**
+$$Q_X^{max} = \frac{3000}{25} = 120 \qquad Q_Y^{max} = \frac{3000}{160} = 18.75 \qquad \text{Slope} = \frac{25}{160} = 0.15625$$
+*Compare this to stage (i): the X-intercept is back at 120 (since $P_X$ is 25 again), but the Y-intercept rises from 15 → 18.75 because Y got cheaper. The line rotates outward on the Y-axis relative to (i). Slope rises 0.125 → 0.156.*
+
+![[attachments/15_practice_problem_2.png]]
+
+| Stage | $Q_X^{max}$ | $Q_Y^{max}$ | Slope | What moved |
+|---|---|---|---|---|
+| (i) Original | 120 | 15 | 0.125 | — |
+| (ii) $P_X$ ↑ to 30 | 100 | 15 | 0.15 | Rotates inward on X-axis |
+| (iii) $P_Y$ ↓ to 160 (vs. original) | 120 | 18.75 | 0.15625 | Rotates outward on Y-axis |
+
+---
+
+##### Problem 3
+*(i) Income = 2000; $P_X$=40; $P_Y$=150. (ii) Income doubles, prices unchanged. (iii) After the income boost, $P_Y$ rises to 250, $P_X$ unchanged.*
+
+**(i) I = 2000, $P_X$ = 40, $P_Y$ = 150**
+$$Q_X^{max} = \frac{2000}{40} = 50 \qquad Q_Y^{max} = \frac{2000}{150} = 13.33 \qquad \text{Slope} = \frac{40}{150} = 0.267$$
+
+**(ii) Income doubles to 4000 (prices unchanged)**
+$$Q_X^{max} = \frac{4000}{40} = 100 \qquad Q_Y^{max} = \frac{4000}{150} = 26.67 \qquad \text{Slope} = \frac{40}{150} = 0.267$$
+*Both intercepts exactly double (50→100, 13.33→26.67) and the slope stays at 0.267 — a textbook parallel outward shift caused purely by higher income.*
+
+**(iii) I = 4000, $P_Y$ rises to 250 ($P_X$ = 40 unchanged)**
+$$Q_X^{max} = \frac{4000}{40} = 100 \qquad Q_Y^{max} = \frac{4000}{250} = 16 \qquad \text{Slope} = \frac{40}{250} = 0.16$$
+*The X-intercept stays at 100 (income and $P_X$ unchanged from stage ii), but the Y-intercept falls from 26.67 → 16 because Y got more expensive. The line rotates inward on the Y-axis. Slope falls from 0.267 → 0.16.*
+
+![[attachments/16_practice_problem_3.png]]
+
+| Stage | $Q_X^{max}$ | $Q_Y^{max}$ | Slope | What moved |
+|---|---|---|---|---|
+| (i) Original | 50 | 13.33 | 0.267 | — |
+| (ii) Income doubles to 4000 | 100 | 26.67 | 0.267 | Parallel shift outward |
+| (iii) $P_Y$ ↑ to 250 | 100 | 16 | 0.16 | Rotates inward on Y-axis |
+
+> [!tip] Exam Tip — pattern to remember across all three problems
+> - **Only income changes** → both intercepts scale by the same factor, slope stays exactly the same, line moves **parallel**.
+> - **Only one price changes** → the intercept on *that good's own axis* moves, the *other* intercept stays fixed, slope changes, line **rotates** around the fixed intercept.
 
 ### 2.3 Preferences and Indifference Curves
 
@@ -303,6 +376,28 @@ Same classification as demand: **elastic** ($E_s>1$), **inelastic** ($E_s<1$), *
 - **Income elasticity of demand ($E_y$)** — responsiveness of quantity demanded to a change in income.
   - $E_y > 0$ → **normal good** (demand rises as income rises).
   - $E_y < 0$ → **inferior good** (demand falls as income rises).
+
+Midpoint formula (same structure as before, income instead of price):
+$$E_y = \frac{\Delta Q}{\Delta Y}\cdot\frac{Y_{avg}}{Q_{avg}}$$
+
+**Worked example 1 (from the slides):** A software developer earns $60,000/year and buys 2 online-course subscriptions. After a promotion, salary rises to $75,000 and subscriptions bought rise to 3.
+
+$$\Delta Q = 3-2=1 \qquad \Delta Y = 75000-60000=15000$$
+$$Q_{avg} = \frac{2+3}{2}=2.5 \qquad Y_{avg} = \frac{60000+75000}{2}=67500$$
+$$E_y = \frac{1}{15000}\cdot\frac{67500}{2.5} = \frac{67500}{37500} = 1.8$$
+
+**Interpretation:** $E_y = 1.8 > 0$ → this is a **normal good**. Since $E_y>1$, it's also a relatively **income-elastic** (luxury-like) good — demand for it grows *faster* than income.
+
+**Worked example 2 (from the slides):** A junior IT support staff member earns $30,000/year and uses refurbished desktop computers 8 times a year. After a raise to $40,000/year, they upgrade their setup and use refurbished desktops only 5 times a year.
+
+$$\Delta Q = 5-8=-3 \qquad \Delta Y = 40000-30000=10000$$
+$$Q_{avg} = \frac{8+5}{2}=6.5 \qquad Y_{avg} = \frac{30000+40000}{2}=35000$$
+$$E_y = \frac{-3}{10000}\cdot\frac{35000}{6.5} = \frac{-105000}{65000} \approx -1.615$$
+
+**Interpretation:** $E_y \approx -1.615 < 0$ → this is an **inferior good**. As income rises, this person substitutes *away* from refurbished/budget desktops toward better alternatives, so quantity demanded falls.
+
+> [!tip] Exam Tip
+> Even though your syllabus marks the Elasticity topic "no math," these two are straight off the lecture slides — worth knowing the mechanics in case a similar income-elasticity question shows up. The core skill being tested is just: **compute $E_y$ with the midpoint formula, then read the sign** (positive = normal, negative = inferior).
 
 > [!tip] Exam Tip
 > Since this topic is marked "no math" on your syllabus, prioritize being able to: (1) draw and label all five demand-curve elasticity cases, (2) draw and label all five supply-curve elasticity cases, (3) explain *why* each extreme case looks the way it does with a real-world example, and (4) state the sign rule for substitutes/complements and normal/inferior goods.

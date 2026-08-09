@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "61eea55523879919",
+        "id": "2bb06461c3b494ce",
         "type": "tabs",
         "children": [
           {
-            "id": "3d1c4417e4ae5eda",
+            "id": "1c80cbdb66d932d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Economics Midterm Notes"
-            }
-          },
-          {
-            "id": "299a6e8e24e65058",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Econimics & accounting/Demand and Supply Analysis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Demand and Supply Analysis"
             }
           }
         ]
@@ -226,10 +212,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07c9875d2195a0fc",
+  "active": "1c80cbdb66d932d2",
   "lastOpenFiles": [
-    "Econimics & accounting/Demand and Supply Analysis.md",
-    "Econimics & accounting/Economics Midterm Notes.md",
+    "Econimics & accounting/Economics Introduction.md",
     "Econimics & accounting/attachments/01_movement_vs_shift_demand.png",
     "Econimics & accounting/attachments/02_downward_sloping_demand.png",
     "Econimics & accounting/attachments/03_total_marginal_utility.png",
@@ -240,10 +225,11 @@
     "Econimics & accounting/attachments/08_indifference_curves_cannot_cross.jpg",
     "Econimics & accounting/attachments/09_convex_indifference_curve_mrs.jpg",
     "Econimics & accounting/attachments/10_consumer_optimum.jpg",
+    "Econimics & accounting/Economics Midterm Notes.md",
+    "Econimics & accounting/Demand and Supply Analysis.md",
     "Econimics & accounting/Accounting in Action - Chapter 1.md",
     "Econimics/Demand and Supply Analysis.md",
     "Econimics & accounting/attachments",
-    "Econimics & accounting/Economics Introduction.md",
     "Econimics & accounting",
     "MNM/x86 Based PC.md",
     "MNM/8086 Architecture.md",
