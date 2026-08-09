@@ -261,13 +261,13 @@ $$E_d = \frac{\%\Delta Q_d}{\%\Delta P}$$
 
 ### 3.2 The Spectrum of Demand Elasticity
 
-| Type | Condition | Curve shape | Real-world intuition |
-|---|---|---|---|
-| **Elastic** | $E_d > 1$ | Relatively **flat** | %ΔQ > %ΔP — buyers very responsive (e.g., branded snacks with many substitutes) |
-| **Inelastic** | $E_d < 1$ | Relatively **steep** | %ΔQ < %ΔP — buyers not very responsive (e.g., necessities like salt) |
-| **Unit Elastic** | $E_d = 1$ | Rectangular hyperbola | %ΔQ = %ΔP exactly |
-| **Perfectly Elastic** | $E_d = \infty$ | **Horizontal** line | Any tiny price rise sends quantity demanded to zero — buyers switch entirely to identical alternatives |
-| **Perfectly Inelastic** | $E_d = 0$ | **Vertical** line | Quantity demanded doesn't change at all regardless of price — e.g., a life-saving drug like insulin |
+| Type                    | Condition      | Curve shape           | Real-world intuition                                                                                   |
+| ----------------------- | -------------- | --------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Elastic**             | $E_d > 1$      | Relatively **flat**   | %ΔQ > %ΔP — buyers very responsive (e.g., branded snacks with many substitutes)                        |
+| **Inelastic**           | $E_d < 1$      | Relatively **steep**  | %ΔQ < %ΔP — buyers not very responsive (e.g., necessities like salt)                                   |
+| **Unit Elastic**        | $E_d = 1$      | Rectangular hyperbola | %ΔQ = %ΔP exactly                                                                                      |
+| **Perfectly Elastic**   | $E_d = \infty$ | **Horizontal** line   | Any tiny price rise sends quantity demanded to zero — buyers switch entirely to identical alternatives |
+| **Perfectly Inelastic** | $E_d = 0$      | **Vertical** line     | Quantity demanded doesn't change at all regardless of price — e.g., a life-saving drug like insulin    |
 
 ![[attachments/08_elasticity_of_demand_spectrum.png]]
 
