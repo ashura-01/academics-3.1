@@ -49,9 +49,19 @@ This is the single most commonly confused pair of terms in introductory economic
 
 Two well-known economic effects together explain why people buy more of a good when its price falls:
 
-1. **Substitution Effect** — When the price of a good falls, it becomes **cheaper relative to its substitutes**. Consumers rationally substitute *away* from the now relatively more expensive alternatives and *toward* the cheaper good. Example: if the price of chicken falls while beef stays the same, people substitute chicken for beef.
+#### 1. Substitution Effect
 
-2. **Income Effect** — When the price of a good falls, a consumer's **real purchasing power** (what their fixed money income can actually buy) effectively **rises**, even though their money income hasn't changed. This "feels richer" effect lets consumers buy more of the good (assuming it's a normal good). Example: if rice gets cheaper, your same salary now stretches further, so you can afford to buy more rice — and possibly more of other things too.
+- **Mechanism:** Relative Price Shift
+- **Definition:** When the price of Good A falls while Good B remains constant, Good A becomes relatively cheaper. Consumers rationally **substitute** away from the relatively expensive Good B toward the cheaper Good A.
+- **Core Rule:** Always moves in the opposite direction of price (Price $\downarrow$ Quantity Demanded $\uparrow$).
+- **Exam Example:** If the price of **Chicken** drops from $\$10$ to $\$5$ while **Beef** remains at $\$10$, consumers switch their buying preference to Chicken because it offers a better relative bargain.
+
+#### 2. Income Effect
+
+- **Mechanism:** Real Purchasing Power Shift
+- **Definition:** When a price drops, the consumer's nominal income (actual money) remains unchanged, but their **real income** (purchasing power) increases. The consumer feels richer because their fixed budget can stretch further.
+- **Core Rule:** Impact depends on whether the item is a _normal_ or _inferior_ good.
+- **Exam Example:** If your weekly **Rice** expense drops from $\$50$ to $\$30$, your nominal budget has an extra $\$20$ left over. You feel richer, so you buy more Rice (or upgrade to other goods) using that saved purchasing power.
 
 Together, Substitution Effect + Income Effect ⇒ **quantity demanded rises as price falls**, which is exactly the downward slope of the demand curve.
 
