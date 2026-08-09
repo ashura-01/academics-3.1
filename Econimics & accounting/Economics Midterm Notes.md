@@ -106,12 +106,7 @@ The **law of supply**: price and quantity supplied are **directly (positively) r
 - **TU (Total Utility)** = the *total* satisfaction from consuming a given quantity of a good. Example: eating 3 slices of pizza gives you some total amount of happiness — that's TU at Q=3.
 - **MU (Marginal Utility)** = the *extra* (additional) satisfaction from consuming **one more** unit, on top of what you already had. Formula:
 $$MU = \frac{\Delta TU}{\Delta Q}$$
-where $\Delta TU$ = "change in Total Utility" and $\Delta Q$ = "change in Quantity" (i.e., +1 unit). 
-**Example:** 
-if TU from 2 slices of pizza = 19 utils, 
-and TU from 3 slices = 27 utils,
-then $MU$ of the 3rd slice $= 27-19 = 8$ utils.
-
+where $\Delta TU$ = "change in Total Utility" and $\Delta Q$ = "change in Quantity" (i.e., +1 unit). Example: if TU from 2 slices of pizza = 19 utils, and TU from 3 slices = 27 utils, then $MU$ of the 3rd slice $= 27-19 = 8$ utils.
 - In practice, MU usually **falls** as you consume more of something (you're less hungry after each slice) — this is the *Law of Diminishing Marginal Utility*, and it's part of *why* demand curves slope downward (see §1.3 above).
 
 Now that TU/MU are defined, here's the actual graded content: the **budget constraint**.
@@ -257,19 +252,36 @@ The law of demand only tells us the *direction* of the price–quantity relation
 
 $$E_d = \frac{\%\Delta Q_d}{\%\Delta P}$$
 
-*(No calculation required for this topic — but knowing that elasticity = "% change in quantity" ÷ "% change in price" is what lets you read the curves correctly.)* By convention, economists use the **absolute value** of $E_d$ (drop the minus sign), since price and quantity demanded always move in opposite directions.
+**What "%ΔQ" and "%ΔP" mean, in plain words:**
+- **%ΔP** = "percentage change in Price" — e.g., if price goes from $10 to $11, that's a **10% increase** in price.
+- **%ΔQ** = "percentage change in Quantity demanded" — e.g., if quantity demanded falls from 100 to 80 units, that's a **20% decrease** in quantity.
+- You then **divide** the two: $E_d = 20\% \div 10\% = 2$. This tells you: for every 1% the price moved, quantity moved 2% in the opposite direction — quantity was *twice as responsive* as price.
+
+*(No calculation is required on your exam for this topic — but understanding this ratio is what lets you correctly read "flat vs. steep" on the diagrams.)* By convention, economists use the **absolute value** of $E_d$ (drop the minus sign), since price and quantity demanded always move in opposite directions.
 
 ### 3.2 The Spectrum of Demand Elasticity
 
-| Type                    | Condition      | Curve shape           | Real-world intuition                                                                                   |
-| ----------------------- | -------------- | --------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Elastic**             | $E_d > 1$      | Relatively **flat**   | %ΔQ > %ΔP — buyers very responsive (e.g., branded snacks with many substitutes)                        |
-| **Inelastic**           | $E_d < 1$      | Relatively **steep**  | %ΔQ < %ΔP — buyers not very responsive (e.g., necessities like salt)                                   |
-| **Unit Elastic**        | $E_d = 1$      | Rectangular hyperbola | %ΔQ = %ΔP exactly                                                                                      |
-| **Perfectly Elastic**   | $E_d = \infty$ | **Horizontal** line   | Any tiny price rise sends quantity demanded to zero — buyers switch entirely to identical alternatives |
-| **Perfectly Inelastic** | $E_d = 0$      | **Vertical** line     | Quantity demanded doesn't change at all regardless of price — e.g., a life-saving drug like insulin    |
+| Type | Condition | Curve shape | Real-world intuition |
+|---|---|---|---|
+| **Elastic** | $E_d > 1$ | Relatively **flat** | %ΔQ > %ΔP — buyers very responsive (e.g., branded snacks with many substitutes) |
+| **Inelastic** | $E_d < 1$ | Relatively **steep** | %ΔQ < %ΔP — buyers not very responsive (e.g., necessities like salt) |
+| **Unit Elastic** | $E_d = 1$ | Curved (rectangular hyperbola) | %ΔQ = %ΔP exactly |
+| **Perfectly Elastic** | $E_d = \infty$ | **Horizontal** line | Any tiny price rise sends quantity demanded to zero — buyers switch entirely to identical alternatives |
+| **Perfectly Inelastic** | $E_d = 0$ | **Vertical** line | Quantity demanded doesn't change at all regardless of price — e.g., a life-saving drug like insulin |
+
+**Worked examples matching the diagram below** (each panel shows what happens when price rises 10%):
+
+- **(a) Elastic:** Price rises 10%, and quantity demanded *falls 20%*. $E_d = 20\%/10\% = 2$. Since $2>1$, this is **elastic** — buyers are very sensitive to the price hike, so a lot of them stop buying.
+- **(b) Inelastic:** Price rises 10%, but quantity demanded *only falls 4%*. $E_d = 4\%/10\% = 0.4$. Since $0.4<1$, this is **inelastic** — buyers barely react; they need the good regardless of price.
+- **(c) Unit Elastic:** Price rises 10%, and quantity demanded *falls exactly 10%*. $E_d = 10\%/10\% = 1$.
+- **(d) Perfectly Elastic:** Price doesn't rise at all (sellers can't push price above $P_1$) — the *tiniest* increase and quantity demanded collapses to zero. Curve is flat/horizontal.
+- **(e) Perfectly Inelastic:** Price rises 10%, and quantity demanded doesn't move at all (0% change). $E_d = 0\%/10\% = 0$. Curve is completely vertical.
 
 ![[attachments/08_elasticity_of_demand_spectrum.png]]
+
+**Why does the "Unit Elastic" curve look different (curved) while Elastic/Inelastic are drawn as straight lines?**
+This is a subtle but important point: a **straight-line** demand curve does *not* have the same elasticity along its whole length — it's actually more elastic near the top (high price, low quantity) and more inelastic near the bottom (low price, high quantity), even though it's one straight line. In panels (a) and (b), we're just comparing two *different* straight-line curves at the *same point* to show one is generally flatter/steeper than the other — that's enough to illustrate "more elastic" vs. "less elastic" for exam purposes.
+But **"unit elastic everywhere"** ($E_d=1$ at every single point on the curve, not just at one point) is a much stricter mathematical condition. It only happens when price × quantity = a constant number at every point (i.e., total spending never changes as price changes) — and the only curve shape that satisfies that condition is a **rectangular hyperbola** (the curved line in panel c). That's why it's drawn differently: it's not a stylistic choice, it's the only shape that keeps $E_d$ pinned at exactly 1 all the way along the curve.
 
 > [!tip] Exam Tip — reading the diagrams
 > - **Flatter curve = more elastic** (more responsive to price).
@@ -278,19 +290,38 @@ $$E_d = \frac{\%\Delta Q_d}{\%\Delta P}$$
 
 ### 3.3 Elasticity of Supply
 
-**Price elasticity of supply ($E_s$)** measures the responsiveness of quantity *supplied* to a price change:
+**Price elasticity of supply ($E_s$)** measures the responsiveness of quantity *supplied* to a price change, using the exact same logic as demand — just for sellers instead of buyers:
 $$E_s = \frac{\%\Delta Q_s}{\%\Delta P}$$
+($Q_s$ = "quantity supplied.") Since price and quantity supplied move in the *same* direction (law of supply), $E_s$ is always positive — no need to drop a minus sign here.
 
-Same five-way classification as demand: **elastic** ($E_s>1$), **inelastic** ($E_s<1$), **unit elastic** ($E_s=1$), **perfectly elastic** ($E_s=\infty$, horizontal supply curve), **perfectly inelastic** ($E_s=0$, vertical supply curve).
+Same five-way classification as demand: **elastic** ($E_s>1$, relatively flat), **inelastic** ($E_s<1$, relatively steep), **unit elastic** ($E_s=1$), **perfectly elastic** ($E_s=\infty$, horizontal supply curve), **perfectly inelastic** ($E_s=0$, vertical supply curve).
+
+**Worked examples matching the diagram below** (each panel shows what happens when price rises 10%):
+
+|**Type**|**Condition**|**Curve Shape**|**Real-World Intuition**|
+|---|---|---|---|
+|**Elastic**|$E_s > 1$|Relatively flat|$\% \Delta Q_s > \% \Delta P$ — sellers can easily ramp up production (e.g., manufactured goods like t-shirts with excess raw materials)|
+|**Inelastic**|$E_s < 1$|Relatively steep|$\% \Delta Q_s < \% \Delta P$ — sellers struggle to quickly change output due to constraints (e.g., agricultural crops or limited factory capacity)|
+|**Unit Elastic**|$E_s = 1$|Straight line through origin|$\% \Delta Q_s = \% \Delta P$ exactly — proportional change between price and quantity supplied|
+|**Perfectly Elastic**|$E_s = \infty$|Horizontal line|Sellers will supply any quantity at exact price $P_1$, but zero below it — infinitely responsive suppliers|
+|**Perfectly Inelastic**|$E_s = 0$|Vertical line|Quantity supplied is completely fixed regardless of price changes (e.g., a one-of-a-kind painting or a stadium's fixed seat count)|
 
 ![[attachments/09_elasticity_of_supply_spectrum.jpg]]
+
+**Why is the supply "Unit Elastic" case drawn as a straight line, while demand's is a curve?**
+This is a genuine, non-obvious difference between demand and supply, and it's worth knowing:
+- For **demand**, "unit elastic everywhere" requires price × quantity to stay constant, which forces a curved (hyperbola) shape, as explained above.
+- For **supply**, there's a much simpler rule instead: **any straight-line supply curve that passes exactly through the origin (0,0) is unit elastic at every point on it** — no curve needed. If you extend the straight supply line backward and it hits the origin, $E_s=1$ everywhere on that line.
+  - If the line's extension hits the **price-axis** above the origin (i.e., it doesn't start at 0), the curve is **elastic**.
+  - If the line's extension hits the **quantity-axis** to the right of the origin, the curve is **inelastic**.
+- That's purely a mathematical property of straight lines through vs. not through the origin — it has nothing to do with the good itself, just where the line sits relative to (0,0). This is why supply's unit-elastic case in panel (c) can stay a straight line, while demand's cannot.
 
 **Real-world examples:**
 - **Perfectly elastic supply:** local labor markets tied to a strict minimum wage — if a factory offers even slightly below minimum wage, labor supply drops to zero.
 - **Perfectly inelastic supply:** land in one fixed location — no matter how high the price goes, no more of that exact land can be produced.
 
 > [!tip] Exam Tip
-> Since this topic is "no math," prioritize being able to: (1) draw and label all five demand-curve elasticity cases, (2) draw and label all five supply-curve elasticity cases, (3) explain *why* each extreme case looks the way it does with a real-world example.
+> Since this topic is "no math," prioritize being able to: (1) draw and label all five demand-curve elasticity cases, (2) draw and label all five supply-curve elasticity cases, (3) explain *why* each extreme case looks the way it does with a real-world example. If you're asked to explain the unit-elastic shape difference, the one-line answer is: *"demand needs price×quantity constant (a curve), supply just needs the line to pass through the origin (a straight line)."*
 
 ---
 
