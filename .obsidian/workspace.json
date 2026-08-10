@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/05 - Aggregate Functions and Assignment Operation.md",
+                "file": "database/04 - Joins in Relational Algebra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 - Aggregate Functions and Assignment Operation"
+              "title": "04 - Joins in Relational Algebra"
             }
           }
         ]
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "database/05 - Aggregate Functions and Assignment Operation.md",
+                "file": "database/04 - Joins in Relational Algebra.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -214,8 +214,9 @@
   },
   "active": "c055270ecb6300da",
   "lastOpenFiles": [
-    "database/04 - Joins in Relational Algebra.md",
     "database/03 - Relational Algebra - Binary Operations.md",
+    "database/05 - Aggregate Functions and Assignment Operation.md",
+    "database/04 - Joins in Relational Algebra.md",
     "database/02 - Relational Algebra - Unary Operations.md",
     "database/00 - Introduction to DBMS.md",
     "database/00 - CSE3103 Database - Index.md",
@@ -259,7 +260,6 @@
     "Econimics/Economics Introduction.md",
     "Econimics/lacture-01.md",
     "MNM/slide-2.md",
-    "MNM/slide-1.md",
     "Untitled.canvas"
   ]
 }
