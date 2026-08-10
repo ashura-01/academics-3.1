@@ -49,27 +49,27 @@ For each symbol: **what it means → example → step-by-step problem solve.**
 
 ### Quick Reference Table
 
-| Symbol | Name | Meaning |
-|---|---|---|
-| **σ** (sigma) | Selection | Picks specific **rows** matching a condition |
-| **π** (pi) | Projection | Picks specific **columns** |
-| **ρ** (rho) | Rename | Renames a relation or attribute |
-| **∪** | Union | Combines rows from two relations (no duplicates) |
-| **∩** | Intersection | Rows common to both relations |
-| **−** | Difference | Rows in one relation but not the other |
-| **×** | Cartesian Product | Combines every row of R with every row of S |
-| **⋈** | Natural Join | Combines relations on matching common attribute(s) |
-| **⋈ θ** | Theta Join | Join using a comparison condition (θ = <, >, =, etc.) |
-| **⟕** | Left Outer Join | Keeps all rows from the left table, NULL if no match |
-| **⟖** | Right Outer Join | Keeps all rows from the right table, NULL if no match |
-| **⟗** | Full Outer Join | Keeps all rows from both tables, NULL where no match |
-| **G / 𝒢** | Aggregation symbol | Used with group-by + aggregate functions |
-| **←** | Assignment | Stores a query result into a temporary relation |
-| **<, >, ≤, ≥, ≠, =** | Comparison operators | Used inside selection conditions |
-| **∧ (˄)** | Logical AND | Combines conditions — both must be true |
-| **∨ (˅)** | Logical OR | Combines conditions — at least one true |
-| **¬ (˥)** | Logical NOT | Negates a condition |
-| **÷** | Division | Finds rows in R related to ALL rows in S |
+| Symbol               | Name                 | Meaning                                               |
+| -------------------- | -------------------- | ----------------------------------------------------- |
+| **σ** (sigma)        | Selection            | Picks specific **rows** matching a condition          |
+| **π** (pi)           | Projection           | Picks specific **columns**                            |
+| **ρ** (rho)          | Rename               | Renames a relation or attribute                       |
+| **∪**                | Union                | Combines rows from two relations (no duplicates)      |
+| **∩**                | Intersection         | Rows common to both relations                         |
+| **−**                | Difference           | Rows in one relation but not the other                |
+| **×**                | Cartesian Product    | Combines every row of R with every row of S           |
+| **⋈**                | Natural Join         | Combines relations on matching common attribute(s)    |
+| **⋈ θ**              | Theta Join           | Join using a comparison condition (θ = <, >, =, etc.) |
+| **⟕**                | Left Outer Join      | Keeps all rows from the left table, NULL if no match  |
+| **⟖**                | Right Outer Join     | Keeps all rows from the right table, NULL if no match |
+| **⟗**                | Full Outer Join      | Keeps all rows from both tables, NULL where no match  |
+| **G / 𝒢**           | Aggregation symbol   | Used with group-by + aggregate functions              |
+| **←**                | Assignment           | Stores a query result into a temporary relation       |
+| **<, >, ≤, ≥, ≠, =** | Comparison operators | Used inside selection conditions                      |
+| **∧ (˄)**            | Logical AND          | Combines conditions — both must be true               |
+| **∨ (˅)**            | Logical OR           | Combines conditions — at least one true               |
+| **¬ (˥)**            | Logical NOT          | Negates a condition                                   |
+| **÷**                | Division             | Finds rows in R related to ALL rows in S              |
 
 ---
 
