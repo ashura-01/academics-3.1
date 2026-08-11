@@ -367,12 +367,13 @@ A systematic method for evaluating a product's environmental impact across its *
 $$
 E = \frac{H \times P \times PUE}{1000}
 $$
-| Variable | Meaning |
-|---|---|
-| H | Hours — duration of training/inference run |
-| P | GPU peak power draw in Watts (e.g., 400 W for A100) |
-| PUE | Power Usage Effectiveness — DC overhead (hyperscale typical ≈1.2, poor facility ≈2.0) |
-| /1000 | Converts Watt-hours to kilowatt-hours (kWh) |
+
+| Variable | Meaning                                                                               |
+| -------- | ------------------------------------------------------------------------------------- |
+| H        | Hours — duration of training/inference run                                            |
+| P        | GPU peak power draw in Watts (e.g., 400 W for A100)                                   |
+| PUE      | Power Usage Effectiveness — DC overhead (hyperscale typical ≈1.2, poor facility ≈2.0) |
+| /1000    | Converts Watt-hours to kilowatt-hours (kWh)                                           |
 
 **Step 2 — Carbon:**
 $$
@@ -381,13 +382,14 @@ $$
 where **CI** = Carbon Intensity of the grid (kgCO₂/kWh).
 
 **Carbon Intensity reference table (Class 3):**
-| Location | CI (kg/kWh) | Grid |
-|---|---|---|
-| Bangladesh | 0.620 | Coal-heavy — **highest** |
-| India | 0.710 | Coal dominant — **high** |
-| EU Average | 0.255 | Mixed + renewables — **medium** |
-| France | 0.060 | 80% nuclear — **low** |
-| Iceland | 0.018 | 100% geothermal/hydro — **lowest** |
+
+| Location   | CI (kg/kWh) | Grid                               |
+| ---------- | ----------- | ---------------------------------- |
+| Bangladesh | 0.620       | Coal-heavy — **highest**           |
+| India      | 0.710       | Coal dominant — **high**           |
+| EU Average | 0.255       | Mixed + renewables — **medium**    |
+| France     | 0.060       | 80% nuclear — **low**              |
+| Iceland    | 0.018       | 100% geothermal/hydro — **lowest** |
 
 ### 📐 Worked Example — Estimating GPT-Scale Training Carbon
 
