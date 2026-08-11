@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RA-SQL-Practice.md",
+                "file": "sus/Ethics of Technology & Sustainability.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RA-SQL-Practice"
+              "title": "Ethics of Technology & Sustainability"
             }
           }
         ]
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RA-SQL-Practice.md",
+                "file": "sus/Ethics of Technology & Sustainability.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -214,8 +214,9 @@
   },
   "active": "0a92801f2e7ff515",
   "lastOpenFiles": [
+    "database/RA-SQL-Practice.md",
+    "sus/Ethics of Technology & Sustainability.md",
     "prob-solve.md",
-    "RA-SQL-Practice.md",
     "database/04 - Joins in Relational Algebra.md",
     "database/01 - ER Modeling.md",
     "database/Database_Symbols_Guide.md",
@@ -254,7 +255,6 @@
     "sus",
     "DSD/Lecture3.md",
     "DSD/Lecture1.md",
-    "MACS/The Josephus Problem.md",
     "MACS/attachments",
     "MACS/images",
     "MACS",
