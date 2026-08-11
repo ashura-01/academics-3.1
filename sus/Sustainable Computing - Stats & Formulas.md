@@ -173,6 +173,7 @@ C = E \times CI
 $$
 
 **🔍 Symbol Legend**
+
 | Symbol | What it literally is | Unit | Plain-English meaning |
 |---|---|---|---|
 | **H** | Hours | hours | How long the job ran for |
