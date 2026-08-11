@@ -224,6 +224,7 @@ PUE = \frac{Total\ Facility\ Power}{IT\ Equipment\ Power}
 $$
 
 **🔍 Symbol Legend**
+
 | Symbol | What it literally is | Plain-English meaning |
 |---|---|---|
 | **Total Facility Power** | ALL electricity the building draws | Servers + cooling + lighting + everything, combined |
@@ -256,6 +257,7 @@ $$
 $$
 
 **🔍 Symbol Legend**
+
 | Symbol | What it literally is | Plain-English meaning |
 |---|---|---|
 | **CO₂ (high)** | Carbon from the dirty/worse scenario | e.g. running the job in Bangladesh (coal-heavy grid) |
@@ -286,6 +288,7 @@ E_{\text{optimized}} = \frac{E_{\text{original}}}{\text{Technique Multiplier}}
 $$
 
 **🔍 Symbol Legend**
+
 | Symbol | What it literally is | Plain-English meaning |
 |---|---|---|
 | **E_original** | Energy used BEFORE optimization | The normal, unoptimized energy cost |
@@ -321,6 +324,7 @@ CO_2 = (\text{Energy per charge}) \times (\text{charges over period}) \times CI
 $$
 
 **🔍 Symbol Legend**
+
 | Symbol | What it literally is | Plain-English meaning |
 |---|---|---|
 | **Energy per charge** | kWh used in ONE charge cycle | e.g. 0.01 kWh for a phone |
