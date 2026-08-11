@@ -132,6 +132,7 @@ $$
 Where **Energy = Power (kW) × Time (hours)**.
 
 **🔍 Symbol Legend**
+
 | Symbol | What it literally is | Unit | Plain-English meaning |
 |---|---|---|---|
 | **CO₂** | Total carbon emitted | kg or tonnes | The final answer — the pollution caused by this computation |
