@@ -131,6 +131,14 @@ $$
 
 Where **Energy = Power (kW) × Time (hours)**.
 
+**🔍 Symbol Legend**
+| Symbol | What it literally is | Unit | Plain-English meaning |
+|---|---|---|---|
+| **CO₂** | Total carbon emitted | kg or tonnes | The final answer — the pollution caused by this computation |
+| **Energy** | Electricity actually consumed | kWh | = Power × Time. A 1 kW device run for 5 hrs = 5 kWh |
+| **PUE** | Power Usage Effectiveness | ratio, no unit | The "tax" the data center adds for cooling/lighting/overhead. PUE=1.5 means the building uses 50% more power than the servers alone need |
+| **CI** (Carbon Intensity) | How dirty the electricity grid is | kgCO₂/kWh | Coal-heavy country = high number (~0.6–0.7); hydro/nuclear country = low number (~0.02–0.06) |
+
 **Demo Example B1.1**
 > A single GPU draws 245 W and runs for 8 hours in a data center with PUE = 1.6, on the Bangladesh grid (CI = 0.620 kg/kWh). Find total CO₂.
 
@@ -162,6 +170,17 @@ $$
 $$
 C = E \times CI
 $$
+
+**🔍 Symbol Legend**
+| Symbol | What it literally is | Unit | Plain-English meaning |
+|---|---|---|---|
+| **H** | Hours | hours | How long the job ran for |
+| **P** | GPU power draw | Watts (W) | Power rating of ONE GPU (e.g. A100 = 400W). If using multiple GPUs, multiply P by GPU count first |
+| **PUE** | Power Usage Effectiveness | ratio | Same overhead "tax" as Formula 1 |
+| **/1000** | Unit conversion | — | Just converts Watt-hours into kilowatt-hours (kWh) — not a real physical quantity, just math housekeeping |
+| **E** | Energy | kWh | Result of Step 1 — the actual electricity used, overhead included |
+| **CI** | Carbon Intensity | kgCO₂/kWh | Same as Formula 1 — grid dirtiness |
+| **C** | Carbon (final answer) | kg | Total CO₂ emitted by the job |
 
 **Demo Example B2.1 (from slides — GPT-scale training)**
 > 1,024 × A100 GPUs, 400 W each, PUE = 1.2, training duration = 34 days. Find energy and CO₂ on the Bangladesh, EU, France, and Iceland grids.
@@ -202,6 +221,13 @@ $$
 PUE = \frac{Total\ Facility\ Power}{IT\ Equipment\ Power}
 $$
 
+**🔍 Symbol Legend**
+| Symbol | What it literally is | Plain-English meaning |
+|---|---|---|
+| **Total Facility Power** | ALL electricity the building draws | Servers + cooling + lighting + everything, combined |
+| **IT Equipment Power** | Electricity used by computers only | Just the servers/GPUs doing the actual work |
+| **PUE** | The ratio of the two | PUE = 1.0 would mean zero overhead (impossible in practice). PUE = 2.0 means the building wastes as much power on cooling/overhead as the computers themselves use |
+
 **Demo Example B3.1**
 > A data center's total facility power is 220 kW; IT equipment power is 160 kW. Find PUE and classify it.
 
@@ -227,6 +253,14 @@ $$
 \text{\% Reduction} = \frac{CO_2\ \text{(high)} - CO_2\ \text{(low)}}{CO_2\ \text{(high)}} \times 100
 $$
 
+**🔍 Symbol Legend**
+| Symbol | What it literally is | Plain-English meaning |
+|---|---|---|
+| **CO₂ (high)** | Carbon from the dirty/worse scenario | e.g. running the job in Bangladesh (coal-heavy grid) |
+| **CO₂ (low)** | Carbon from the clean/better scenario | e.g. running the same job in Iceland (hydro/geothermal) |
+| **Reduction Factor** | "How many times more" | e.g. 34× means the dirty option pollutes 34 times as much |
+| **% Reduction** | Same comparison, as a percentage | e.g. "switching locations cut emissions by 90%" |
+
 **Demo Example B4.1**
 > Using Example B2.1 results: Bangladesh = 249 tonnes, Iceland = 7.2 tonnes. Find reduction factor and % reduction.
 
@@ -248,6 +282,13 @@ $$
 $$
 E_{\text{optimized}} = \frac{E_{\text{original}}}{\text{Technique Multiplier}}
 $$
+
+**🔍 Symbol Legend**
+| Symbol | What it literally is | Plain-English meaning |
+|---|---|---|
+| **E_original** | Energy used BEFORE optimization | The normal, unoptimized energy cost |
+| **Technique Multiplier** | How much smaller the technique makes it | e.g. pruning = divide by 5; quantization = divide by 4–8 |
+| **E_optimized** | Energy used AFTER optimization | What you actually pay for (in energy/carbon) once the trick is applied |
 
 **Demo Example B5.1 (New — Pruning)**
 > An original training run uses 8 GPUs at 500 W each, for 48 hours, PUE = 1.3, on the France grid (CI = 0.058). Pruning gives a 5× compute (and energy) reduction. Find CO₂ before and after pruning.
@@ -276,6 +317,14 @@ $$
 $$
 CO_2 = (\text{Energy per charge}) \times (\text{charges over period}) \times CI
 $$
+
+**🔍 Symbol Legend**
+| Symbol | What it literally is | Plain-English meaning |
+|---|---|---|
+| **Energy per charge** | kWh used in ONE charge cycle | e.g. 0.01 kWh for a phone |
+| **charges over period** | Total number of charges | days × charges-per-day |
+| **CI** | Carbon Intensity of the grid | Same meaning as every other formula |
+| **CO₂ (result)** | Total lifetime "use-phase" carbon | Compare this against the one-time manufacturing/embodied CO₂ to see which one actually dominates |
 
 **Demo Example B6.1**
 > A phone uses 0.01 kWh per charge, charged once daily, over 3 years (1,095 days), on the EU grid (CI = 0.255). Find total charging CO₂ and compare to embodied manufacturing CO₂ (70–90 kg).
