@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACS/Sums.md",
+                "file": "MACS/The Josephus Problem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sums"
+              "title": "The Josephus Problem"
             }
           }
         ],
@@ -203,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MACS/Sums.md",
+                "file": "MACS/The Josephus Problem.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -243,9 +243,9 @@
   },
   "active": "a35c577088bcb55f",
   "lastOpenFiles": [
+    "MACS/Sums.md",
     "MACS/recurrence_basics.md",
     "MACS/tower_of_hanoi.md",
-    "MACS/Sums.md",
     "MACS/attachments/toh-3disks-moves.png",
     "MACS/attachments/toh-closed-form-derivation.png",
     "MACS/attachments/toh-diagram.png",
