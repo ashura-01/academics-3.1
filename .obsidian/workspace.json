@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACS/recurrence_basics.md",
+                "file": "MACS/Sums.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "recurrence_basics"
+              "title": "Sums"
             }
           }
         ],
@@ -203,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MACS/recurrence_basics.md",
+                "file": "MACS/Sums.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -243,13 +243,13 @@
   },
   "active": "a35c577088bcb55f",
   "lastOpenFiles": [
+    "MACS/recurrence_basics.md",
     "MACS/tower_of_hanoi.md",
     "MACS/Sums.md",
     "MACS/attachments/toh-3disks-moves.png",
     "MACS/attachments/toh-closed-form-derivation.png",
     "MACS/attachments/toh-diagram.png",
     "MACS/attachments/toh-induction-proof.png",
-    "MACS/recurrence_basics.md",
     "MACS/The Josephus Problem.md",
     "sus/Sustainable Computing (Classes 1-3).md",
     "sus/Sustainable Computing - Stats & Formulas.md",
