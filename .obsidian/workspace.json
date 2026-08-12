@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACS/Sums.md",
+                "file": "MACS/recurrence_basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sums"
+              "title": "recurrence_basics"
             }
           }
         ],
@@ -203,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MACS/Sums.md",
+                "file": "MACS/recurrence_basics.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -244,9 +244,13 @@
   "active": "a35c577088bcb55f",
   "lastOpenFiles": [
     "MACS/tower_of_hanoi.md",
+    "MACS/Sums.md",
+    "MACS/attachments/toh-3disks-moves.png",
+    "MACS/attachments/toh-closed-form-derivation.png",
+    "MACS/attachments/toh-diagram.png",
+    "MACS/attachments/toh-induction-proof.png",
     "MACS/recurrence_basics.md",
     "MACS/The Josephus Problem.md",
-    "MACS/Sums.md",
     "sus/Sustainable Computing (Classes 1-3).md",
     "sus/Sustainable Computing - Stats & Formulas.md",
     "sus/Ethics of Technology & Sustainability.md",
@@ -270,18 +274,13 @@
     "Econimics & accounting/attachments/06_practice_problem_2.png",
     "Econimics & accounting/attachments/07_practice_problem_3.png",
     "Econimics & accounting/attachments/08_elasticity_of_demand_spectrum.png",
-    "Econimics & accounting/attachments/09_elasticity_of_supply_spectrum.jpg",
     "Econimics & accounting/Economics Introduction.md",
-    "Econimics & accounting/attachments/01_movement_vs_shift_demand.png",
-    "Econimics & accounting/attachments/02_downward_sloping_demand.png",
-    "Econimics & accounting/attachments/03_total_marginal_utility.png",
     "Econimics & accounting/Demand and Supply Analysis.md",
     "Econimics/Demand and Supply Analysis.md",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
     "MNM/x86 Based PC.md",
     "MNM/8086 Architecture.md",
-    "MNM/Home.md",
     "MNM/attachments",
     "sus",
     "MACS/attachments",
