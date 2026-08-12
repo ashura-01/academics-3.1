@@ -1,7 +1,7 @@
 ---
 
 ## tags: [discrete-math, recurrence, midterm]
-
+---
 # Recurrent Basics
 
 ## 1. What is a Recurrence?
@@ -18,7 +18,8 @@ $$t_n = A\cdot t_{n-1} + B\cdot t_{n-2}$$
 > 
 > 1. **General (recursive) case** — breaks the problem into a smaller version of itself.
 > 2. **Base/boundary case** — stops the recursion (this is _why_ the recursion terminates).
----
+
+
 
 ## 2. The 6-Step Method for Solving Recurrent Problems
 
