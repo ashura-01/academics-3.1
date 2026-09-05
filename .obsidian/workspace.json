@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cheating.md",
+                "file": "MNM/8086_Maximum_Mode_and_Clock_System.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -209,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -227,7 +227,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ed83c7d8ffa79a5",
+  "active": "07c9875d2195a0fc",
   "lastOpenFiles": [
     "cheating.md",
     "MNM/attachments/01_max_mode_diagram.png",
