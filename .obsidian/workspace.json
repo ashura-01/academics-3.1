@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MNM/8086_Maximum_Mode_and_Clock_System.md",
+                "file": "MNM/Lecture6_Memory_Interfacing_Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8086_Maximum_Mode_and_Clock_System"
+              "title": "Lecture6_Memory_Interfacing_Notes"
             }
           }
         ],
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MNM/8086_Maximum_Mode_and_Clock_System.md",
+                "file": "MNM/Lecture6_Memory_Interfacing_Notes.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -227,20 +227,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07c9875d2195a0fc",
+  "active": "45dde854ab63284f",
   "lastOpenFiles": [
-    "cheating.md",
-    "MNM/attachments/01_max_mode_diagram.png",
-    "MNM/attachments/02_8288_bus_controller_block.png",
-    "MNM/attachments/03_8288_pin_functions.png",
-    "MNM/attachments/04_interfacing_8284_with_8086.png",
-    "MNM/attachments/05_8284A_clock_generator_detail.png",
-    "MNM/attachments/06_reset_operation.png",
-    "MNM/attachments/07_figure9-4_reset_circuit.png",
-    "MNM/attachments/08_schmitt_trigger.png",
-    "MNM/attachments/09_capacitor_charging_graph.png",
-    "MNM/attachments/10_ready_synchronization_circuitry.png",
     "MNM/8086_Maximum_Mode_and_Clock_System.md",
+    "MNM/Lecture6_Memory_Interfacing_Notes.md",
+    "MNM/attachments/01_objectives.png",
+    "MNM/attachments/02_rom_ram_pin_connections.png",
+    "MNM/attachments/03_2716_2kx8_eprom.png",
+    "MNM/attachments/04_ram_memory_tms4016_sram.png",
+    "MNM/attachments/05_static_and_dynamic_ram.png",
+    "MNM/attachments/06_reading_writing_dram_cell.png",
+    "MNM/attachments/07_sram_faster_dram_denser.png",
+    "MNM/attachments/08_sram_read_write_operation.png",
+    "MNM/attachments/09_address_decoding_intro.png",
+    "MNM/attachments/10_address_decoding_nand_gate.png",
+    "cheating.md",
     "DSD/lacture4.md",
     "MACS/The Josephus Problem.md",
     "MACS/Sums.md",
