@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cheating.md",
+                "file": "MNM/8086_Maximum_Mode_and_Clock_System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cheating"
+              "title": "8086_Maximum_Mode_and_Clock_System"
             }
           }
         ],
@@ -227,18 +227,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c87678abc1f138a",
+  "active": "2ed83c7d8ffa79a5",
   "lastOpenFiles": [
-    "DSD/lacture4.md",
     "cheating.md",
+    "MNM/attachments/01_max_mode_diagram.png",
+    "MNM/attachments/02_8288_bus_controller_block.png",
+    "MNM/attachments/03_8288_pin_functions.png",
+    "MNM/attachments/04_interfacing_8284_with_8086.png",
+    "MNM/attachments/05_8284A_clock_generator_detail.png",
+    "MNM/attachments/06_reset_operation.png",
+    "MNM/attachments/07_figure9-4_reset_circuit.png",
+    "MNM/attachments/08_schmitt_trigger.png",
+    "MNM/attachments/09_capacitor_charging_graph.png",
+    "MNM/attachments/10_ready_synchronization_circuitry.png",
+    "MNM/8086_Maximum_Mode_and_Clock_System.md",
+    "DSD/lacture4.md",
     "MACS/The Josephus Problem.md",
     "MACS/Sums.md",
     "MACS/recurrence_basics.md",
     "MACS/tower_of_hanoi.md",
-    "MACS/attachments/toh-3disks-moves.png",
-    "MACS/attachments/toh-closed-form-derivation.png",
-    "MACS/attachments/toh-diagram.png",
-    "MACS/attachments/toh-induction-proof.png",
     "sus/Sustainable Computing (Classes 1-3).md",
     "sus/Sustainable Computing - Stats & Formulas.md",
     "sus/Ethics of Technology & Sustainability.md",
@@ -256,18 +263,10 @@
     "Econimics & accounting/Accounting in Action - Chapter 1.md",
     "Econimics & accounting/Economics Midterm Notes.md",
     "Econimics & accounting/Economics Midterm Notes-1.md",
-    "Econimics & accounting/attachments/03_budget_constraint_basic.png",
-    "Econimics & accounting/attachments/04_budget_constraint_changes.jpg",
-    "Econimics & accounting/attachments/05_practice_problem_1.png",
-    "Econimics & accounting/attachments/06_practice_problem_2.png",
-    "Econimics & accounting/attachments/07_practice_problem_3.png",
-    "Econimics & accounting/attachments/08_elasticity_of_demand_spectrum.png",
     "Econimics & accounting/Economics Introduction.md",
     "Econimics & accounting/Demand and Supply Analysis.md",
-    "Econimics/Demand and Supply Analysis.md",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
-    "MNM/x86 Based PC.md",
     "MNM/attachments",
     "sus",
     "MACS/attachments",
