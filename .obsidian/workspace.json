@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MNM/Lecture6_Memory_Interfacing_Notes.md",
+                "file": "MNM/8086_Maximum_Mode_and_Clock_System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture6_Memory_Interfacing_Notes"
+              "title": "8086_Maximum_Mode_and_Clock_System"
             }
           }
         ],
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MNM/Lecture6_Memory_Interfacing_Notes.md",
+                "file": "MNM/8086_Maximum_Mode_and_Clock_System.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -227,10 +227,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45dde854ab63284f",
+  "active": "2ed83c7d8ffa79a5",
   "lastOpenFiles": [
-    "MNM/8086_Maximum_Mode_and_Clock_System.md",
     "MNM/Lecture6_Memory_Interfacing_Notes.md",
+    "MNM/8086_Maximum_Mode_and_Clock_System.md",
     "MNM/attachments/01_objectives.png",
     "MNM/attachments/02_rom_ram_pin_connections.png",
     "MNM/attachments/03_2716_2kx8_eprom.png",
