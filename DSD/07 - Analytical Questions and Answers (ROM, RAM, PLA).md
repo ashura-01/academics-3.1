@@ -132,15 +132,15 @@ tags: [digital-system-design, memory, rom, ram, pla, analytical-questions, lectu
 ### Q17. SRAM vs DRAM — Compare and state which is better for what use case.
 **Answer:**
 
-| Feature | SRAM (Static RAM) | DRAM (Dynamic RAM) |
-|---|---|---|
-| Storage mechanism | Internal **latches** | **Capacitor charge** (via MOS transistors) |
-| Needs refreshing? | No | Yes — every few milliseconds (charge decays over time) |
-| Speed | **Faster** — shorter read/write cycles | Slower |
-| Power consumption | **High** | **Reduced/lower** |
-| Density (bits per chip) | **Low** | **High** — more integration possible on one chip |
-| Cost | **Expensive** | Cheaper |
-| Best used for | **Cache memory** (speed matters most) | **Main memory / RAM** (capacity matters most, cost-sensitive) |
+| Feature                 | SRAM (Static RAM)                      | DRAM (Dynamic RAM)                                            |
+| ----------------------- | -------------------------------------- | ------------------------------------------------------------- |
+| Storage mechanism       | Internal **latches**                   | **Capacitor charge** (via MOS transistors)                    |
+| Needs refreshing?       | No                                     | Yes — every few milliseconds (charge decays over time)        |
+| Speed                   | **Faster** — shorter read/write cycles | Slower                                                        |
+| Power consumption       | **High**                               | **Reduced/lower**                                             |
+| Density (bits per chip) | **Low**                                | **High** — more integration possible on one chip              |
+| Cost                    | **Expensive**                          | Cheaper                                                       |
+| Best used for           | **Cache memory** (speed matters most)  | **Main memory / RAM** (capacity matters most, cost-sensitive) |
 
 **Which is better?** Neither is universally "better" — it's a **trade-off**:
 - Choose **SRAM** when speed is critical and the amount of memory needed is small → e.g., **CPU cache**.
