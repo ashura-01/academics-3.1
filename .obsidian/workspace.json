@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
+                "file": "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - RAM (Memory & Programmable Logic - Part 2)"
+              "title": "05 - ROM and PLA (Memory & Programmable Logic - Part 1)"
             }
           }
         ],
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
+                "file": "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -229,6 +229,7 @@
   },
   "active": "2ed83c7d8ffa79a5",
   "lastOpenFiles": [
+    "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
     "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
     "DSD/07 - Analytical Questions and Answers (ROM, RAM, PLA).md",
     "MNM/Lecture6_Memory_Interfacing_Notes.md",
@@ -243,7 +244,6 @@
     "DSD/attachments/L5_ROM_truth_table_example.png",
     "DSD/attachments/L5_ROM_block_diagram.png",
     "DSD/attachments",
-    "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
     "MNM/8086_Maximum_Mode_and_Clock_System.md",
     "cheating.md",
     "DSD/lacture4.md",
