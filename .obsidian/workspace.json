@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
+                "file": "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - RAM (Memory & Programmable Logic - Part 2)"
+              "title": "05 - ROM and PLA (Memory & Programmable Logic - Part 1)"
             }
           }
         ],
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
+                "file": "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -229,6 +229,7 @@
   },
   "active": "2ed83c7d8ffa79a5",
   "lastOpenFiles": [
+    "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
     "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
     "MNM/Lecture6_Memory_Interfacing_Notes.md",
     "MNM/8086_Maximum_Mode_and_Clock_System.md",
@@ -265,7 +266,6 @@
     "Econimics & accounting/Accounting in Action - Chapter 1.md",
     "Econimics & accounting/Economics Midterm Notes.md",
     "Econimics & accounting/Economics Midterm Notes-1.md",
-    "Econimics & accounting/Economics Introduction.md",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
     "MNM/attachments",
