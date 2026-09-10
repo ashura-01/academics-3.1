@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
+                "file": "MNM/Lecture6_Memory_Interfacing_Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 - ROM and PLA (Memory & Programmable Logic - Part 1)"
+              "title": "Lecture6_Memory_Interfacing_Notes"
             }
           }
         ],
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
+                "file": "MNM/Lecture6_Memory_Interfacing_Notes.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -209,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -227,22 +227,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ed83c7d8ffa79a5",
+  "active": "3c87678abc1f138a",
   "lastOpenFiles": [
+    "DSD/attachments/L6_memory_unit_block_and_address_table.png",
+    "DSD/attachments/L6_memory_hierarchy_pyramid.png",
+    "DSD/attachments/L6_commercial_RAM_and_2D_decoding.png",
+    "DSD/attachments/L6_RAM_cell_and_4x4_RAM.png",
+    "DSD/attachments/L6_64Kx8_RAM_chip.png",
+    "DSD/attachments/L6_256Kx8_RAM_and_32x8_ROM.png",
+    "DSD/attachments/L5_square_example_truth_table.png",
+    "DSD/attachments/L5_square_example_block_diagram.png",
+    "DSD/attachments/L5_ROM_truth_table_example.png",
+    "DSD/attachments/L5_ROM_block_diagram.png",
+    "DSD/attachments/L5_ROM_AND_OR_gates.png",
+    "DSD/attachments",
     "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
     "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
-    "MNM/Lecture6_Memory_Interfacing_Notes.md",
     "MNM/8086_Maximum_Mode_and_Clock_System.md",
-    "MNM/attachments/01_objectives.png",
-    "MNM/attachments/02_rom_ram_pin_connections.png",
-    "MNM/attachments/03_2716_2kx8_eprom.png",
-    "MNM/attachments/04_ram_memory_tms4016_sram.png",
-    "MNM/attachments/05_static_and_dynamic_ram.png",
-    "MNM/attachments/06_reading_writing_dram_cell.png",
-    "MNM/attachments/07_sram_faster_dram_denser.png",
-    "MNM/attachments/08_sram_read_write_operation.png",
-    "MNM/attachments/09_address_decoding_intro.png",
-    "MNM/attachments/10_address_decoding_nand_gate.png",
+    "MNM/Lecture6_Memory_Interfacing_Notes.md",
     "cheating.md",
     "DSD/lacture4.md",
     "MACS/The Josephus Problem.md",
@@ -265,7 +267,6 @@
     "database",
     "Econimics & accounting/Accounting in Action - Chapter 1.md",
     "Econimics & accounting/Economics Midterm Notes.md",
-    "Econimics & accounting/Economics Midterm Notes-1.md",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
     "MNM/attachments",
@@ -274,7 +275,6 @@
     "MACS/images",
     "MACS",
     "DSD/Lecture3.md.tmp.40777.d0959bf11682",
-    "DSD/Lecture3.md.tmp.40777.f361bcd382dd",
     "Untitled.canvas"
   ]
 }
