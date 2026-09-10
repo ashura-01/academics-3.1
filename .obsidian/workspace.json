@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MNM/Lecture6_Memory_Interfacing_Notes.md",
+                "file": "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture6_Memory_Interfacing_Notes"
+              "title": "05 - ROM and PLA (Memory & Programmable Logic - Part 1)"
             }
           }
         ],
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MNM/Lecture6_Memory_Interfacing_Notes.md",
+                "file": "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -209,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -227,8 +227,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c87678abc1f138a",
+  "active": "07c9875d2195a0fc",
   "lastOpenFiles": [
+    "MNM/Lecture6_Memory_Interfacing_Notes.md",
     "DSD/attachments/L6_memory_unit_block_and_address_table.png",
     "DSD/attachments/L6_memory_hierarchy_pyramid.png",
     "DSD/attachments/L6_commercial_RAM_and_2D_decoding.png",
@@ -239,12 +240,10 @@
     "DSD/attachments/L5_square_example_block_diagram.png",
     "DSD/attachments/L5_ROM_truth_table_example.png",
     "DSD/attachments/L5_ROM_block_diagram.png",
-    "DSD/attachments/L5_ROM_AND_OR_gates.png",
     "DSD/attachments",
     "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
     "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
     "MNM/8086_Maximum_Mode_and_Clock_System.md",
-    "MNM/Lecture6_Memory_Interfacing_Notes.md",
     "cheating.md",
     "DSD/lacture4.md",
     "MACS/The Josephus Problem.md",
