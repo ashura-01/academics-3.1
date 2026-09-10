@@ -190,12 +190,12 @@ tags: [digital-system-design, memory, rom, ram, pla, analytical-questions, lectu
 ### Q21. Mask ROM vs PROM vs EPROM vs EAROM — Compare programmability.
 **Answer:**
 
-| Type | Who programs it? | Can it be changed later? | Best for |
-|---|---|---|---|
-| **Mask ROM** | Manufacturer (during fabrication) | ❌ Never | **Large quantities** of the exact same chip (economical only at scale) |
-| **PROM** | User (with a PROM programmer, physically breaks fuses) | ❌ No — irreversible; must discard chip to change pattern | **Small quantities**, one-time custom programming |
-| **EPROM** | User (electrically), erased using **UV light** | ✅ Yes — can be erased & reprogrammed | Development/testing where the pattern needs occasional updates |
-| **EAROM** | User (electrically), erased using an **electrical signal** | ✅ Yes | Similar to EPROM but erase is electrical, not UV-light-based (more convenient) |
+| Type         | Who programs it?                                           | Can it be changed later?                                 | Best for                                                                       |
+| ------------ | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Mask ROM** | Manufacturer (during fabrication)                          | ❌ Never                                                  | **Large quantities** of the exact same chip (economical only at scale)         |
+| **PROM**     | User (with a PROM programmer, physically breaks fuses)     | ❌ No — irreversible; must discard chip to change pattern | **Small quantities**, one-time custom programming                              |
+| **EPROM**    | User (electrically), erased using **UV light**             | ✅ Yes — can be erased & reprogrammed                     | Development/testing where the pattern needs occasional updates                 |
+| **EAROM**    | User (electrically), erased using an **electrical signal** | ✅ Yes                                                    | Similar to EPROM but erase is electrical, not UV-light-based (more convenient) |
 
 **Which is better?** 
 - For **mass production**, Mask ROM is cheapest per unit.
