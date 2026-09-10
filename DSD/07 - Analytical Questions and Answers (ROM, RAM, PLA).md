@@ -149,13 +149,13 @@ tags: [digital-system-design, memory, rom, ram, pla, analytical-questions, lectu
 ### Q18. ROM vs RAM — Compare.
 **Answer:**
 
-| Feature | ROM | RAM |
-|---|---|---|
-| Can be written to (during normal use)? | ❌ No — read only | ✅ Yes — read and write |
-| Volatile? | **Non-volatile** (keeps data with no power) | **Volatile** (loses data with no power) |
-| Typical use | Boot instructions / OS startup, fixed lookup data | Currently running programs & data |
-| Speed | Comparable to RAM (fast) | Fast |
-| Changeable pattern | Fixed once programmed (except EPROM/EAROM which can be erased) | Freely changeable any time |
+| Feature                                | ROM                                                            | RAM                                     |
+| -------------------------------------- | -------------------------------------------------------------- | --------------------------------------- |
+| Can be written to (during normal use)? | ❌ No — read only                                               | ✅ Yes — read and write                  |
+| Volatile?                              | **Non-volatile** (keeps data with no power)                    | **Volatile** (loses data with no power) |
+| Typical use                            | Boot instructions / OS startup, fixed lookup data              | Currently running programs & data       |
+| Speed                                  | Comparable to RAM (fast)                                       | Fast                                    |
+| Changeable pattern                     | Fixed once programmed (except EPROM/EAROM which can be erased) | Freely changeable any time              |
 
 **Which is better?** Depends on purpose:
 - Need something that **survives power-off** and shouldn't change (e.g., boot code, fixed logic tables) → **ROM**.
