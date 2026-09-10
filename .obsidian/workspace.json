@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
+                "file": "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 - ROM and PLA (Memory & Programmable Logic - Part 1)"
+              "title": "06 - RAM (Memory & Programmable Logic - Part 2)"
             }
           }
         ],
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
+                "file": "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -229,9 +229,9 @@
   },
   "active": "2ed83c7d8ffa79a5",
   "lastOpenFiles": [
-    "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
-    "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
     "DSD/07 - Analytical Questions and Answers (ROM, RAM, PLA).md",
+    "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
+    "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
     "MNM/Lecture6_Memory_Interfacing_Notes.md",
     "DSD/attachments/L6_memory_unit_block_and_address_table.png",
     "DSD/attachments/L6_memory_hierarchy_pyramid.png",
