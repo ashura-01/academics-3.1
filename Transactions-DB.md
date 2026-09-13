@@ -38,13 +38,14 @@ A **transaction** is a collection of database operations that forms a single log
 #### **C – Consistency ("Preserving Rules and Totals")**
 
 - **The Concept:** Executing a transaction alone must transform the database from one valid state to another, preserving overall business rules.
-- **The Scenario:** Before the transfer, the total balance across both accounts is $1,000 + $2,000 = **$3,000**. After a successful transfer, $950 + $2,050 = **$3,000**.
+- **The Scenario:** Before the transfer, the total balance across both accounts is 
+  **$1,000 + $2,000 =** **$3,000**. After a successful transfer, **$950 + $2,050 =** **$3,000**.
 - **How it works:** Consistency ensures that money is neither created nor destroyed out of nowhere. Writing logic to preserve this application consistency is the programmer's responsibility.
 
 #### **I – Isolation ("No Interference from Concurrent Users")**
 
 - **The Concept:** Concurrently running transactions must operate without interfering with one another, so each transaction feels like it is running alone.
-- **The Scenario:** Suppose you transfer $50 while an automated bank audit program calculates your total wealth. If the audit reads Account A after step 3 ($950) and Account B before step 6 ($2,000), it sees a total of $2,950—an incorrect, inconsistent value.
+- **The Scenario:** Suppose you transfer *$50* while an automated bank audit program calculates your total wealth. If the audit reads Account A after step 3 ($950) and Account B before step 6 ($2,000), it sees a total of $2,950—an incorrect, inconsistent value.
 - **How it works:** The **concurrency-control system** isolates active transactions so intermediate, uncommitted changes are hidden from other users.
 
 #### **D – Durability ("Permanent Results")**
