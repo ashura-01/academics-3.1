@@ -95,13 +95,12 @@ During its run, a transaction moves through 5 states:
 
 4. Conflict Serializability & The Precedence Graph
 
-**What is Conflict Serializability?**
-
-Instead of analyzing complex program logic, the database checks safety by looking at **conflicting instructions**1415:
-
-- **What counts as a conflict?** Two operations conflict if they belong to **different transactions**, target the **exact same data item**, and **at least one is a** **write** **operation**1516.
-- **Swapping non-conflicting steps:** If two adjacent steps in a schedule do **not** conflict (e.g., two `read` operations, or operations on completely different account balances), you can swap their order without changing the final result1517.
-- **The Test:** If you can turn an interleaved schedule into a step-by-step serial schedule just by swapping non-conflicting operations, the schedule is **conflict serializable**1819.
+	What is Conflict Serializability?
+	Instead of analyzing complex program logic, the database checks safety by looking at **conflicting instructions**1415:
+	
+	- **What counts as a conflict?** Two operations conflict if they belong to **different transactions**, target the **exact same data item**, and **at least one is a** **write** **operation**1516.
+	- **Swapping non-conflicting steps:** If two adjacent steps in a schedule do **not** conflict (e.g., two `read` operations, or operations on completely different account balances), you can swap their order without changing the final result1517.
+	- **The Test:** If you can turn an interleaved schedule into a step-by-step serial schedule just by swapping non-conflicting operations, the schedule is **conflict serializable**1819.
 ---
 
 ### 5. Recoverable & Cascadeless Schedules
@@ -120,4 +119,3 @@ SQL lets developers trade strict isolation for higher system performance:
 3. **Repeatable Read:** Guarantees that data read once during a transaction won't be modified by another transaction until completed.
 4. **Serializable:** The strictest level; guarantees fully serializable execution.
 
-💡 Would you like to practice identifying conflict serializability using a small sample schedule, or generate a quiz to test your understanding of these concepts?
