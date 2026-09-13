@@ -19,4 +19,11 @@ Described below
 ## Transaction States
 
 During Execution a transaction transitions through five main satates.
-1. **Active**: The initial state while the transaction is exe
+1. **Active**: The initial state while the transaction is executing.
+2. **Partially Committed**: Entered after the final statement has executed, but before updates are fully persisted to disk.
+3. **Failed**: enter upon discovering that normal execution can no longer proceed due to logical errors or system failures
+4. **Aborted**: ENtered after the transaction is rolled back and the database state is restored to its condition prior to execution
+5. **Committed**: the final state after successful compeltion, ensuring updates persiste permanetly.
+
+##
+
