@@ -45,7 +45,7 @@ A **transaction** is a collection of database operations that forms a single log
 #### **I – Isolation ("No Interference from Concurrent Users")**
 
 - **The Concept:** Concurrently running transactions must operate without interfering with one another, so each transaction feels like it is running alone.
-- **The Scenario:** Suppose you transfer *$50* while an automated bank audit program calculates your total wealth. If the audit reads Account A after step 3 ($950) and Account B before step 6 ($2,000), it sees a total of $2,950—an incorrect, inconsistent value.
+- **The Scenario:** Suppose you transfer *$50* while an automated bank audit program calculates your total wealth. If the audit reads Account A after **step 3 ($950)** and Account B before **step 6 ($2,000)**, it sees a total of **$2,950**—an incorrect, inconsistent value.
 - **How it works:** The **concurrency-control system** isolates active transactions so intermediate, uncommitted changes are hidden from other users.
 
 #### **D – Durability ("Permanent Results")**

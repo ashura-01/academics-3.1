@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#computer-architecture",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -212,7 +212,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ee5d96818112ea1",
+  "active": "45dde854ab63284f",
   "lastOpenFiles": [
     "MNM/cheating.md",
     "Transactions-DB.md",
