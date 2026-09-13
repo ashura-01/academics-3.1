@@ -15,3 +15,8 @@ Described below
 - **Isolation** -> Gurantees that concurrently executing transcation operate without interference, making it appear to each transaction as though no other transcations are running concurrently. this is managed by concurrency control system
 
 - **Durablity** -> ensures that once a transaction completes successfully (commits). its updates persist in the database even in the event of system failures
+
+## Transaction States
+
+During Execution a transaction transitions through five main satates.
+1. **Active**: The initial state while the transaction is exe
