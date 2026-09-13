@@ -179,7 +179,7 @@ color: #b8bbff8a !important;
 /* === HORIZONTAL RULE === */
 .markdown-rendered hr,
 .cm-hr {
-  border-top: 1px solid rgba(140, 150, 255, 0.35) !important;
+  border-top: 1px solid rgba(140, 150, 255, 0.699) !important;
 }
 
 /* === TAGS === */
