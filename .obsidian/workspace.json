@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sql-transaction-isolation-levels.md",
+                "file": "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sql-transaction-isolation-levels"
+              "title": "Profit_Maximization_Q1_Q5_Q6_Explained"
             }
           }
         ]
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sql-transaction-isolation-levels.md",
+                "file": "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -212,8 +212,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45dde854ab63284f",
+  "active": "3ee5d96818112ea1",
   "lastOpenFiles": [
+    "sql-transaction-isolation-levels.md",
     "Econimics & accounting/attachments/q5_perfect_competition_loss.png",
     "Econimics & accounting/attachments/q1_perfect_competition_profit.png",
     "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
@@ -233,7 +234,6 @@
     "MNM/attachments/06_reading_writing_dram_cell.png",
     "MNM/attachments/07_sram_faster_dram_denser.png",
     "MNM/attachments/08_sram_read_write_operation.png",
-    "MNM/attachments/09_address_decoding_intro.png",
     "MACS/The Josephus Problem.md",
     "MACS/Sums.md",
     "MACS/recurrence_basics.md",
