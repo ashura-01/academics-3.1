@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2beeca960901c2b6",
+        "id": "4f01a2d35c45abf5",
         "type": "tabs",
         "children": [
           {
-            "id": "3ee5d96818112ea1",
+            "id": "f00626bf83a696d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#computer-architecture",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -212,28 +212,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ee5d96818112ea1",
+  "active": "f00626bf83a696d3",
   "lastOpenFiles": [
+    "DSD/07 - Analytical Questions and Answers (ROM, RAM, PLA).md",
     "sql-transaction-isolation-levels.md",
+    "database/Transactions-DB.md",
+    "MNM/cheating.md",
     "Econimics & accounting/attachments/q5_perfect_competition_loss.png",
     "Econimics & accounting/attachments/q1_perfect_competition_profit.png",
     "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
-    "database/Transactions-DB.md",
-    "MNM/cheating.md",
-    "DSD/lacture4.md",
-    "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
-    "DSD/07 - Analytical Questions and Answers (ROM, RAM, PLA).md",
     "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
+    "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
     "MNM/Lecture6_Memory_Interfacing_Notes.md",
+    "DSD/attachments/L6_memory_unit_block_and_address_table.png",
+    "DSD/attachments/L6_memory_hierarchy_pyramid.png",
+    "DSD/attachments/L6_commercial_RAM_and_2D_decoding.png",
+    "DSD/attachments/L6_RAM_cell_and_4x4_RAM.png",
+    "DSD/attachments/L6_64Kx8_RAM_chip.png",
+    "DSD/attachments/L6_256Kx8_RAM_and_32x8_ROM.png",
+    "DSD/attachments/L5_square_example_truth_table.png",
+    "DSD/attachments/L5_square_example_block_diagram.png",
+    "DSD/attachments",
     "MNM/8086_Maximum_Mode_and_Clock_System.md",
-    "MNM/attachments/01_objectives.png",
-    "MNM/attachments/02_rom_ram_pin_connections.png",
-    "MNM/attachments/03_2716_2kx8_eprom.png",
-    "MNM/attachments/04_ram_memory_tms4016_sram.png",
-    "MNM/attachments/05_static_and_dynamic_ram.png",
-    "MNM/attachments/06_reading_writing_dram_cell.png",
-    "MNM/attachments/07_sram_faster_dram_denser.png",
-    "MNM/attachments/08_sram_read_write_operation.png",
+    "cheating.md",
+    "DSD/lacture4.md",
     "MACS/The Josephus Problem.md",
     "MACS/Sums.md",
     "MACS/recurrence_basics.md",
@@ -249,7 +251,6 @@
     "database/03 - Relational Algebra - Binary Operations.md",
     "database/05 - Aggregate Functions and Assignment Operation.md",
     "database/02 - Relational Algebra - Unary Operations.md",
-    "database/00 - Introduction to DBMS.md",
     "database",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
@@ -259,7 +260,6 @@
     "MACS/images",
     "MACS",
     "DSD/Lecture3.md.tmp.40777.d0959bf11682",
-    "DSD/Lecture3.md.tmp.40777.f361bcd382dd",
     "Untitled.canvas"
   ]
 }
