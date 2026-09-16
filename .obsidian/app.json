@@ -1,9 +1,6 @@
 {
+  "strictLineBreaks": false,
   "showInlineTitle": false,
-  "pdfExportSettings": {
-    "pageSize": "Letter",
-    "landscape": false,
-    "margin": "0",
-    "downscalePercent": 100
-  }
+  "attachmentFolderPath": "0",
+  "alwaysUpdateLinks": true
 }

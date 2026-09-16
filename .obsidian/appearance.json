@@ -3,5 +3,7 @@
   "cssTheme": "Tokyo Night Simple",
   "showViewHeader": false,
   "showRibbon": true,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "baseFontSize": 16
 }
