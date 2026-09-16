@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
+                "file": "sql-transaction-isolation-levels.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Profit_Maximization_Q1_Q5_Q6_Explained"
+              "title": "sql-transaction-isolation-levels"
             }
           }
         ]
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
+                "file": "sql-transaction-isolation-levels.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -214,13 +214,13 @@
   },
   "active": "f00626bf83a696d3",
   "lastOpenFiles": [
+    "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
     "DSD/07 - Analytical Questions and Answers (ROM, RAM, PLA).md",
     "sql-transaction-isolation-levels.md",
     "database/Transactions-DB.md",
     "MNM/cheating.md",
     "Econimics & accounting/attachments/q5_perfect_competition_loss.png",
     "Econimics & accounting/attachments/q1_perfect_competition_profit.png",
-    "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
     "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
     "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
     "MNM/Lecture6_Memory_Interfacing_Notes.md",
