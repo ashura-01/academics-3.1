@@ -1,4 +1,4 @@
-# Journal → Ledger → Trial Balance — 20-Min Exam Sheet
+# Journal → Ledger → Trial Balance — Exam Sheet
 
 ---
 
@@ -17,251 +17,441 @@ Memory trick — ADE = Dr (Assets, Drawings, Expenses) | CLIP = Cr (Capital, Lia
 
 ---
 
-## STEP 1 — JOURNAL
+# STEP 1 — JOURNAL
 
-### How to Write Any Journal Entry
+---
 
-| Step | What to do |
-|---|---|
-| 1 | Identify what came in and what went out |
-| 2 | Classify each item — Asset? Expense? Liability? Revenue? |
-| 3 | Apply the rule — if it increases, use that account's normal side |
-| 4 | Check — Total Dr must = Total Cr |
+## Problem 1 — Moin's Business (July 2020)
 
-### Journal Entry Format
+On July 1, 2020 Moin started business with Tk. 100,000 and other transactions:
+- July 2: Purchase Furniture for Cash Tk. 7,000
+- July 8: Purchase Goods for Cash Tk. 2,000 and Credit Tk. 1,000 from Khalid
+- July 14: Sold Goods to Khan Brothers Tk. 12,000 and Cash Sales Tk. 5,000
+- July 18: Owner withdrew Tk. 2,000 for personal use
+- July 22: Paid Khalid Retail Store Tk. 500
+- July 26: Received Tk. 10,000 from Khan Brothers
+- July 30: Paid Salaries Tk. 2,000
 
-| Date | Account Name | Ref | Debit | Credit |
+### July 1 — Moin started business with Tk. 100,000 cash
+
+**Q: What came in? What was given?**
+
+Cash came in → Cash is Asset → Asset increases → Dr
+Moin gave his own money → that is Capital → Equity increases → Cr
+
+| Date | Account | Ref | Dr | Cr |
 |---|---|---|---|---|
-| Apr 1 | Cash Dr | 101 | 20,000 | |
-| | Capital Cr | 301 | | 20,000 |
-
-### Common Transaction Patterns with Math
-
-| Transaction | Debit | Credit | Math Example |
-|---|---|---|---|
-| Owner invests cash | Cash | Capital | Cash Dr 20,000 / Capital Cr 20,000 |
-| Buy asset for cash | Asset | Cash | Furniture Dr 7,000 / Cash Cr 7,000 |
-| Buy goods on credit | Purchase | Accounts Payable | Purchase Dr 1,000 / A/P Cr 1,000 |
-| Buy goods for cash | Purchase | Cash | Purchase Dr 2,000 / Cash Cr 2,000 |
-| Sell goods for cash | Cash | Sales Revenue | Cash Dr 5,000 / Sales Cr 5,000 |
-| Sell goods on credit | Accounts Receivable | Sales Revenue | A/R Dr 12,000 / Sales Cr 12,000 |
-| Pay any expense | Expense | Cash | Salary Exp Dr 2,000 / Cash Cr 2,000 |
-| Pay a creditor | Accounts Payable | Cash | A/P Dr 500 / Cash Cr 500 |
-| Receive from debtor | Cash | Accounts Receivable | Cash Dr 10,000 / A/R Cr 10,000 |
-| Owner withdraws cash | Drawings | Cash | Drawings Dr 2,000 / Cash Cr 2,000 |
-| Receive advance from customer | Cash | Unearned Revenue | Cash Dr 15,000 / Unearned Rev Cr 15,000 |
-| Prepay insurance | Prepaid Insurance | Cash | Prepaid Ins Dr 3,000 / Cash Cr 3,000 |
-| Take a bank loan | Cash / Bank | Bank Loan | Cash Dr 20,000 / Bank Loan Cr 25,000 |
-| Buy equipment part cash part note | Equipment | Cash + Notes Payable | Equip Dr 100,000 / Cash Cr 25,000 / Notes Cr 75,000 |
+| July 1 | Cash Dr | | 100,000 | |
+| | Owner's Capital Cr | | | 100,000 |
+| | Check | | 100,000 | 100,000 ✅ |
 
 ---
 
-## FULL JOURNAL WALKTHROUGH — Vera Ernst (April 2020)
+### July 2 — Purchased Furniture for Cash Tk. 7,000
 
-### Apr 1 — Invested $20,000 cash
+**Q: What came in? What went out?**
 
-| Thinking | Answer |
-|---|---|
-| Cash came IN | Asset → increases → Dr |
-| Capital given | Equity → increases → Cr |
+Furniture came in → Asset → increases → Dr
+Cash went out → Asset → decreases → Cr
 
-| Account | Dr | Cr |
-|---|---|---|
-| Cash | 20,000 | |
-| Capital | | 20,000 |
-| Check | 20,000 | 20,000 ✅ |
-
-### Apr 2 — Paid rent $1,500
-
-| Thinking | Answer |
-|---|---|
-| Rent is expense | Expense → Dr |
-| Cash went OUT | Asset → decreases → Cr |
-
-| Account | Dr | Cr |
-|---|---|---|
-| Rent Expense | 1,500 | |
-| Cash | | 1,500 |
-| Check | 1,500 | 1,500 ✅ |
-
-### Apr 3 — Bought supplies on credit $4,000
-
-| Thinking | Answer |
-|---|---|
-| Supplies came IN | Asset → Dr |
-| Did not pay cash, owe Dazzle | Liability → increases → Cr |
-
-| Account | Dr | Cr |
-|---|---|---|
-| Supplies | 4,000 | |
-| Accounts Payable | | 4,000 |
-| Check | 4,000 | 4,000 ✅ |
-
-### Apr 10 — Billed insurance companies $5,100 (cash not received yet)
-
-| Thinking | Answer |
-|---|---|
-| Work done, money owed TO us | Accounts Receivable (Asset) → Dr |
-| Revenue earned | Service Revenue → Cr |
-
-| Account | Dr | Cr |
-|---|---|---|
-| Accounts Receivable | 5,100 | |
-| Service Revenue | | 5,100 |
-| Check | 5,100 | 5,100 ✅ |
-
-### Apr 11 — Received $1,000 advance, work NOT done yet
-
-| Thinking | Answer |
-|---|---|
-| Cash came IN | Cash → Dr |
-| Work not done, we still OWE the service | Unearned Revenue (Liability) → Cr |
-
-| Account | Dr | Cr |
-|---|---|---|
-| Cash | 1,000 | |
-| Unearned Revenue | | 1,000 |
-| Check | 1,000 | 1,000 ✅ |
-
-### Apr 20 — Received $2,100 cash for services done now
-
-| Account | Dr | Cr |
-|---|---|---|
-| Cash | 2,100 | |
-| Service Revenue | | 2,100 |
-| Check | 2,100 | 2,100 ✅ |
-
-### Apr 30 — Paid salary $2,800
-
-| Account | Dr | Cr |
-|---|---|---|
-| Salary Expense | 2,800 | |
-| Cash | | 2,800 |
-| Check | 2,800 | 2,800 ✅ |
-
-### Apr 30 — Paid Dazzle $2,600
-
-| Thinking | Answer |
-|---|---|
-| We owe Dazzle less now | Accounts Payable (Liability) decreases → Dr |
-| Cash went OUT | Cash → Cr |
-
-| Account | Dr | Cr |
-|---|---|---|
-| Accounts Payable | 2,600 | |
-| Cash | | 2,600 |
-| Check | 2,600 | 2,600 ✅ |
+| Date | Account | Ref | Dr | Cr |
+|---|---|---|---|---|
+| July 2 | Furniture Dr | | 7,000 | |
+| | Cash Cr | | | 7,000 |
+| | Check | | 7,000 | 7,000 ✅ |
 
 ---
 
-## STEP 2 — LEDGER (T-Accounts)
+### July 8 — Purchase Goods Tk. 2,000 cash + Tk. 1,000 credit from Khalid
 
-### How to Post
+**Q: What came in? How was it paid?**
+
+Goods came in → Purchase (Expense) → Dr total = 2,000 + 1,000 = 3,000
+Cash paid Tk. 2,000 → Asset decreases → Cr 2,000
+Still owe Khalid Tk. 1,000 → Liability increases → Cr 1,000
+
+| Date | Account | Ref | Dr | Cr |
+|---|---|---|---|---|
+| July 8 | Purchase Dr | | 3,000 | |
+| | Cash Cr | | | 2,000 |
+| | Accounts Payable Cr | | | 1,000 |
+| | Check | | 3,000 | 3,000 ✅ |
+
+---
+
+### July 14 — Sold to Khan Brothers Tk. 12,000 + Cash Sales Tk. 5,000
+
+**Q: What did we receive? In what form?**
+
+Cash received Tk. 5,000 → Asset → Dr 5,000
+Khan Brothers owes us Tk. 12,000 → Accounts Receivable (Asset) → Dr 12,000
+Total sales revenue = 5,000 + 12,000 = 17,000 → Revenue → Cr 17,000
+
+| Date | Account | Ref | Dr | Cr |
+|---|---|---|---|---|
+| July 14 | Cash Dr | | 5,000 | |
+| | Accounts Receivable Dr | | 12,000 | |
+| | Sales Revenue Cr | | | 17,000 |
+| | Check | | 17,000 | 17,000 ✅ |
+
+---
+
+### July 18 — Owner withdrew Tk. 2,000 for personal use
+
+**Q: Who took money? For what purpose?**
+
+Owner took money for personal use → Drawings → Dr 2,000
+Cash went out → Asset decreases → Cr 2,000
+
+| Date | Account | Ref | Dr | Cr |
+|---|---|---|---|---|
+| July 18 | Drawings Dr | | 2,000 | |
+| | Cash Cr | | | 2,000 |
+| | Check | | 2,000 | 2,000 ✅ |
+
+---
+
+### July 22 — Paid Khalid Tk. 500
+
+**Q: What happens to our debt? What goes out?**
+
+We owe Khalid less → Accounts Payable (Liability) decreases → Dr 500
+Cash went out → Asset decreases → Cr 500
+
+| Date | Account | Ref | Dr | Cr |
+|---|---|---|---|---|
+| July 22 | Accounts Payable Dr | | 500 | |
+| | Cash Cr | | | 500 |
+| | Check | | 500 | 500 ✅ |
+
+---
+
+### July 26 — Received Tk. 10,000 from Khan Brothers
+
+**Q: What came in? What happens to what Khan owed us?**
+
+Cash came in → Asset → Dr 10,000
+Khan Brothers owes us less now → Accounts Receivable decreases → Cr 10,000
+
+| Date | Account | Ref | Dr | Cr |
+|---|---|---|---|---|
+| July 26 | Cash Dr | | 10,000 | |
+| | Accounts Receivable Cr | | | 10,000 |
+| | Check | | 10,000 | 10,000 ✅ |
+
+---
+
+### July 30 — Paid Salaries Tk. 2,000
+
+**Q: What expense happened? What went out?**
+
+Salary is an expense → Expense → Dr 2,000
+Cash went out → Asset → Cr 2,000
+
+| Date | Account | Ref | Dr | Cr |
+|---|---|---|---|---|
+| July 30 | Salaries Expense Dr | | 2,000 | |
+| | Cash Cr | | | 2,000 |
+| | Check | | 2,000 | 2,000 ✅ |
+
+---
+
+## Problem 2 — Discounts (Farhan Rahim, March 2021)
+
+### March 21 — Paid Bilal Tk. 975, Discount Received Tk. 25
+
+**Q: How much did Farhan originally owe Bilal?**
+
+From March 8 entry — Farhan bought goods Tk. 1,000 on credit from Bilal.
+So full debt = Tk. 1,000
+
+**Q: He only paid Tk. 975. Where did the Tk. 25 go?**
+
+Bilal gave a discount of Tk. 25 for early payment.
+That Tk. 25 is income for Farhan → Discount Received → Cr
+
+**Q: How do we record it?**
+
+Rule: Always Dr/Cr the FULL original amount for Accounts Payable (Tk. 1,000)
+Then Cr Cash only what was actually paid (Tk. 975)
+The difference Tk. 25 is Discount Received → Cr
+
+| Math | Amount |
+|---|---|
+| Full amount owed | Tk. 1,000 |
+| Cash actually paid | Tk. 975 |
+| Discount Received | 1,000 − 975 = Tk. 25 |
+| Check: 975 + 25 | = 1,000 ✅ |
+
+| Date | Account | Ref | Dr | Cr |
+|---|---|---|---|---|
+| Mar 21 | Accounts Payable Dr | | 1,000 | |
+| | Cash Cr | | | 975 |
+| | Discount Received Cr | | | 25 |
+| | Check | | 1,000 | 1,000 ✅ |
+
+---
+
+### March 28 — Received Tk. 1,450 from Rehman, Allowed Discount Tk. 50
+
+**Q: How much did Rehman originally owe Farhan?**
+
+From March 13 — Farhan sold goods Tk. 1,500 on credit to Rehman.
+So full debt = Tk. 1,500
+
+**Q: Farhan only received Tk. 1,450. Where did Tk. 50 go?**
+
+Farhan allowed Rehman a discount for early payment.
+That Tk. 50 is a loss for Farhan → Discount Paid/Allowed → Dr (Expense)
+
+**Q: How do we record it?**
+
+Rule: Always Cr the FULL original amount for Accounts Receivable (Tk. 1,500)
+Dr Cash only what was actually received (Tk. 1,450)
+The difference Tk. 50 is Discount Paid → Dr
+
+| Math | Amount |
+|---|---|
+| Full amount owed by Rehman | Tk. 1,500 |
+| Cash actually received | Tk. 1,450 |
+| Discount Allowed | 1,500 − 1,450 = Tk. 50 |
+| Check: 1,450 + 50 | = 1,500 ✅ |
+
+| Date | Account | Ref | Dr | Cr |
+|---|---|---|---|---|
+| Mar 28 | Cash Dr | | 1,450 | |
+| | Discount Paid Dr | | 50 | |
+| | Accounts Receivable Cr | | | 1,500 |
+| | Check | | 1,500 | 1,500 ✅ |
+
+---
+
+## Problem 3 — Trade Discount (Saeed Enterprise, June 2019)
+
+### June 2 — Purchased goods list price Tk. 6,000 with 10% trade discount, paid cash
+
+**Q: What is a trade discount?**
+
+It is a discount given on the list price BEFORE the deal. It is never recorded in the journal. You just do the math first and record the final amount only.
+
+**Q: How much do we actually record?**
+
+| Math | Amount |
+|---|---|
+| List Price | Tk. 6,000 |
+| Trade Discount 10% | 6,000 × 10 ÷ 100 = Tk. 600 |
+| Amount to Record | 6,000 − 600 = Tk. 5,400 |
+
+**Q: So what is the journal entry?**
+
+Goods came in → Purchase → Dr 5,400
+Cash went out → Cr 5,400
+The Tk. 600 discount NEVER appears anywhere.
+
+| Date | Account | Ref | Dr | Cr |
+|---|---|---|---|---|
+| June 2 | Purchase Dr | | 5,400 | |
+| | Cash Cr | | | 5,400 |
+| | Check | | 5,400 | 5,400 ✅ |
+
+---
+
+## Discount Summary
+
+| Type | When it happens | Record in Journal? | Effect on you | Which column in Trial Balance |
+|---|---|---|---|---|
+| Trade Discount | Discount on list price before buying | NO — just subtract | Saves money | Never appears |
+| Discount Received | You pay your creditor early | YES | Income (good for you) | Credit column |
+| Discount Allowed | Your debtor pays you early | YES | Expense (loss for you) | Debit column |
+
+---
+
+## Special Cases — Question and Answer Style
+
+### Q: Goods worth Tk. 200 distributed as free samples. How to record?
+
+Goods left the business → reduce Purchase (Cr)
+It is for advertising purposes → Advertisement Expense (Dr)
+
+| Account | Dr | Cr |
+|---|---|---|
+| Advertisement Expense | 200 | |
+| Purchase | | 200 |
+| Check | 200 | 200 ✅ |
+
+---
+
+### Q: Owner took goods worth Tk. 100 for personal use. How to record?
+
+Goods left the business → reduce Purchase (Cr)
+Owner took it for personal use → Drawings (Dr)
+
+| Account | Dr | Cr |
+|---|---|---|
+| Drawings | 100 | |
+| Purchase | | 100 |
+| Check | 100 | 100 ✅ |
+
+---
+
+### Q: Bad debt of Tk. 100. Customer cannot pay. How to record?
+
+We can no longer collect → Accounts Receivable decreases (Cr)
+It is a loss for us → Bad Debt Expense (Dr)
+
+| Account | Dr | Cr |
+|---|---|---|
+| Bad Debt Expense | 100 | |
+| Accounts Receivable | | 100 |
+| Check | 100 | 100 ✅ |
+
+---
+
+### Q: Furniture lost by fire worth Tk. 500. How to record?
+
+Furniture is gone → Asset decreases (Cr)
+It is a loss → Miscellaneous Loss (Dr)
+
+| Account | Dr | Cr |
+|---|---|---|
+| Miscellaneous Loss | 500 | |
+| Furniture | | 500 |
+| Check | 500 | 500 ✅ |
+
+---
+
+### Q: Depreciation Tk. 500 on equipment. How to record?
+
+Equipment loses value → Accumulated Depreciation (Cr) — note: NOT the asset directly
+It is an expense → Depreciation Expense (Dr)
+
+| Account | Dr | Cr |
+|---|---|---|
+| Depreciation Expense | 500 | |
+| Accumulated Depreciation | | 500 |
+| Check | 500 | 500 ✅ |
+
+---
+
+### Q: Rent expense Tk. 4,400 paid cash but Tk. 600 is still owed (accrued). How to record?
+
+Total rent expense = 4,400 + 600 = Tk. 5,000 → Expense (Dr)
+Cash paid only Tk. 4,400 → Cr 4,400
+Still owe Tk. 600 → Rent Payable (Liability) → Cr 600
+
+| Account | Dr | Cr |
+|---|---|---|
+| Rent Expense | 5,000 | |
+| Cash | | 4,400 |
+| Rent Payable | | 600 |
+| Check | 5,000 | 5,000 ✅ |
+
+---
+
+# STEP 2 — LEDGER
+
+### Q: What is a ledger and why do we need it?
+
+The journal records everything in date order. The ledger takes every journal entry and groups them by account name into T-shapes so you can see the total for each account.
+
+### Q: How do you post from journal to ledger?
 
 | Step | What to do |
 |---|---|
-| 1 | Every Debit in journal → write on LEFT side of that account |
-| 2 | Every Credit in journal → write on RIGHT side of that account |
-| 3 | Add up both sides |
-| 4 | Subtract smaller from larger — that is the closing balance |
-| 5 | Left bigger = Debit Balance. Right bigger = Credit Balance |
+| 1 | Find every line in the journal that affects this account |
+| 2 | If the journal says Dr → write that amount on the LEFT side |
+| 3 | If the journal says Cr → write that amount on the RIGHT side |
+| 4 | Add up the LEFT side total |
+| 5 | Add up the RIGHT side total |
+| 6 | Subtract smaller from larger — that is the closing balance |
+| 7 | If LEFT is bigger → Debit Balance. If RIGHT is bigger → Credit Balance |
 
-### Cash Account (No. 101)
+---
+
+### Q: Post the Cash account for Vera Ernst (April 2020)
+
+Which journal entries touched Cash?
+
+| Date | Reason | Dr or Cr | Amount |
+|---|---|---|---|
+| Apr 1 | Capital invested | Dr | 20,000 |
+| Apr 2 | Rent paid | Cr | 1,500 |
+| Apr 11 | Advance received | Dr | 1,000 |
+| Apr 20 | Service income | Dr | 2,100 |
+| Apr 30 | Salary paid | Cr | 2,800 |
+| Apr 30 | Paid Dazzle | Cr | 2,600 |
+
+Cash T-Account:
 
 | Dr (Left) | Amount | Cr (Right) | Amount |
 |---|---|---|---|
 | Apr 1 Capital | 20,000 | Apr 2 Rent | 1,500 |
 | Apr 11 Advance | 1,000 | Apr 30 Salary | 2,800 |
 | Apr 20 Service | 2,100 | Apr 30 Dazzle | 2,600 |
-| Total | 23,100 | Total | 6,900 |
+| **Total** | **23,100** | **Total** | **6,900** |
 
-Balance = 23,100 − 6,900 = **$16,200 Dr**
+**Q: What is the closing balance?**
 
-### Accounts Receivable (No. 112)
+23,100 − 6,900 = **$16,200 Debit Balance** (Left side is bigger so it is Dr)
+
+---
+
+### Q: Post the Accounts Payable account for Vera Ernst
+
+Which journal entries touched Accounts Payable?
+
+| Date | Reason | Dr or Cr | Amount |
+|---|---|---|---|
+| Apr 3 | Bought supplies on credit | Cr | 4,000 |
+| Apr 30 | Paid Dazzle | Dr | 2,600 |
+
+Accounts Payable T-Account:
 
 | Dr (Left) | Amount | Cr (Right) | Amount |
 |---|---|---|---|
-| Apr 10 Billed | 5,100 | — | — |
-| Total | 5,100 | Total | 0 |
+| Apr 30 Paid | 2,600 | Apr 3 Bought | 4,000 |
+| **Total** | **2,600** | **Total** | **4,000** |
 
-Balance = **$5,100 Dr**
+**Q: What is the closing balance?**
 
-### Supplies (No. 126)
+4,000 − 2,600 = **$1,400 Credit Balance** (Right side is bigger so it is Cr)
 
-| Dr (Left) | Amount | Cr (Right) | Amount |
+---
+
+### Q: Post Service Revenue for Vera Ernst
+
+| Date | Reason | Dr or Cr | Amount |
 |---|---|---|---|
-| Apr 3 Bought | 4,000 | — | — |
-| Total | 4,000 | Total | 0 |
+| Apr 10 | Billed insurance | Cr | 5,100 |
+| Apr 20 | Cash service | Cr | 2,100 |
 
-Balance = **$4,000 Dr**
-
-### Accounts Payable (No. 201)
-
-| Dr (Left) | Amount | Cr (Right) | Amount |
-|---|---|---|---|
-| Apr 30 Paid Dazzle | 2,600 | Apr 3 Bought on credit | 4,000 |
-| Total | 2,600 | Total | 4,000 |
-
-Balance = 4,000 − 2,600 = **$1,400 Cr**
-
-### Unearned Revenue (No. 209)
-
-| Dr (Left) | Amount | Cr (Right) | Amount |
-|---|---|---|---|
-| — | — | Apr 11 Advance | 1,000 |
-| Total | 0 | Total | 1,000 |
-
-Balance = **$1,000 Cr**
-
-### Capital (No. 301)
-
-| Dr (Left) | Amount | Cr (Right) | Amount |
-|---|---|---|---|
-| — | — | Apr 1 Investment | 20,000 |
-| Total | 0 | Total | 20,000 |
-
-Balance = **$20,000 Cr**
-
-### Service Revenue (No. 400)
+Service Revenue T-Account:
 
 | Dr (Left) | Amount | Cr (Right) | Amount |
 |---|---|---|---|
 | — | — | Apr 10 Billed | 5,100 |
-| — | — | Apr 20 Cash service | 2,100 |
-| Total | 0 | Total | 7,200 |
+| — | — | Apr 20 Cash | 2,100 |
+| **Total** | **0** | **Total** | **7,200** |
 
-Balance = **$7,200 Cr**
-
-### Salary Expense (No. 726)
-
-| Dr (Left) | Amount | Cr (Right) | Amount |
-|---|---|---|---|
-| Apr 30 Paid | 2,800 | — | — |
-| Total | 2,800 | Total | 0 |
-
-Balance = **$2,800 Dr**
-
-### Rent Expense (No. 729)
-
-| Dr (Left) | Amount | Cr (Right) | Amount |
-|---|---|---|---|
-| Apr 2 Paid | 1,500 | — | — |
-| Total | 1,500 | Total | 0 |
-
-Balance = **$1,500 Dr**
+Closing Balance = **$7,200 Credit**
 
 ---
 
-## STEP 3 — TRIAL BALANCE
+# STEP 3 — TRIAL BALANCE
 
-### Which Column Each Account Goes In
+### Q: What is a Trial Balance?
+
+It is a list of ALL closing balances from the ledger placed into two columns — Debit and Credit. If your journal and ledger are correct, the two columns will always be equal.
+
+### Q: Which column does each account go in?
 
 | Account | Debit | Credit |
 |---|---|---|
 | Cash | ✓ | |
 | Accounts Receivable | ✓ | |
 | Prepaid Insurance | ✓ | |
-| Supplies / Opening Stock | ✓ | |
+| Supplies | ✓ | |
+| Opening Stock | ✓ | |
 | Equipment / Furniture / Machinery | ✓ | |
 | Drawings | ✓ | |
 | Purchases | ✓ | |
@@ -270,23 +460,32 @@ Balance = **$1,500 Dr**
 | Accounts Payable | | ✓ |
 | Notes Payable / Bank Loan | | ✓ |
 | Unearned Revenue | | ✓ |
-| Accrued Expenses | | ✓ |
+| Accrued Expenses Payable | | ✓ |
 | Capital / Owner's Equity | | ✓ |
 | Sales / Service Revenue | | ✓ |
 | Discount Received / Earned | | ✓ |
 | Accumulated Depreciation | | ✓ |
 | Reserve for Doubtful Debts | | ✓ |
 
-### Stock and Cash Rules
+### Q: What about Stock (Inventory)?
 
-| Rule | Action |
+| Stock | Rule |
 |---|---|
-| Opening / Beginning Stock | Include → Debit |
-| Closing / Ending Stock | Exclude completely |
-| Beginning Cash / Bank Balance | Exclude completely |
-| Ending Cash / Bank Balance | Include → Debit |
+| Opening / Beginning Stock | Include → Debit column |
+| Closing / Ending Stock | Do NOT include at all |
 
-### Trial Balance — Vera Ernst April 30, 2020
+### Q: What about Cash and Bank?
+
+| Balance | Rule |
+|---|---|
+| Beginning Cash / Bank | Do NOT include |
+| Ending Cash / Bank | Include → Debit column |
+
+---
+
+### Q: Prepare Trial Balance for Vera Ernst — April 30, 2020
+
+Take every ledger closing balance and put it in the right column.
 
 | SL | Account | Ref | Debit | Credit |
 |---|---|---|---|---|
@@ -299,131 +498,21 @@ Balance = **$1,500 Dr**
 | 7 | Service Revenue | 400 | | 7,200 |
 | 8 | Salary Expense | 726 | 2,800 | |
 | 9 | Rent Expense | 729 | 1,500 | |
-| | TOTAL | | 29,600 | 29,600 ✅ |
+| | **TOTAL** | | **29,600** | **29,600 ✅** |
 
----
+**Q: Why does it balance?**
 
-## DISCOUNTS — Full Explanation with Math
-
-There are TWO types of discount. They work completely differently.
-
-### Type 1 — Trade Discount (never recorded in journal)
-
-This is a discount given on the list price before any deal happens. You just subtract it and record the final amount only. It never appears in any journal entry.
-
-| Item | Calculation |
-|---|---|
-| List Price | Tk. 6,000 |
-| Trade Discount 10% | 6,000 × 10% = 600 |
-| Amount to Record | 6,000 − 600 = Tk. 5,400 |
-
-| Account | Dr | Cr |
-|---|---|---|
-| Purchase | 5,400 | |
-| Cash | | 5,400 |
-
-The Tk. 600 discount never appears anywhere. Done.
-
----
-
-### Type 2 — Cash Discount (always recorded in journal)
-
-This is a discount given for paying early or receiving payment early. It always appears in the journal. There are two situations:
-
----
-
-#### Situation A — You PAY a creditor early (you get Discount Received)
-
-You owed Khalid Tk. 1,000. You pay Tk. 975 early. Khalid gives you Tk. 25 off.
-
-| Item | Amount |
-|---|---|
-| Original amount owed | Tk. 1,000 |
-| Cash actually paid | Tk. 975 |
-| Discount Received | Tk. 25 |
-| Check: 975 + 25 | = 1,000 ✅ |
-
-| Thinking | Answer |
-|---|---|
-| Accounts Payable clears in full (1,000) | Liability decreases → Dr the FULL amount |
-| Cash paid is only 975 | Asset decreases → Cr only 975 |
-| Difference 25 is income for us | Discount Received → Cr 25 |
-
-| Account | Dr | Cr |
-|---|---|---|
-| Accounts Payable | 1,000 | |
-| Cash | | 975 |
-| Discount Received | | 25 |
-| Check | 1,000 | 1,000 ✅ |
-
-Discount Received goes to Credit column in Trial Balance (it is income).
-
----
-
-#### Situation B — Your DEBTOR pays you early (you give Discount Allowed/Paid)
-
-Rehman owed you Tk. 1,500. He pays Tk. 1,450. You allow him Tk. 50 off.
-
-| Item | Amount |
-|---|---|
-| Original amount owed to you | Tk. 1,500 |
-| Cash actually received | Tk. 1,450 |
-| Discount Allowed | Tk. 50 |
-| Check: 1,450 + 50 | = 1,500 ✅ |
-
-| Thinking | Answer |
-|---|---|
-| Cash received is only 1,450 | Asset → Dr 1,450 |
-| Discount Allowed is a loss for us | Expense → Dr 50 |
-| Accounts Receivable clears in full (1,500) | Asset decreases → Cr the FULL amount |
-
-| Account | Dr | Cr |
-|---|---|---|
-| Cash | 1,450 | |
-| Discount Allowed | 50 | |
-| Accounts Receivable | | 1,500 |
-| Check | 1,500 | 1,500 ✅ |
-
-Discount Allowed goes to Debit column in Trial Balance (it is an expense).
-
----
-
-### Discount Summary
-
-| Type | When | Record in Journal? | Who Benefits | Account | Trial Balance |
-|---|---|---|---|---|---|
-| Trade Discount | On purchase price | NO — just subtract | Buyer | Never appears | Never appears |
-| Discount Received | You pay creditor early | YES | You (income) | Discount Received Cr | Credit column |
-| Discount Allowed | Debtor pays you early | YES | Debtor | Discount Allowed Dr | Debit column |
-
----
-
-## Special Cases with Math
-
-| Situation | Account | Dr | Cr |
-|---|---|---|---|
-| Goods as free samples (worth Tk.200) | Advertisement Expense | 200 | |
-| | Purchase | | 200 |
-| Owner takes goods (worth Tk.100) | Drawings | 100 | |
-| | Purchase | | 100 |
-| Bad debts (Tk.100 owed, can't collect) | Bad Debt Expense | 100 | |
-| | Accounts Receivable | | 100 |
-| Depreciation (Tk.500) | Depreciation Expense | 500 | |
-| | Accumulated Depreciation | | 500 |
-| Goods lost by fire (Tk.500 furniture) | Miscellaneous Loss | 500 | |
-| | Furniture | | 500 |
-| Accrued rent (owed but unpaid, Tk.600) | Rent Expense | 600 | |
-| | Rent Payable | | 600 |
+Because every journal entry had equal Dr and Cr. That equality carries all the way through to the Trial Balance.
 
 ---
 
 ## Full Flow
 
-| Step | Name | Purpose |
+| Step | Name | One Line Explanation |
 |---|---|---|
-| 1 | Journal | Record every transaction with Dr and Cr |
-| 2 | Ledger | Group entries by account, find closing balance |
-| 3 | Trial Balance | List all balances, verify Dr total = Cr total |
+| 1 | Journal | Record every transaction — Dr and Cr must be equal |
+| 2 | Ledger | Group by account in T-shape, find closing balance |
+| 3 | Trial Balance | List all closing balances, total Dr must = total Cr |
 
 ---
 
@@ -432,14 +521,15 @@ Discount Allowed goes to Debit column in Trial Balance (it is an expense).
 | Check | Done? |
 |---|---|
 | Every journal entry: Dr = Cr | |
-| Trade discount subtracted before recording, never in journal | |
-| Discount Received → Cr in journal, Credit column in TB | |
-| Discount Allowed → Dr in journal, Debit column in TB | |
-| Always debit/credit the FULL amount for A/P and A/R in discount entries | |
-| Goods as samples → Advertisement Dr / Purchase Cr | |
+| Trade discount subtracted before recording, never appears in journal | |
+| Discount Received → Cr in journal, Credit column in Trial Balance | |
+| Discount Allowed → Dr in journal, Debit column in Trial Balance | |
+| Always use FULL original amount when clearing A/P or A/R in discount entries | |
+| Goods as samples → Advertisement Expense Dr / Purchase Cr | |
 | Owner takes goods → Drawings Dr / Purchase Cr | |
-| Ledger: posted to correct side | |
-| Ledger: closing balance = bigger side minus smaller side | |
+| Ledger: every Dr in journal goes to LEFT of that account | |
+| Ledger: every Cr in journal goes to RIGHT of that account | |
+| Ledger: closing balance = bigger total minus smaller total | |
 | Opening stock → Debit in Trial Balance | |
 | Closing stock → NOT in Trial Balance | |
 | Ending cash/bank → Debit in Trial Balance | |
