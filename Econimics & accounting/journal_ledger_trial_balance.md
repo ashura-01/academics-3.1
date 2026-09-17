@@ -17,6 +17,75 @@ Memory trick — ADE = Dr (Assets, Drawings, Expenses) | CLIP = Cr (Capital, Lia
 
 ---
 
+| Account Name               | Type            | Increases with | Decreases with |
+| -------------------------- | --------------- | -------------- | -------------- |
+| Cash                       | Asset           | Dr             | Cr             |
+| Accounts Receivable        | Asset           | Dr             | Cr             |
+| Notes Receivable           | Asset           | Dr             | Cr             |
+| Bills Receivable           | Asset           | Dr             | Cr             |
+| Inventory / Stock          | Asset           | Dr             | Cr             |
+| Opening Stock              | Asset           | Dr             | Cr             |
+| Supplies                   | Asset           | Dr             | Cr             |
+| Prepaid Insurance          | Asset           | Dr             | Cr             |
+| Prepaid Rent               | Asset           | Dr             | Cr             |
+| Furniture                  | Asset           | Dr             | Cr             |
+| Equipment                  | Asset           | Dr             | Cr             |
+| Machinery                  | Asset           | Dr             | Cr             |
+| Building                   | Asset           | Dr             | Cr             |
+| Land                       | Asset           | Dr             | Cr             |
+| Vehicle / Car              | Asset           | Dr             | Cr             |
+| Marketable Securities      | Asset           | Dr             | Cr             |
+| Accrued Revenue            | Asset           | Dr             | Cr             |
+| Sundry Debtors             | Asset           | Dr             | Cr             |
+| Bank (ending balance)      | Asset           | Dr             | Cr             |
+| Accumulated Depreciation   | Contra Asset    | Cr             | Dr             |
+| Reserve for Doubtful Debts | Contra Asset    | Cr             | Dr             |
+| Accounts Payable           | Liability       | Cr             | Dr             |
+| Notes Payable              | Liability       | Cr             | Dr             |
+| Bills Payable              | Liability       | Cr             | Dr             |
+| Bank Loan                  | Liability       | Cr             | Dr             |
+| Unearned Revenue           | Liability       | Cr             | Dr             |
+| Rent Payable               | Liability       | Cr             | Dr             |
+| Salary / Wages Payable     | Liability       | Cr             | Dr             |
+| Accrued Expenses           | Liability       | Cr             | Dr             |
+| Outstanding Salaries       | Liability       | Cr             | Dr             |
+| Sundry Creditors           | Liability       | Cr             | Dr             |
+| Vendor's Payables          | Liability       | Cr             | Dr             |
+| Interest Payable           | Liability       | Cr             | Dr             |
+| Capital / Owner's Capital  | Equity          | Cr             | Dr             |
+| Owner's Investment         | Equity          | Cr             | Dr             |
+| Retained Earnings          | Equity          | Cr             | Dr             |
+| Reserve Fund               | Equity          | Cr             | Dr             |
+| Drawings                   | Equity (contra) | Dr             | Cr             |
+| Sales Revenue              | Revenue         | Cr             | Dr             |
+| Service Revenue            | Revenue         | Cr             | Dr             |
+| Repair Service Revenue     | Revenue         | Cr             | Dr             |
+| Commission Received        | Revenue         | Cr             | Dr             |
+| Discount Received          | Revenue         | Cr             | Dr             |
+| Discount Earned            | Revenue         | Cr             | Dr             |
+| Interest Received          | Revenue         | Cr             | Dr             |
+| Accrued Revenue            | Revenue         | Cr             | Dr             |
+| Purchase                   | Expense         | Dr             | Cr             |
+| Salary / Wages Expense     | Expense         | Dr             | Cr             |
+| Rent Expense               | Expense         | Dr             | Cr             |
+| Insurance Expense          | Expense         | Dr             | Cr             |
+| Advertisement Expense      | Expense         | Dr             | Cr             |
+| Bad Debt Expense           | Expense         | Dr             | Cr             |
+| Depreciation Expense       | Expense         | Dr             | Cr             |
+| Maintenance Expense        | Expense         | Dr             | Cr             |
+| Miscellaneous Expense      | Expense         | Dr             | Cr             |
+| Freight / Carriage         | Expense         | Dr             | Cr             |
+| Rates and Taxes            | Expense         | Dr             | Cr             |
+| Telephone Charges          | Expense         | Dr             | Cr             |
+| Printing Charges           | Expense         | Dr             | Cr             |
+| Sundry Expenses            | Expense         | Dr             | Cr             |
+| General Expenses           | Expense         | Dr             | Cr             |
+| Income Tax                 | Expense         | Dr             | Cr             |
+| Discount Allowed / Paid    | Expense         | Dr             | Cr             |
+| Commission Paid            | Expense         | Dr             | Cr             |
+| Sales Return and Allowance | Contra Revenue  | Dr             | Cr             |
+
+
 # STEP 1 — JOURNAL
 
 ---
@@ -70,12 +139,12 @@ Goods came in → Purchase (Expense) → Dr total = 2,000 + 1,000 = 3,000
 Cash paid Tk. 2,000 → Asset decreases → Cr 2,000
 Still owe Khalid Tk. 1,000 → Liability increases → Cr 1,000
 
-| Date | Account | Ref | Dr | Cr |
-|---|---|---|---|---|
-| July 8 | Purchase Dr | | 3,000 | |
-| | Cash Cr | | | 2,000 |
-| | Accounts Payable Cr | | | 1,000 |
-| | Check | | 3,000 | 3,000 ✅ |
+| Date   | Account             | Ref | Dr    | Cr      |
+| ------ | ------------------- | --- | ----- | ------- |
+| July 8 | Purchase Dr         |     | 3,000 |         |
+|        | Cash Cr             |     |       | 2,000   |
+|        | Accounts Payable Cr |     |       | 1,000   |
+|        | Check               |     | 3,000 | 3,000 ✅ |
 
 ---
 
