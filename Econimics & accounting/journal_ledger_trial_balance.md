@@ -1,274 +1,198 @@
-# 📒 Journal → Ledger → Trial Balance
-### 20-Minute Exam Crash Course
+# Journal → Ledger → Trial Balance — 20-Min Exam Sheet
 
 ---
 
-## 🧠 THE GOLDEN RULE (Memorize This First)
+## The Golden Rule
 
 | Account Type | Increases with | Decreases with |
 |---|---|---|
-| **Asset** | Debit (Dr) | Credit (Cr) |
-| **Expense** | Debit (Dr) | Credit (Cr) |
-| **Liability** | Credit (Cr) | Debit (Dr) |
-| **Owner's Equity / Capital** | Credit (Cr) | Debit (Dr) |
-| **Revenue / Income** | Credit (Cr) | Debit (Dr) |
+| Asset | Debit (Dr) | Credit (Cr) |
+| Expense | Debit (Dr) | Credit (Cr) |
+| Drawings | Debit (Dr) | Credit (Cr) |
+| Liability | Credit (Cr) | Debit (Dr) |
+| Capital / Owner's Equity | Credit (Cr) | Debit (Dr) |
+| Revenue / Income | Credit (Cr) | Debit (Dr) |
 
-**Memory trick:** "ADE" goes Debit → Assets, Drawings, Expenses  
-**"CLIP"** goes Credit → Capital, Liabilities, Income/Revenue, Provisions
+Memory trick — **ADE = Dr** (Assets, Drawings, Expenses) | **CLIP = Cr** (Capital, Liabilities, Income, Provisions)
 
 ---
 
-## STEP 1 — JOURNAL (Recording Transactions)
+## STEP 1 — JOURNAL
 
-### What is it?
-A journal is the **first place** every transaction is recorded. Every entry has:
-- **One or more Debit accounts**
-- **One or more Credit accounts**
-- **Total Debit MUST = Total Credit always**
+### How to Write Any Journal Entry
 
-### How to Write a Journal Entry
+| Step | What to do |
+|---|---|
+| 1 | Identify what came in and what went out |
+| 2 | Classify each item — Asset? Expense? Liability? Revenue? |
+| 3 | Apply the rule — if it increases, use that account's normal side |
+| 4 | Check — Total Dr must = Total Cr |
 
-**Format:**
-```
-Date    Account Name          Ref    Debit    Credit
-        Debit Account  Dr.           XXXX
-            Credit Account  Cr.              XXXX
-```
+### Journal Entry Format
 
-### Step-by-Step Method
-
-1. **Identify** what came in and what went out
-2. **Classify** each item (Asset? Expense? Liability? Revenue?)
-3. **Apply the rule:** If it increases → use that account's normal side (Dr or Cr)
-4. **Verify:** Total Dr = Total Cr
+| Date | Account Name | Ref | Debit | Credit |
+|---|---|---|---|---|
+| July 1 | Cash Dr | | 100,000 | |
+| | Owner's Capital Cr | | | 100,000 |
 
 ### Common Transaction Patterns
 
 | Transaction | Debit | Credit |
 |---|---|---|
-| Owner invests cash | Cash (Asset ↑) | Capital (Equity ↑) |
-| Buy asset for cash | Asset (↑) | Cash (Asset ↓) |
-| Buy goods on credit | Purchase/Asset (↑) | Accounts Payable (Liability ↑) |
-| Sell goods for cash | Cash (↑) | Sales Revenue (↑) |
-| Sell goods on credit | Accounts Receivable (↑) | Sales Revenue (↑) |
-| Pay expense | Expense (↑) | Cash (↓) |
-| Pay creditor | Accounts Payable (↓) | Cash (↓) |
-| Receive from debtor | Cash (↑) | Accounts Receivable (↓) |
-| Owner withdraws | Drawings (↑) | Cash (↓) |
-| Receive advance payment | Cash (↑) | Unearned Revenue (Liability ↑) |
-| Prepay insurance | Prepaid Insurance (Asset ↑) | Cash (↓) |
+| Owner invests cash | Cash | Capital |
+| Buy asset for cash | Asset | Cash |
+| Buy goods on credit | Purchase | Accounts Payable |
+| Buy goods for cash | Purchase | Cash |
+| Sell goods for cash | Cash | Sales Revenue |
+| Sell goods on credit | Accounts Receivable | Sales Revenue |
+| Pay any expense | Expense | Cash |
+| Pay a creditor | Accounts Payable | Cash |
+| Receive from debtor | Cash | Accounts Receivable |
+| Owner withdraws cash | Drawings | Cash |
+| Receive advance from customer | Cash | Unearned Revenue |
+| Prepay insurance | Prepaid Insurance | Cash |
+| Take a bank loan | Cash / Bank | Bank Loan |
+| Buy equipment, part cash, part note | Equipment | Cash + Notes Payable |
 
-### Worked Example
-> **Transaction:** Purchased goods for Tk.2,000 cash and Tk.1,000 on credit from Khalid.
+### Special Cases
 
-- "Goods purchased" = Purchase account (Expense/Asset → Dr)
-- "Cash paid" = Cash goes out (Asset ↓ → Cr)
-- "Credit from Khalid" = We owe Khalid (Liability ↑ → Cr)
+| Situation | Debit | Credit | Note |
+|---|---|---|---|
+| Trade discount | Purchase (after discount) | Cash | Never record discount separately |
+| Cash discount received (paying creditor) | Accounts Payable (full) | Cash + Discount Received | Discount Received is income |
+| Cash discount given (receiving from debtor) | Cash + Discount Paid | Accounts Receivable (full) | Discount Paid is expense |
+| Goods as free samples | Advertisement Expense | Purchase | Reduces stock |
+| Owner takes goods for personal use | Drawings | Purchase | Reduces stock |
+| Bad debts | Bad Debt Expense | Accounts Receivable | |
+| Depreciation | Depreciation Expense | Accumulated Depreciation | |
+| Goods lost by fire | Miscellaneous / Loss | Asset (Furniture etc.) | |
+| Accrued expense (due but unpaid) | Expense | Expense Payable / Accrued Expense | |
 
-```
-Purchase  Dr.    3,000
-    Cash      Cr.         2,000
-    Accounts Payable  Cr. 1,000
-```
-✅ Dr 3,000 = Cr 3,000
+### Trade Discount Math Example
 
----
+| Item | Amount |
+|---|---|
+| List Price | Tk. 6,000 |
+| Trade Discount 10% | Tk. 600 |
+| Amount to Record | Tk. 5,400 |
 
-### Special Cases to Watch
+Journal: Purchase Dr 5,400 / Cash Cr 5,400 — discount never appears
 
-**Trade Discount:** Deduct BEFORE recording. Never show in journal.
-> List price Tk.6,000 with 10% trade discount → Record only Tk.5,400
+### Cash Discount Math Example
 
-**Cash Discount (when paying):**
-```
-Accounts Payable  Dr.   1,000
-    Cash              Cr.       975
-    Discount Received Cr.        25
-```
+| Item | Amount |
+|---|---|
+| Amount owed to Khalid | Tk. 1,000 |
+| Cash paid | Tk. 975 |
+| Discount Received | Tk. 25 |
 
-**Cash Discount (when receiving):**
-```
-Cash              Dr.   1,450
-Discount Paid     Dr.      50
-    Accounts Receivable  Cr.  1,500
-```
-
-**Goods given as free samples:**
-```
-Advertisement Expense  Dr.   200
-    Purchase               Cr.   200
-```
-
-**Goods taken by owner:**
-```
-Drawings  Dr.   100
-    Purchase  Cr.   100
-```
-
-**Bad Debts:**
-```
-Bad Debt Expense  Dr.   100
-    Accounts Receivable  Cr.  100
-```
-
-**Depreciation:**
-```
-Depreciation Expense  Dr.   XXX
-    Accumulated Depreciation  Cr.  XXX
-```
+Journal: Accounts Payable Dr 1,000 / Cash Cr 975 / Discount Received Cr 25
 
 ---
 
 ## STEP 2 — LEDGER (T-Accounts)
 
-### What is it?
-A ledger takes all journal entries and groups them **by account**. Each account gets its own "T" shape.
+### How to Post
 
-### T-Account Format
-```
-        Account Name (e.g. Cash)
-    Dr (Left)  |  Cr (Right)
-   ____________|____________
-    20,000     |   1,500  (rent)
-     1,000     |   2,800  (salary)
-     2,100     |   2,600  (payable)
-   ____________|____________
-   Balance Dr  |
-```
+| Step | What to do |
+|---|---|
+| 1 | Every Debit in journal → write amount on LEFT side of that account |
+| 2 | Every Credit in journal → write amount on RIGHT side of that account |
+| 3 | Add up both sides of the T |
+| 4 | Subtract smaller from larger — that difference is the closing balance |
+| 5 | If Left total is bigger → Debit Balance. If Right total is bigger → Credit Balance |
 
-### How to Post from Journal to Ledger
+### Cash T-Account Example (from Vera Ernst problem)
 
-1. For every **Debit** in the journal → write the amount on the **LEFT** side of that account's T
-2. For every **Credit** in the journal → write the amount on the **RIGHT** side of that account's T
-3. After all entries, **add up both sides**
-4. The **difference** is the **closing balance**
-   - If Left (Dr) total > Right (Cr) total → **Debit Balance**
-   - If Right (Cr) total > Left (Dr) total → **Credit Balance**
+| Dr (Left) | Cr (Right) |
+|---|---|
+| 20,000 (capital) | 1,500 (rent) |
+| 1,000 (advance) | 2,800 (salary) |
+| 2,100 (service) | 2,600 (payable) |
+| **Total: 23,100** | **Total: 6,900** |
 
-### Worked Example — Cash Account
-Journal entries affecting Cash:
-- April 1: Cash Dr 20,000 (investment)
-- April 2: Cash Cr 1,500 (rent paid)
-- April 11: Cash Dr 1,000 (advance received)
-- April 20: Cash Dr 2,100 (service income)
-- April 30: Cash Cr 2,800 (salary paid)
-- April 30: Cash Cr 2,600 (payable paid)
-
-```
-              Cash (No. 101)
-Dr            |    Cr
-______________|_____________
-20,000        |  1,500
- 1,000        |  2,800
- 2,100        |  2,600
-______________|_____________
-23,100        |  6,900
-Balance = 23,100 - 6,900 = 16,200 (Debit Balance)
-```
+Closing Balance = 23,100 − 6,900 = **16,200 Dr**
 
 ---
 
 ## STEP 3 — TRIAL BALANCE
 
-### What is it?
-A list of **all ledger account balances** in two columns (Dr and Cr).  
-If bookkeeping is correct: **Total Dr = Total Cr**
+### Which Column Each Account Goes In
 
-### Trial Balance Rules
-
-| Account Type | Goes in Debit column | Goes in Credit column |
+| Account | Debit | Credit |
 |---|---|---|
-| Assets | ✅ | |
-| Expenses | ✅ | |
-| Drawings | ✅ | |
-| Opening Stock | ✅ | |
-| Liabilities | | ✅ |
-| Capital / Owner's Equity | | ✅ |
-| Revenue / Income | | ✅ |
-| Accumulated Depreciation | | ✅ |
-| Discount Received | | ✅ |
+| Cash | ✓ | |
+| Accounts Receivable | ✓ | |
+| Prepaid Insurance | ✓ | |
+| Supplies / Stock (Opening) | ✓ | |
+| Equipment / Furniture / Machinery | ✓ | |
+| Drawings | ✓ | |
+| Purchases | ✓ | |
+| All Expenses (Rent, Salary, Bad Debt etc.) | ✓ | |
+| Discount Allowed / Paid | ✓ | |
+| Accounts Payable | | ✓ |
+| Notes Payable / Bank Loan | | ✓ |
+| Unearned Revenue | | ✓ |
+| Accrued Expenses | | ✓ |
+| Capital / Owner's Equity | | ✓ |
+| Sales / Service Revenue | | ✓ |
+| Discount Received / Earned | | ✓ |
+| Accumulated Depreciation | | ✓ |
+| Reserve for Doubtful Debts | | ✓ |
 
-### Two Special Stock Rules
-- **Opening/Beginning Stock** → Include in Trial Balance (Debit)
-- **Closing/Ending Stock** → Do NOT include in Trial Balance
+### Two Stock Rules
 
-### Two Special Cash/Bank Rules
-- **Beginning Cash/Bank Balance** → Do NOT include
-- **Ending Cash/Bank Balance** → Include (Debit)
+| Rule | Action |
+|---|---|
+| Opening / Beginning Stock | Include → Debit column |
+| Closing / Ending Stock | Exclude — do not include |
+
+### Two Cash/Bank Rules
+
+| Rule | Action |
+|---|---|
+| Beginning Cash / Bank Balance | Exclude — do not include |
+| Ending Cash / Bank Balance | Include → Debit column |
 
 ### Trial Balance Format
-```
-          [Business Name]
-           Trial Balance
-        [Date e.g. April 30, 2020]
 
-SL No. | Account Name        | Ref | Debit  | Credit
--------|---------------------|-----|--------|-------
-  1    | Cash                |     | 16,200 |
-  2    | Accounts Receivable |     |  3,100 |
-  3    | Supplies            |     |  4,000 |
-  4    | Accounts Payable    |     |        | 1,400
-  5    | Unearned Revenue    |     |        | 1,000
-  6    | Capital             |     |        |20,000
-  7    | Service Revenue     |     |        | 7,200
-  8    | Rent Expense        |     |  1,500 |
-  9    | Salary Expense      |     |  2,800 |
--------|---------------------|-----|--------|-------
-       |                     |     | 27,600 |27,600
-```
+| SL No. | Account Name | Ref | Debit | Credit |
+|---|---|---|---|---|
+| 1 | Cash | 101 | 16,200 | |
+| 2 | Accounts Receivable | 112 | 3,100 | |
+| 3 | Supplies | 126 | 4,000 | |
+| 4 | Accounts Payable | 201 | | 1,400 |
+| 5 | Unearned Revenue | 209 | | 1,000 |
+| 6 | Capital | 301 | | 20,000 |
+| 7 | Service Revenue | 400 | | 7,200 |
+| 8 | Rent Expense | 729 | 1,500 | |
+| 9 | Salary Expense | 726 | 2,800 | |
+| | **Total** | | **27,600** | **27,600** |
 
 ---
 
-## 🔄 Full Flow Summary
+## Full Flow
 
-```
-TRANSACTION HAPPENS
-       ↓
-JOURNAL (record with Dr & Cr, must balance)
-       ↓
-LEDGER (post to T-accounts by account name)
-       ↓
-TRIAL BALANCE (list closing balances, verify Dr = Cr)
-```
-
----
-
-## ⚡ Quick Reference: Tricky Accounts
-
-| Account | Type | Normal Balance |
+| Step | Name | Purpose |
 |---|---|---|
-| Cash | Asset | Dr |
-| Accounts Receivable | Asset | Dr |
-| Prepaid Insurance | Asset | Dr |
-| Supplies | Asset | Dr |
-| Equipment/Furniture | Asset | Dr |
-| Opening Stock | Asset | Dr |
-| Drawings | Owner's (contra) | Dr |
-| Discount Allowed/Paid | Expense | Dr |
-| Bad Debts | Expense | Dr |
-| Purchase | Expense | Dr |
-| Accounts Payable | Liability | Cr |
-| Notes Payable | Liability | Cr |
-| Unearned Revenue | Liability | Cr |
-| Bank Loan | Liability | Cr |
-| Accrued Expenses | Liability | Cr |
-| Capital | Equity | Cr |
-| Sales Revenue | Revenue | Cr |
-| Service Revenue | Revenue | Cr |
-| Discount Received | Revenue | Cr |
-| Accumulated Depreciation | Contra Asset | Cr |
-| Reserve for Doubtful Debts | Contra Asset | Cr |
+| 1 | Journal | Record every transaction with Dr and Cr |
+| 2 | Ledger | Group entries by account, find closing balance |
+| 3 | Trial Balance | List all balances, verify Dr total = Cr total |
 
 ---
 
-## 🎯 Exam Checklist
+## Exam Checklist
 
-- [ ] Journal: Does every entry have Dr = Cr?
-- [ ] Did you apply trade discount BEFORE recording?
-- [ ] Goods as samples → Advertisement Expense Dr / Purchase Cr
-- [ ] Owner withdraws goods → Drawings Dr / Purchase Cr
-- [ ] Ledger: Did you post every journal line to the correct T-account side?
-- [ ] Ledger: Did you calculate the closing balance correctly?
-- [ ] Trial Balance: Opening stock = Debit, Closing stock = excluded
-- [ ] Trial Balance: Ending cash/bank = Debit, Beginning = excluded
-- [ ] Trial Balance: Total Debit = Total Credit ✅
+| Check | Done? |
+|---|---|
+| Every journal entry: Dr = Cr | |
+| Trade discount subtracted before recording | |
+| Goods as samples → Advertisement Dr / Purchase Cr | |
+| Owner takes goods → Drawings Dr / Purchase Cr | |
+| Cash discount → both sides in journal | |
+| Ledger: posted to correct side (Dr or Cr) | |
+| Ledger: closing balance calculated correctly | |
+| Opening stock → Debit in Trial Balance | |
+| Closing stock → NOT in Trial Balance | |
+| Ending cash/bank → Debit in Trial Balance | |
+| Trial Balance: Total Debit = Total Credit | |
