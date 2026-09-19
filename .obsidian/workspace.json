@@ -194,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -212,10 +212,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ee5d96818112ea1",
+  "active": "3c87678abc1f138a",
   "lastOpenFiles": [
     "Econimics & accounting/journal_ledger_trial_balance.md",
-    "sql-transaction-isolation-levels.md",
+    "database/sql-transaction-isolation-levels.md",
     "Econimics & accounting/attachments/q5_perfect_competition_loss.png",
     "Econimics & accounting/attachments/q1_perfect_competition_profit.png",
     "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
