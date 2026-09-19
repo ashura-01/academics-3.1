@@ -466,3 +466,82 @@ sudo nginx -t && sudo systemctl reload nginx
 > - Always check `pm2 logs myapp --lines 30` for app crashes
 > - Never use port 3307 as your app PORT — that's MySQL!
 > - Always run `chmod 755` after copying frontend files!
+
+---
+
+Same flow but with one extra step — **build React first**:
+
+```
+Got a React + Node + MySQL project?
+        ↓
+1. Fix SSH key permissions (PowerShell - once only)
+        ↓
+2. SSH into VPS
+        ↓
+3. Clone repo → ~/bookapi
+        ↓
+4. Install & BUILD React frontend
+   cd ~/bookapi/frontend
+   npm install
+   npm run build        ← creates /build folder
+        ↓
+5. Install backend deps
+   cd ~/bookapi/backend
+   npm install
+        ↓
+6. Create ~/bookapi/.env
+        ↓
+7. Setup MySQL → create DB & user → update .env
+        ↓
+8. chmod 755 on home/bookapi/frontend/build folders
+   chmod 755 /home/s20230204045/bookapi/frontend
+   chmod 755 /home/s20230204045/bookapi/frontend/build
+   chmod 644 /home/s20230204045/bookapi/frontend/build/index.html
+        ↓
+9. pm2 start server.js → pm2 save
+        ↓
+10. Nginx config → point root to /frontend/build not /frontend!
+    root /home/s20230204045/bookapi/frontend/build;
+        ↓
+11. Enable Nginx → reload
+        ↓
+12. Visit site 🚀
+```
+
+---
+
+## ⚠️ Key Difference from Plain HTML Frontend
+
+| | Plain HTML | React |
+|---|---|---|
+| Frontend folder | `frontend/` | `frontend/build/` |
+| Extra step | ❌ | `npm run build` |
+| Nginx root | `frontend/` | `frontend/build/` |
+| After code change | just copy files | must rebuild! |
+
+---
+
+## Nginx Config for React
+
+```nginx
+server {
+    listen 80;
+    server_name s20230204045.austattendance.online;
+
+    location / {
+        root /home/s20230204045/bookapi/frontend/build;
+        index index.html;
+        try_files $uri $uri/ /index.html;
+    }
+
+    location /api/ {
+        proxy_pass http://127.0.0.1:5000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
+Want me to add this to the `.md` file?
