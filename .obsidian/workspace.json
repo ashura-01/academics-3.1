@@ -22,15 +22,15 @@
             }
           },
           {
-            "id": "e18fdb6cec524370",
+            "id": "bc59fa34bd2febcf",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/SAP-01.md"
+                "file": "Excalidraw/Drawing 2026-09-24 00.32.23.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "SAP-01"
+              "title": "Drawing 2026-09-24 00.32.23.excalidraw"
             }
           }
         ],
@@ -227,10 +227,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e18fdb6cec524370",
+  "active": "bc59fa34bd2febcf",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-09-24 00.21.23.excalidraw.md",
     "Excalidraw/SAP-01.md",
+    "Excalidraw/Drawing 2026-09-24 00.32.23.excalidraw.md",
+    "Excalidraw/Drawing 2026-09-24 00.21.23.excalidraw.md",
     "DSD/DSD FINAL.md",
     "Excalidraw/Drawing 2026-09-24 00.20.00.excalidraw.md",
     "Excalidraw",
@@ -266,7 +267,6 @@
     "database/RA-SQL-Practice.md",
     "prob-solve.md",
     "database/04 - Joins in Relational Algebra.md",
-    "database/01 - ER Modeling.md",
     "database",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
