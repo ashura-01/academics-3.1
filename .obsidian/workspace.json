@@ -11,30 +11,15 @@
             "id": "e2ff478f160a718b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSD/DSD FINAL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DSD FINAL"
-            }
-          },
-          {
-            "id": "bc59fa34bd2febcf",
-            "type": "leaf",
-            "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-24 00.32.23.excalidraw.md"
+                "file": "Excalidraw/sap-01.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-24 00.32.23.excalidraw"
+              "title": "sap-01"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,12 +212,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bc59fa34bd2febcf",
+  "active": "45dde854ab63284f",
   "lastOpenFiles": [
-    "Excalidraw/SAP-01.md",
-    "Excalidraw/Drawing 2026-09-24 00.32.23.excalidraw.md",
-    "Excalidraw/Drawing 2026-09-24 00.21.23.excalidraw.md",
     "DSD/DSD FINAL.md",
+    "Excalidraw/sap-01.md",
+    "Excalidraw/SAP-01.md",
+    "Excalidraw/Drawing 2026-09-24 00.21.23.excalidraw.md",
     "Excalidraw/Drawing 2026-09-24 00.20.00.excalidraw.md",
     "Excalidraw",
     "sap-archi.canvas",
