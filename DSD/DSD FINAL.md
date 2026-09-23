@@ -21,3 +21,9 @@
 8 bit output register
 8 bit -> IR
 8 bit -> W bus
+
+### Further details
+- One output device with 8 LEDs
+- 5 instruction
+	i. 3 with 1 operand
+	ii. 3 with implicit operands
