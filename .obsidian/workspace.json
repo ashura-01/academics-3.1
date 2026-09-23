@@ -11,12 +11,14 @@
             "id": "e2ff478f160a718b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/sap-01.md"
+                "file": "DSD/DSD FINAL.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "sap-01"
+              "icon": "lucide-file",
+              "title": "DSD FINAL"
             }
           }
         ]
@@ -212,10 +214,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "45dde854ab63284f",
+  "active": "e2ff478f160a718b",
   "lastOpenFiles": [
-    "DSD/DSD FINAL.md",
     "Excalidraw/sap-01.md",
+    "DSD/DSD FINAL.md",
     "Excalidraw/SAP-01.md",
     "Excalidraw/Drawing 2026-09-24 00.21.23.excalidraw.md",
     "Excalidraw/Drawing 2026-09-24 00.20.00.excalidraw.md",
