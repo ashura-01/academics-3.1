@@ -2,7 +2,9 @@
 
 
 
-
+<div style="display: flex; justify-content: center;">
 
 ![[sap-01]]
+
+</div>
 
