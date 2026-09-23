@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "DSD FINAL"
             }
+          },
+          {
+            "id": "bcc01d8f2b242bbf",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-09-24 00.20.00.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-24 00.20.00.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,13 +223,16 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "drawio:Launch draw.io editor": false
+      "drawio:Launch draw.io editor": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e2ff478f160a718b",
+  "active": "bcc01d8f2b242bbf",
   "lastOpenFiles": [
-    "sap-archi.canvas",
     "DSD/DSD FINAL.md",
+    "Excalidraw/Drawing 2026-09-24 00.20.00.excalidraw.md",
+    "Excalidraw",
+    "sap-archi.canvas",
     "Econimics & accounting/journal_ledger_trial_balance.md",
     "database/sql-transaction-isolation-levels.md",
     "Econimics & accounting/attachments/q5_perfect_competition_loss.png",
@@ -259,7 +275,6 @@
     "MACS/attachments",
     "MACS/images",
     "MACS",
-    "DSD/Lecture3.md.tmp.40777.d0959bf11682",
-    "DSD/Lecture3.md.tmp.40777.f361bcd382dd"
+    "DSD/Lecture3.md.tmp.40777.d0959bf11682"
   ]
 }
