@@ -22,15 +22,15 @@
             }
           },
           {
-            "id": "bcc01d8f2b242bbf",
+            "id": "e18fdb6cec524370",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-24 00.20.00.excalidraw.md"
+                "file": "Excalidraw/Drawing 2026-09-24 00.22.05.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-24 00.20.00.excalidraw"
+              "title": "Drawing 2026-09-24 00.22.05.excalidraw"
             }
           }
         ],
@@ -227,8 +227,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bcc01d8f2b242bbf",
+  "active": "e18fdb6cec524370",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-09-24 00.21.23.excalidraw.md",
+    "Excalidraw/Drawing 2026-09-24 00.22.05.excalidraw.md",
     "DSD/DSD FINAL.md",
     "Excalidraw/Drawing 2026-09-24 00.20.00.excalidraw.md",
     "Excalidraw",
@@ -265,8 +267,6 @@
     "prob-solve.md",
     "database/04 - Joins in Relational Algebra.md",
     "database/01 - ER Modeling.md",
-    "database/Database_Symbols_Guide.md",
-    "database/03 - Relational Algebra - Binary Operations.md",
     "database",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
