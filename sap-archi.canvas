@@ -1,10 +1,19 @@
 {
 	"nodes":[
-		{"id":"893555de4053c014","x":-380,"y":-300,"width":250,"height":60,"type":"text","text":"Program Counter"},
-		{"id":"47302d3d91053e89","x":-380,"y":-140,"width":250,"height":50,"type":"text","text":"Input and MAR"},
-		{"id":"3072a859258436d4","x":-380,"y":20,"width":250,"height":60,"type":"text","text":"RAM"},
-		{"id":"6cb035a5a35d57d8","x":-380,"y":180,"width":250,"height":60,"type":"text","text":"IR"},
-		{"id":"1c590ff5ce64195c","x":-380,"y":380,"width":250,"height":60,"type":"text","text":"Controller / Sequencer"}
+		{"id":"893555de4053c014","type":"text","text":"Program Counter","x":-380,"y":-300,"width":250,"height":60},
+		{"id":"47302d3d91053e89","type":"text","text":"Input and MAR","x":-380,"y":-140,"width":250,"height":50},
+		{"id":"3072a859258436d4","type":"text","text":"RAM","x":-380,"y":20,"width":250,"height":60},
+		{"id":"6cb035a5a35d57d8","type":"text","text":"IR","x":-380,"y":180,"width":250,"height":60},
+		{"id":"1c590ff5ce64195c","type":"text","text":"Controller / Sequencer","x":-380,"y":380,"width":250,"height":60},
+		{"id":"ea3aee929add2349","type":"text","text":"\n\n\n\n\n\n\n\nW\n\nBUS","x":0,"y":-321,"width":50,"height":761},
+		{"id":"82ff8b96d9257350","type":"text","text":"Accumula","x":160,"y":-290,"width":250,"height":60},
+		{"id":"92d8a27edb2a3fcd","type":"text","text":"Adder / Substrator","x":160,"y":-130,"width":250,"height":50},
+		{"id":"a3dab3de53dc1155","type":"text","text":"Register B","x":160,"y":30,"width":250,"height":60},
+		{"id":"8697e14bf939c8ee","type":"text","text":"Output register","x":160,"y":190,"width":250,"height":60},
+		{"id":"b18f603646180e91","type":"text","text":"Binary DIsplay","x":160,"y":390,"width":250,"height":60}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"5f62e0702f2b0415","fromNode":"893555de4053c014","fromSide":"right","toNode":"ea3aee929add2349","toSide":"top"},
+		{"id":"79bf6d783ea980d8","fromNode":"47302d3d91053e89","fromSide":"right","toNode":"ea3aee929add2349","toSide":"left"}
+	]
 }
