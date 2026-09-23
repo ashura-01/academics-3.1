@@ -11,10 +11,14 @@
             "id": "e2ff478f160a718b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DSD/DSD FINAL.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DSD FINAL"
             }
           }
         ]
@@ -208,8 +212,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c87678abc1f138a",
+  "active": "45dde854ab63284f",
   "lastOpenFiles": [
+    "DSD/DSD FINAL.md",
     "Econimics & accounting/journal_ledger_trial_balance.md",
     "database/sql-transaction-isolation-levels.md",
     "Econimics & accounting/attachments/q5_perfect_competition_loss.png",
@@ -245,7 +250,6 @@
     "database/Database_Symbols_Guide.md",
     "database/03 - Relational Algebra - Binary Operations.md",
     "database/05 - Aggregate Functions and Assignment Operation.md",
-    "database/02 - Relational Algebra - Unary Operations.md",
     "database",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
