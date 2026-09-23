@@ -11,14 +11,17 @@
             "id": "e2ff478f160a718b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "DSD/DSD FINAL.md",
-                "mode": "source",
-                "source": false
+                "file": "sap-archi.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 111.60000000000001,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "DSD FINAL"
+              "icon": "lucide-layout-dashboard",
+              "title": "sap-archi"
             }
           }
         ]
@@ -212,9 +215,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45dde854ab63284f",
+  "active": "e2ff478f160a718b",
   "lastOpenFiles": [
     "DSD/DSD FINAL.md",
+    "sap-archi.canvas",
     "Econimics & accounting/journal_ledger_trial_balance.md",
     "database/sql-transaction-isolation-levels.md",
     "Econimics & accounting/attachments/q5_perfect_competition_loss.png",
@@ -249,7 +253,6 @@
     "database/01 - ER Modeling.md",
     "database/Database_Symbols_Guide.md",
     "database/03 - Relational Algebra - Binary Operations.md",
-    "database/05 - Aggregate Functions and Assignment Operation.md",
     "database",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
@@ -259,7 +262,6 @@
     "MACS/images",
     "MACS",
     "DSD/Lecture3.md.tmp.40777.d0959bf11682",
-    "DSD/Lecture3.md.tmp.40777.f361bcd382dd",
-    "Untitled.canvas"
+    "DSD/Lecture3.md.tmp.40777.f361bcd382dd"
   ]
 }
