@@ -210,7 +210,6 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "drawio:Launch draw.io editor": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
