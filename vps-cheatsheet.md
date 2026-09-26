@@ -96,6 +96,7 @@ npm -v
 ```bash
 sudo npm install -g pm2
 pm2 startup    # auto-start on reboot
+pm2 start ecosystem.config.js
 ```
 
 ### Step 3 — Clone Project
