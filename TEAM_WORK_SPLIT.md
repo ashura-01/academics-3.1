@@ -97,7 +97,7 @@ git add backend/app/Siem/ \
 # git add frontend/js/Pages/Siem/Agents* frontend/js/Pages/Siem/Events* frontend/js/Pages/Siem/Install*
 
 git status
-git commit --author="A Name <a@email.com>" -m "Add SIEM ingestion, findings and reports models, auth, dashboard and billing backend"
+git commit -m "Add SIEM ingestion, findings and reports models, auth, dashboard and billing backend"
 git push -u origin feature/siem-ingestion-auth
 ```
 
@@ -164,7 +164,7 @@ git add backend/app/Http/Controllers/SiemAlertController.php \
 # git add frontend/js/Pages/Siem/Dashboard* frontend/js/Pages/Siem/Alerts* frontend/js/Pages/Siem/Rules*
 
 git status
-git commit --author="B Name <b@email.com>" -m "Add SIEM detection, chat, admin, report and AI patch jobs and app core"
+git commit -m "Add SIEM detection, chat, admin, report and AI patch jobs and app core"
 git push -u origin feature/siem-detection-core
 ```
 
@@ -213,7 +213,7 @@ git add backend/app/Scanning/ \
   frontend/js/Pages/Uptime/
 
 git status
-git commit --author="C Name <c@email.com>" -m "Add scanning engine, targets and scanning frontend"
+git commit -m "Add scanning engine, targets and scanning frontend"
 git push -u origin feature/scanning-engine
 ```
 
@@ -264,7 +264,7 @@ git add backend/app/Http/Controllers/UptimeController.php \
   backend/.env.example backend/.env.docker backend/resources/views/app.blade.php start.sh
 
 git status
-git commit --author="D Name <d@email.com>" -m "Add frontend, build setup, uptime and supporting backend"
+git commit -m "Add frontend, build setup, uptime and supporting backend"
 git push -u origin feature/frontend-build
 ```
 
