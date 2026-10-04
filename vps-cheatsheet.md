@@ -96,6 +96,7 @@ npm -v
 ```bash
 sudo npm install -g pm2
 pm2 startup    # auto-start on reboot
+pm2 start ecosystem.config.js
 ```
 
 ### Step 3 — Clone Project
@@ -167,11 +168,10 @@ sudo docker exec -it bookdb mysql -uroot -prootpass
 
 ### Step 2 — Create Your Database & User
 ```sql
-CREATE DATABASE s20230204045;
-CREATE USER 's20230204045'@'%' IDENTIFIED BY 'your_chosen_password';
-GRANT ALL PRIVILEGES ON s20230204045.* TO 's20230204045'@'%';
+CREATE USER 's20230204045'@'%' IDENTIFIED BY '123456';
+GRANT SELECT,INSERT,UPDATE ON bookdb.* TO 's20230204045'@'%';
 FLUSH PRIVILEGES;
-EXIT;
+EXIT
 ```
 
 ### If app needs a specific database name:
