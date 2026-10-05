@@ -11,14 +11,10 @@
             "id": "e2ff478f160a718b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSD/DSD FINAL.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "DSD FINAL"
+              "title": "New tab"
             }
           }
         ]
@@ -215,8 +211,9 @@
   },
   "active": "e2ff478f160a718b",
   "lastOpenFiles": [
-    "Excalidraw/sap-01.md",
     "DSD/DSD FINAL.md",
+    "TEAM_WORK_SPLIT.md",
+    "Excalidraw/sap-01.md",
     "Excalidraw/SAP-01.md",
     "Excalidraw/Drawing 2026-09-24 00.21.23.excalidraw.md",
     "Excalidraw/Drawing 2026-09-24 00.20.00.excalidraw.md",
@@ -252,7 +249,6 @@
     "sus/Ethics of Technology & Sustainability.md",
     "database/RA-SQL-Practice.md",
     "prob-solve.md",
-    "database/04 - Joins in Relational Algebra.md",
     "database",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
