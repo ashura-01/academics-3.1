@@ -107,6 +107,8 @@ The slide says the CPU and the memory chip **do not match**. There are three mis
 
 ![Address split](attachments/slide-11.png)
 
+---
+
 ```mermaid
 flowchart LR
     subgraph CPUBUS["CPU address bus A19 ... A0"]
