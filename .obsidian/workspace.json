@@ -11,10 +11,14 @@
             "id": "813d7d45e71151ef",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lecture 6 - Memory Interfacing"
             }
           }
         ]
@@ -170,6 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -210,6 +215,21 @@
   },
   "active": "813d7d45e71151ef",
   "lastOpenFiles": [
+    "MNM/Lecture6_Memory_Interfacing/attachments/slide-25.png",
+    "MNM/Lecture6_Memory_Interfacing/attachments/slide-07.png",
+    "MNM/Lecture6_Memory_Interfacing/attachments/slide-18.png",
+    "MNM/Lecture6_Memory_Interfacing/attachments/slide-04.png",
+    "MNM/Lecture6_Memory_Interfacing/attachments/slide-30.png",
+    "MNM/Lecture6_Memory_Interfacing/attachments/slide-27.png",
+    "MNM/Lecture6_Memory_Interfacing/attachments/slide-13.png",
+    "MNM/Lecture6_Memory_Interfacing/attachments/slide-10.png",
+    "MNM/Lecture6_Memory_Interfacing/attachments/slide-15.png",
+    "MNM/Lecture6_Memory_Interfacing/attachments/slide-03.png",
+    "MNM/Lecture6_Memory_Interfacing/attachments/slide-09.png",
+    "MNM/Lecture6_Memory_Interfacing/attachments",
+    "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
+    "MNM/Lecture6_Memory_Interfacing",
+    "MNM/Lecture6_Memory_Interfacing_Obsidian.zip",
     "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
     "DSD/DSD FINAL.md",
     "TEAM_WORK_SPLIT.md",
@@ -221,8 +241,6 @@
     "sap-archi.canvas",
     "Econimics & accounting/journal_ledger_trial_balance.md",
     "database/sql-transaction-isolation-levels.md",
-    "Econimics & accounting/attachments/q5_perfect_competition_loss.png",
-    "Econimics & accounting/attachments/q1_perfect_competition_profit.png",
     "database/Transactions-DB.md",
     "MNM/cheating.md",
     "DSD/lacture4.md",
@@ -231,14 +249,6 @@
     "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
     "MNM/Lecture6_Memory_Interfacing_Notes.md",
     "MNM/8086_Maximum_Mode_and_Clock_System.md",
-    "MNM/attachments/01_objectives.png",
-    "MNM/attachments/02_rom_ram_pin_connections.png",
-    "MNM/attachments/03_2716_2kx8_eprom.png",
-    "MNM/attachments/04_ram_memory_tms4016_sram.png",
-    "MNM/attachments/05_static_and_dynamic_ram.png",
-    "MNM/attachments/06_reading_writing_dram_cell.png",
-    "MNM/attachments/07_sram_faster_dram_denser.png",
-    "MNM/attachments/08_sram_read_write_operation.png",
     "MACS/The Josephus Problem.md",
     "MACS/Sums.md",
     "MACS/recurrence_basics.md",
@@ -246,16 +256,11 @@
     "sus/Sustainable Computing (Classes 1-3).md",
     "sus/Sustainable Computing - Stats & Formulas.md",
     "sus/Ethics of Technology & Sustainability.md",
-    "database/RA-SQL-Practice.md",
-    "prob-solve.md",
     "database",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
     "MNM/attachments",
     "sus",
-    "MACS/attachments",
-    "MACS/images",
-    "MACS",
-    "DSD/Lecture3.md.tmp.40777.d0959bf11682"
+    "MACS/attachments"
   ]
 }
