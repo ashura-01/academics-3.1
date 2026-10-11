@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "aaaa2533b8aa4b74",
+        "id": "bcfd0160057f9878",
         "type": "tabs",
         "children": [
           {
-            "id": "e2ff478f160a718b",
+            "id": "813d7d45e71151ef",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -170,7 +170,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -209,8 +208,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e2ff478f160a718b",
+  "active": "813d7d45e71151ef",
   "lastOpenFiles": [
+    "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
     "DSD/DSD FINAL.md",
     "TEAM_WORK_SPLIT.md",
     "Excalidraw/sap-01.md",
@@ -223,7 +223,6 @@
     "database/sql-transaction-isolation-levels.md",
     "Econimics & accounting/attachments/q5_perfect_competition_loss.png",
     "Econimics & accounting/attachments/q1_perfect_competition_profit.png",
-    "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
     "database/Transactions-DB.md",
     "MNM/cheating.md",
     "DSD/lacture4.md",
