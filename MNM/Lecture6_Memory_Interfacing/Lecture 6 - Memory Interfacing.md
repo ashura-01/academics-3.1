@@ -1,9 +1,18 @@
 ---
-title: "Lecture 6 - Memory Interfacing (8086/8088 x86 Microprocessors)"
+title: Lecture 6 - Memory Interfacing (8086/8088 x86 Microprocessors)
 course: Microprocessors / x86 Architecture, Programming and Interfacing
 lecturer: Prof. Dr. Shamim Akhter
-tags: [microprocessor, 8086, 8088, memory-interfacing, address-decoding, PLA, PLD, hamming-code, ECC]
-aliases: [Memory Interfacing, Lecture 6]
+tags:
+  - microprocessor
+  - memory-interfacing
+  - address-decoding
+  - PLA
+  - PLD
+  - hamming-code
+  - ECC
+aliases:
+  - Memory Interfacing
+  - Lecture 6
 ---
 
 # 🧠 Memory Interfacing: the complete beginner-friendly guide
