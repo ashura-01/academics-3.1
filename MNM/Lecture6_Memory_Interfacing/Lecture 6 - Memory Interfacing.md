@@ -31,26 +31,6 @@ aliases:
 
 ---
 
-## 📑 Table of contents
-
-1. [[#1. The big picture: why "interfacing" exists]]
-2. [[#2. Memory unit basics (RAM vs ROM)]]
-3. [[#3. Pins of a memory chip]]
-4. [[#4. ROM chip example: 2716 EPROM]]
-5. [[#5. SRAM chip example: TMS4016]]
-6. [[#6. SRAM vs DRAM (cells, read/write, refresh)]]
-7. [[#7. Address decoding (the heart of the lecture)]]
-8. [[#8. PLA (Programmable Logic Array)]]
-9. [[#9. PLD and ROM/RAM interface using a PLD]]
-10. [[#10. 8088/80188 memory interface (8-bit data bus)]]
-11. [[#11. 8086/80286/80386SX memory interface (16-bit data bus)]]
-12. [[#12. Error detection and correction (Hamming, SEC, DED, 74LS636)]]
-13. [[#13. Design cookbook (step-by-step recipes)]]
-14. [[#14. Cheat sheet: numbers and rules to memorize]]
-15. [[#15. Typos / things to be careful about in the slides]]
-16. [[#16. Practice questions with answers]]
-17. [[#17. Glossary]]
-
 ### Topic map
 
 | # | Topic | Slides | Type |
