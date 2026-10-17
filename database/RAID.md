@@ -112,3 +112,16 @@ if one of the disk fails, the parity block can be used with the corresponding bl
 
 ![[Drawing 2026-10-17 20.35.08.excalidraw|800]]
 ### RAID level 6
+
+- parity bits are stored
+- block level striping with dual distributed parity 
+- two independent parity blocks for protection against two simultaneous disk failures
+
+> 
+> **P : parity** -> `XOR` parity
+> **Q: parity** -> `Solomon codes`
+> 
+
+- parity blocks are distributing across all disks
+- advance storage fault tolerance
+
