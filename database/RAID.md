@@ -94,4 +94,9 @@ when it is corrupted we need to update it
 
 ### RAID Level 4
 
+**bloack-interleaved parity organization.**
+
+uses block-level striping like `RAID 0` and in adddition keeps a parity blocl on a separate disk for corresponding blacks from n other disks
+
+if one of the disk fails, the parity block can be used with the corresponding block from the other disks to restore the block of the failed disk
 
