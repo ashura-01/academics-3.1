@@ -8,4 +8,25 @@ date: 2026-10-17
 ---
 # RAID --  Redundant arrays of independent disks
 
-disk organiza
+disk organization technique that manages a larger number of disks, providing a view of a single disk
+
+**Advantages**
+- high capacity and high speed using multiple disks in parallel
+- high reliability; redundant data storage, so that data can be recovered if a disk fails
+
+>[!important] Multiple levels of RAID
+>-> different levels of redundancy
+>-> Error checking
+>-> Cost & capacity
+
+### Raid level-0
+
+**characteristics**
+- breaks a file into blocks of data 
+- called block striping 
+- store block across disks in the system
+- simple to implement 
+- provides no redundancy or error detection
+
+**E**
+
