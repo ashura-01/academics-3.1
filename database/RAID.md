@@ -30,4 +30,8 @@ disk organization technique that manages a larger number of disks, providing a v
 
 **Example**
 
+![[raid1|800]]
 
+#### Block stripping
+
+* with `n` disks block i of file goes to click `i`

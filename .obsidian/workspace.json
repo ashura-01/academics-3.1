@@ -41,14 +41,14 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-10-17 18.04.58.excalidraw.md"
+                "file": "Excalidraw/raid1.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-17 18.04.58.excalidraw"
+              "title": "raid1"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2026-10-17 18.04.58.excalidraw.md",
+                "file": "database/RAID.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -240,10 +240,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c848008ac38c2157",
+  "active": "f6a11186af2f4026",
   "lastOpenFiles": [
+    "Excalidraw/raid1.md",
     "database/RAID.md",
-    "Excalidraw/Drawing 2026-10-17 18.04.58.excalidraw.md",
     "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
     "database/before_MID/Transactions-DB.md",
     "database/before_MID/sql-transaction-isolation-levels.md",
