@@ -87,5 +87,11 @@ a single parity bit is usual for with error detection and correction
 
 **Example**
 
-File  | 1 | 0 | 1 | 1 |
-parity = d1
+File  contains 1 0 1 1
+parity =  d1$\oplus$ d2 $\oplus$ d3 $\oplus$ d4 = 1 $\oplus$ 0 $\oplus$ 1 $\oplus$ 1 = 1
+
+when it is corrupted we need to update it 
+
+### RAID Level 4
+
+
