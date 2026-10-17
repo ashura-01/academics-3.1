@@ -77,4 +77,8 @@ probability of combined failure is very small
 
 ### RAID level 3
 
-bit inter
+bit interleaved level parity organization, improves on level 2 by exploiting the fact that disk controllers unlike memory, systems, can detect whether a sector has been read correctly.
+a single parity bit is usual for with error detection and correction
+
+> Data is  divided into byte level and stored in multiple disk & one disk is used to store the **Parity**
+
