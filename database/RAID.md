@@ -125,3 +125,5 @@ if one of the disk fails, the parity block can be used with the corresponding bl
 - parity blocks are distributing across all disks
 - advance storage fault tolerance
 
+![[Drawing 2026-10-17 20.50.30.excalidraw|800]]
+

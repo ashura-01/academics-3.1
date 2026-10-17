@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "RAID"
             }
+          },
+          {
+            "id": "ab94e0240a3f4a82",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-10-17 20.50.30.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-17 20.50.30.excalidraw"
+            }
           }
         ]
       }
@@ -215,8 +227,9 @@
   },
   "active": "57ad6840604d7eda",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
+    "Excalidraw/Drawing 2026-10-17 20.50.30.excalidraw.md",
     "database/RAID.md",
+    "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
     "Excalidraw/Drawing 2026-10-17 20.35.08.excalidraw.md",
     "Excalidraw/raid3.md",
     "Excalidraw/raid1.md",
@@ -256,7 +269,6 @@
     "sap-archi.canvas",
     "Econimics & accounting/journal_ledger_trial_balance.md",
     "database/sql-transaction-isolation-levels.md",
-    "database/Transactions-DB.md",
     "database",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
