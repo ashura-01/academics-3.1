@@ -36,4 +36,4 @@ disk organization technique that manages a larger number of disks, providing a v
 
 * with `n` disks block i of file goes to click `(i mod n)+1`
 * if uses the $\lfloor i/n \rfloor$ th physical block of the disk to store logical block `i`
-* a systrem hash 8 disks logical block 0 is stored in physical block 0 of disk 1
+* a system hash 8 disks logical block 0 is stored in physical block 0 of disk 1
