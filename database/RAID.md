@@ -6,4 +6,6 @@ tags:
   - final
 date: 2026-10-17
 ---
-# RAID -- 
+# RAID --  Redundant arrays of independent disks
+
+disk organiza
