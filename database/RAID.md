@@ -32,7 +32,7 @@ disk organization technique that manages a larger number of disks, providing a v
 
 ![[raid1|800]]
 
-#### Block stripping
+**Block stripping**
 
 * with `n` disks block i of file goes to click `(i mod n)+1`
 * if uses the $\lfloor i/n \rfloor$ th physical block of the disk to store logical block `i`
@@ -69,3 +69,12 @@ probability of combined failure is very small
 
 ### RAID level 2
 
+- uses bit level stripping combined with error correcting code (ECC)
+- each bit of data is stored in a parity bit, a parity bit is associated with each bit of data
+- if the bits in byte contains even no 1 -> **parity 0**
+- if the bits in byte contains odd no 1 -> **parity 1**
+- ECC scheme -> hamming code
+
+### RAID level 3
+
+bit inter
