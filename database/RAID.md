@@ -54,3 +54,8 @@ so the answer is
 - a second disk contains an exact copy of the file 
 - provides complete redundancy of data, no parallel
 
+![[Drawing 2026-10-17 18.44.43.excalidraw|800]]
+
+probability of combined failure is very small
+-> Builds collapse
+-> electrical outage
