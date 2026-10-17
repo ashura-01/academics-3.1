@@ -42,3 +42,6 @@ disk organization technique that manages a larger number of disks, providing a v
 
 **example**:
 For a system with $n = 8$ **disks**, to determine where **Logical Block 11** is stored2:
+
+disk number $$\text{disk number}=(11 \bmod 8)+1=4$$
+and  physical block index $$\text{physical bloack} = 11\b/ $$
