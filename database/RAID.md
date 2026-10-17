@@ -28,5 +28,6 @@ disk organization technique that manages a larger number of disks, providing a v
 - simple to implement 
 - provides no redundancy or error detection
 
-**E**
+**Example**
+
 

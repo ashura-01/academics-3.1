@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "RAID"
             }
+          },
+          {
+            "id": "c848008ac38c2157",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-10-17 18.04.58.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-17 18.04.58.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "database/RAID.md",
+                "file": "Excalidraw/Drawing 2026-10-17 18.04.58.excalidraw.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -228,10 +240,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "45dde854ab63284f",
+  "active": "c848008ac38c2157",
   "lastOpenFiles": [
-    "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
     "database/RAID.md",
+    "Excalidraw/Drawing 2026-10-17 18.04.58.excalidraw.md",
+    "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
     "database/before_MID/Transactions-DB.md",
     "database/before_MID/sql-transaction-isolation-levels.md",
     "database/before_MID/RA-SQL-Practice.md",
@@ -271,7 +284,6 @@
     "MNM/cheating.md",
     "DSD/lacture4.md",
     "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
-    "DSD/07 - Analytical Questions and Answers (ROM, RAM, PLA).md",
     "database",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
