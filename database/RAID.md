@@ -40,8 +40,17 @@ disk organization technique that manages a larger number of disks, providing a v
 **Disk Number**: $$\text{Disk Number} = (i \bmod n) + 1$$
 **Physical Block Index**: $$\text{Physical Block} = \lfloor i / n \rfloor$$
 
-**example**:
-For a system with $n = 8$ **disks**, to determine where **Logical Block 11** is stored2:
+>[!question] **example**:
+>For a system with $n = 8$ **disks**, to determine where **Logical Block 11** is stored2:
+>disk number $$\text{disk number}=(11 \bmod 8)+1=4$$
+and  physical block index $$\text{physical bloack} = \lfloor 11/8 \rfloor=1$$
+so the answer is 
 
-disk number $$\text{disk number}=(11 \bmod 8)+1=4$$
-and  physical block index $$\text{physical bloack} = 11\b/ $$
+
+
+### Raid level-1
+
+- a complete file is stored on a single disk
+- a second disk contains an exact copy of the file 
+- provides complete redundancy of data, no parallel
+

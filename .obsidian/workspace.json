@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "b3589107681a082a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-17 18.44.43.excalidraw"
+            }
+          },
+          {
             "id": "c848008ac38c2157",
             "type": "leaf",
             "state": {
@@ -48,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "database/RAID.md",
+                "file": "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -240,10 +252,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f6a11186af2f4026",
+  "active": "b3589107681a082a",
   "lastOpenFiles": [
-    "Excalidraw/raid1.md",
     "database/RAID.md",
+    "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
+    "Excalidraw/raid1.md",
     "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
     "database/before_MID/Transactions-DB.md",
     "database/before_MID/sql-transaction-isolation-levels.md",
@@ -283,7 +296,6 @@
     "database/Transactions-DB.md",
     "MNM/cheating.md",
     "DSD/lacture4.md",
-    "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
     "database",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
