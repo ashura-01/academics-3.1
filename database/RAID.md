@@ -60,4 +60,12 @@ probability of combined failure is very small
 -> Builds collapse
 -> electrical outage
 
-**RAID 1+0/ RAID 10 -> best of both**
+>[!important] **RAID 1+0/ RAID 10**-> Best of both level 0 and level 1(*Block level striping*)
+>refers to monitoring with striping and use the term RAID level 1 to refer to mirroring without striping
+>
+>```c
+>mirroiring → a data storage technique in which the same data is stored on two or more disks to provide data redundancy & fault tolerance
+>```
+
+### RAID level 2
+
