@@ -36,4 +36,9 @@ disk organization technique that manages a larger number of disks, providing a v
 
 * with `n` disks block i of file goes to click `(i mod n)+1`
 * if uses the $\lfloor i/n \rfloor$ th physical block of the disk to store logical block `i`
-* a system hash 8 disks logical block 0 is stored in physical block 0 of disk 1
+
+**Disk Number**: $$\text{Disk Number} = (i \bmod n) + 1$$
+**Physical Block Index**: $$\text{Physical Block} = \lfloor i / n \rfloor$$
+
+**example**:
+For a system with $n = 8$ **disks**, to determine where **Logical Block 11** is stored2:
