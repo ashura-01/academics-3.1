@@ -59,3 +59,5 @@ so the answer is
 probability of combined failure is very small
 -> Builds collapse
 -> electrical outage
+
+**RAID 1+0/ RAID 10 -> best of both**

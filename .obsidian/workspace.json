@@ -11,12 +11,14 @@
             "id": "f6a11186af2f4026",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md"
+                "file": "database/RAID.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-17 18.44.43.excalidraw"
+              "icon": "lucide-file",
+              "title": "RAID"
             }
           }
         ]
@@ -172,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
+                "file": "database/RAID.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -213,8 +215,8 @@
   },
   "active": "f6a11186af2f4026",
   "lastOpenFiles": [
-    "database/RAID.md",
     "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
+    "database/RAID.md",
     "Excalidraw/raid1.md",
     "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
     "database/before_MID/Transactions-DB.md",
