@@ -98,5 +98,17 @@ when it is corrupted we need to update it
 
 uses block-level striping like `RAID 0` and in adddition keeps a parity blocl on a separate disk for corresponding blacks from n other disks
 
-if one of the disk fails, the parity block can be used with the corresponding block from the other disks to restore the block of the failed disk
+if one of the disk fails, the parity block can be used with the corresponding block from the other disks to restore the block of the failed disk.
+
+### RAID level 5
+
+- block level stripping with distributed parity across all disks to improve performance and provide fault tolerance
+- all disks can participate in data read unlike level of  where parity disks can not participate
+- widely used in real life systems
+
+> 
+> data are divided by blocks and stored in  disks, and parity presents at all disks
+> 
+
+
 
