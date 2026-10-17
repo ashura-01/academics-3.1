@@ -82,3 +82,10 @@ a single parity bit is usual for with error detection and correction
 
 > Data is  divided into byte level and stored in multiple disk & one disk is used to store the **Parity**
 
+
+![[raid3|800]]
+
+**Example**
+
+File  | 1 | 0 | 1 | 1 |
+parity = d1
