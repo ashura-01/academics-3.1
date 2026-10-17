@@ -106,9 +106,5 @@ if one of the disk fails, the parity block can be used with the corresponding bl
 - all disks can participate in data read unlike level of  where parity disks can not participate
 - widely used in real life systems
 
-> 
-> data are divided by blocks and stored in  disks, and parity presents at all disks
-> 
-
-
+> data are divided by blocks and stored in  disks, and parity presents 
 
