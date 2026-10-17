@@ -108,3 +108,7 @@ if one of the disk fails, the parity block can be used with the corresponding bl
 
 > data are divided by blocks and stored in  disks, and parity presents 
 
+**EXAMPLE**
+
+![[Drawing 2026-10-17 20.35.08.excalidraw|800]]
+### RAID level 6
