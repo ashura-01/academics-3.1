@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "normalization.md",
+                "file": "database/normalization.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,18 +22,19 @@
             }
           },
           {
-            "id": "7713e045579b5e28",
+            "id": "4b3c33899f1736d6",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-10-19 23.11.22.excalidraw.md"
+                "file": "Excalidraw/Drawing 2026-10-19 23.40.50.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-19 23.11.22.excalidraw"
+              "title": "Drawing 2026-10-19 23.40.50.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "normalization.md",
+                "file": "Excalidraw/Drawing 2026-10-19 23.40.50.excalidraw.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -225,14 +226,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b7816bd98b972d45",
+  "active": "4b3c33899f1736d6",
   "lastOpenFiles": [
+    "database/normalization.md",
+    "Excalidraw/Drawing 2026-10-19 23.40.50.excalidraw.md",
     "Excalidraw/Drawing 2026-10-19 23.11.22.excalidraw.md",
-    "normalization.md",
     "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
     "Excalidraw/Drawing 2026-10-19 23.03.05.excalidraw.md",
     "tables.md",
-    "transaction.md",
+    "database/transaction.md",
     "database/RAID.md",
     "Excalidraw/Drawing 2026-10-17 20.50.30.excalidraw.md",
     "Excalidraw/Drawing 2026-10-17 20.35.08.excalidraw.md",
@@ -266,7 +268,6 @@
     "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
     "DSD/DSD FINAL.md",
     "TEAM_WORK_SPLIT.md",
-    "Excalidraw/sap-01.md",
     "Excalidraw",
     "sap-archi.canvas",
     "database",

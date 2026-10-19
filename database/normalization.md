@@ -55,7 +55,14 @@ date: 2026-10-19
 | 1   | 101 | jamal        | Data base   |
 | 1   | 102 | Jamal        | Algorithm   |
 | 2   | 101 | Kamal        | Data base   |
-this violets 2NF:
-- Student Name depends only on SID not on CID
-- Course Name depends only on CID not on SID
-since the 
+
+this violets **2NF**:
+
+- `Student Name` depends only on `SID` not on `CID`
+- `Course Name` depends only on `CID` not on `SID`
+
+since the `student name` and `course name` only part of the primary key (`sid`,`cid`) the table contains partial dependencies and violates the **2NF**
+
+**Converting to 2NF (Decomposition):**
+
+to remove the partial dependencies the table is split into three separate tables
