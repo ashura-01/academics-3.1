@@ -43,3 +43,8 @@ date: 2026-10-19
 - the table is already in `1NF`
 - there is no partial dependency
   -> All non-key attributes must depend **entirely on the primary key**, rather than just a part of a composite primary key
+
+
+>[!important] What is partial dependency
+>when a table uses a **composite primary key** a partial dependency occurs if a non-key attribute depends on only one of those columns instead of entire combination
+
