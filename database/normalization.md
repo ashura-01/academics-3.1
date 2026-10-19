@@ -2,6 +2,7 @@
 title: Database Normalization
 tags:
   - database
+  - normalization
 date: 2026-10-19
 ---
 # Database normalization
@@ -78,4 +79,9 @@ formally for every non-trivial functional dependency   $x \rightarrow y$  at lea
 - $x$ is a superkey
 - $y$ is a prime attribute (a member of a candidate key)
 
-A transitive dependency occurs when an attribute depends indirectly on the primary key through another non-key attribute. if attribute `A` determines `B` **(A -> B)** and B determines `C`**(B -> C)**, then C transitively den
+A transitive dependency occurs when an attribute depends indirectly on the primary key through another non-key attribute. if attribute `A` determines `B` **(A -> B)** and B determines `C`**(B -> C)**, then `C` transitively depends on `A` through `B`.
+
+
+| SID |     |
+| --- | --- |
+|     |     |
