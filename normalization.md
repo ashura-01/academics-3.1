@@ -22,4 +22,11 @@ date: 2026-10-19
 | 3   | 2   | kamal | DB    | Mr Ali     |
 
 ### Steps in DB normalization
-\
+
+- First Normal Form `1NF`
+- Second Normal Form `2NF`
+- 3NF
+- Boyce-Codd Normal `BCNF`
+- 4NF
+- 5NF
+- 6NF
