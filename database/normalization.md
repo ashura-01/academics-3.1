@@ -94,4 +94,6 @@ A transitive dependency occurs when an attribute depends indirectly on the prima
 3. DID -> department name
 
 Why this violates `3NF`:
+- Both `DID` and `DN` are non-key attributes
+- `DN` depends on `DID` which creates an indirect relationship with the primary key `SID`
 - 

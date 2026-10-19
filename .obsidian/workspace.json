@@ -174,7 +174,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "database/normalization.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -213,10 +212,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b7816bd98b972d45",
+  "active": "7cb9af7cb1c7a235",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-10-19 23.40.50.excalidraw.md",
     "database/normalization.md",
+    "Excalidraw/Drawing 2026-10-19 23.40.50.excalidraw.md",
     "Excalidraw/Drawing 2026-10-19 23.11.22.excalidraw.md",
     "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
     "Excalidraw/Drawing 2026-10-19 23.03.05.excalidraw.md",
