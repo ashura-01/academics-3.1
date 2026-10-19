@@ -66,3 +66,5 @@ since the `student name` and `course name` only part of the primary key (`sid`,`
 **Converting to 2NF (Decomposition):**
 
 to remove the partial dependencies the table is split into three separate tables
+
+![[Drawing 2026-10-19 23.40.50.excalidraw|800]]
