@@ -84,4 +84,14 @@ A transitive dependency occurs when an attribute depends indirectly on the prima
 
 | SID | Student Name | DID | Department Name |
 | --- | ------------ | --- | --------------- |
-| 101 | Jamal        |     |                 |
+| 101 | Jamal        | D1  | CSE             |
+| 102 | Kamal        | D2  | EEE             |
+
+**Functional Dependencies in this table**
+
+1. SID -> student name
+2. SID -> DID
+3. DID -> department name
+
+Why this violates `3NF`:
+- 
