@@ -67,6 +67,7 @@ probability of combined failure is very small
 >mirroiring → a data storage technique in which the same data is stored on two or more disks to provide data redundancy & fault tolerance
 >```
 
+---
 ### RAID level 2
 
 - uses bit level stripping combined with error correcting code (ECC)
@@ -75,6 +76,7 @@ probability of combined failure is very small
 - if the bits in byte contains odd no 1 -> **parity 1**
 - ECC scheme -> hamming code
 
+---
 ### RAID level 3
 
 bit interleaved level parity organization, improves on level 2 by exploiting the fact that disk controllers unlike memory, systems, can detect whether a sector has been read correctly.
@@ -92,6 +94,7 @@ parity =  d1$\oplus$ d2 $\oplus$ d3 $\oplus$ d4 = 1 $\oplus$ 0 $\oplus$ 1 $\oplu
 
 when it is corrupted we need to update it 
 
+---
 ### RAID Level 4
 
 **bloack-interleaved parity organization.**
@@ -100,6 +103,7 @@ uses block-level striping like `RAID 0` and in adddition keeps a parity blocl on
 
 if one of the disk fails, the parity block can be used with the corresponding block from the other disks to restore the block of the failed disk.
 
+---
 ### RAID level 5
 
 - block level stripping with distributed parity across all disks to improve performance and provide fault tolerance
@@ -111,6 +115,7 @@ if one of the disk fails, the parity block can be used with the corresponding bl
 **EXAMPLE**
 
 ![[Drawing 2026-10-17 20.35.08.excalidraw|800]]
+---
 ### RAID level 6
 
 - parity bits are stored
