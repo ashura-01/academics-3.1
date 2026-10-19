@@ -30,8 +30,16 @@ date: 2026-10-19
 - 4NF
 - 5NF
 - 6NF
-
+---
 ## First Normal Form (`1NF`)
 
 - each column must contain atomic values (no multi value columns)
-- there must be no repeative gfrpu[]
+- there must be no repeative group
+![[Drawing 2026-10-19 23.11.22.excalidraw|800]]
+---
+
+## Second Normal Form (`2NF`)
+
+- the table is already in `1NF`
+- there is no partial dependency
+  -> All non-key attributes must depend **entirely on the primary key**, rather than just a part of a composite primary key
