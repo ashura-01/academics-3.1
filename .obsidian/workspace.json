@@ -33,8 +33,7 @@
               "title": "Drawing 2026-10-19 23.11.22.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2026-10-19 23.11.22.excalidraw.md",
+                "file": "normalization.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -226,10 +225,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7713e045579b5e28",
+  "active": "b7816bd98b972d45",
   "lastOpenFiles": [
-    "normalization.md",
     "Excalidraw/Drawing 2026-10-19 23.11.22.excalidraw.md",
+    "normalization.md",
     "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
     "Excalidraw/Drawing 2026-10-19 23.03.05.excalidraw.md",
     "tables.md",
