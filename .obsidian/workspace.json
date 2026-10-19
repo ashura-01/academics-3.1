@@ -22,31 +22,19 @@
             }
           },
           {
-            "id": "549e27dfba12961e",
+            "id": "7713e045579b5e28",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-10-19 23.03.05.excalidraw.md"
+                "file": "Excalidraw/Drawing 2026-10-19 23.11.22.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-19 23.03.05.excalidraw"
-            }
-          },
-          {
-            "id": "70d0f875e3645108",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-10-19 23.03.05.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-19 23.03.05.excalidraw"
+              "title": "Drawing 2026-10-19 23.11.22.excalidraw"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,6 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Excalidraw/Drawing 2026-10-19 23.11.22.excalidraw.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -237,12 +226,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6c2ad283817ea34e",
+  "active": "7713e045579b5e28",
   "lastOpenFiles": [
+    "normalization.md",
+    "Excalidraw/Drawing 2026-10-19 23.11.22.excalidraw.md",
+    "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
     "Excalidraw/Drawing 2026-10-19 23.03.05.excalidraw.md",
     "tables.md",
-    "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
-    "normalization.md",
     "transaction.md",
     "database/RAID.md",
     "Excalidraw/Drawing 2026-10-17 20.50.30.excalidraw.md",
@@ -278,7 +268,6 @@
     "DSD/DSD FINAL.md",
     "TEAM_WORK_SPLIT.md",
     "Excalidraw/sap-01.md",
-    "Excalidraw/SAP-01.md",
     "Excalidraw",
     "sap-archi.canvas",
     "database",

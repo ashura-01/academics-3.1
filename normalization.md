@@ -34,4 +34,4 @@ date: 2026-10-19
 ## First Normal Form (`1NF`)
 
 - each column must contain atomic values (no multi value columns)
-- there must be no repetitive group
+- there must be no repeative group
