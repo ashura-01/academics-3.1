@@ -36,19 +36,21 @@
             }
           },
           {
-            "id": "ab94e0240a3f4a82",
+            "id": "b7816bd98b972d45",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-10-17 20.50.30.excalidraw.md"
+                "file": "normalization.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-17 20.50.30.excalidraw"
+              "icon": "lucide-file",
+              "title": "normalization"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "transaction.md",
+                "file": "normalization.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -240,10 +242,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c330b87b24deac10",
+  "active": "b7816bd98b972d45",
   "lastOpenFiles": [
-    "database/RAID.md",
     "transaction.md",
+    "normalization.md",
+    "database/RAID.md",
     "Excalidraw/Drawing 2026-10-17 20.50.30.excalidraw.md",
     "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
     "Excalidraw/Drawing 2026-10-17 20.35.08.excalidraw.md",
@@ -283,7 +286,6 @@
     "Excalidraw/Drawing 2026-09-24 00.20.00.excalidraw.md",
     "Excalidraw",
     "sap-archi.canvas",
-    "Econimics & accounting/journal_ledger_trial_balance.md",
     "database",
     "Econimics & accounting/attachments",
     "Econimics & accounting",
