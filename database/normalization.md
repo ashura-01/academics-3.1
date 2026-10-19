@@ -68,3 +68,8 @@ since the `student name` and `course name` only part of the primary key (`sid`,`
 to remove the partial dependencies the table is split into three separate tables
 
 ![[Drawing 2026-10-19 23.40.50.excalidraw|800]]
+## 3rd Normal Form (`3NF`)
+
+- **Must be in 2NF** -> the table must already satisfy second normal Form
+- **NO transitive dependency** -> No non-key attribute should depend on another non-key attribute
+formally for every non-trivial functional dependency $x \rarrow y$ 
