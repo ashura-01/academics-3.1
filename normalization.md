@@ -30,3 +30,8 @@ date: 2026-10-19
 - 4NF
 - 5NF
 - 6NF
+
+## First Normal Form (`1NF`)
+
+- each column must contain atomic values (no multi value columns)
+- there must be no repetitive group
