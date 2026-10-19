@@ -72,4 +72,10 @@ to remove the partial dependencies the table is split into three separate tables
 
 - **Must be in 2NF** -> the table must already satisfy second normal Form
 - **NO transitive dependency** -> No non-key attribute should depend on another non-key attribute
-formally for every non-trivial functional dependency $x \rarrow y$ 
+
+formally for every non-trivial functional dependency   $x \rightarrow y$  at least one of the following condition must hold
+
+- $x$ is a superkey
+- $y$ is a prime attribute (a member of a candidate key)
+
+A transitive dependency occurs when an attribute depends indirectly on the primary key through another non-key attribute. if attribute `A` determines `B` **(A -> B)** and B determines `C`**(B -> C)**, then C transitively den
