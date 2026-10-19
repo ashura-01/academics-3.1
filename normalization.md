@@ -48,3 +48,14 @@ date: 2026-10-19
 >[!important] What is partial dependency
 >when a table uses a **composite primary key** a partial dependency occurs if a non-key attribute depends on only one of those columns instead of entire combination
 
+**Example:**
+
+| SID | CID | student Name | Course Name |
+| --- | --- | ------------ | ----------- |
+| 1   | 101 | jamal        | Data base   |
+| 1   | 102 | Jamal        | Algorithm   |
+| 2   | 101 | Kamal        | Data base   |
+this violets 2NF:
+- Student Name depends only on SID not on CID
+- Course Name depends only on CID not on SID
+since the 
