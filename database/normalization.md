@@ -82,6 +82,15 @@ A table can have **multiple functional dependencies**.
 >
 >**candidate key**: is a minimal set of attributes (columns) that can **uniquely identify** every single tuple (row) in a relation (table).
 ---
+
+
+### Attribute closure
+
+the closure of an attribute set X, written `X+` is the set of all attributes functionally determined by X, based on the given functional dependencies,
+
+
+
+---
 ## First Normal Form (`1NF`)
 
 - each column must contain atomic values (no multi value columns)
