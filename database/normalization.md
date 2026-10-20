@@ -75,7 +75,12 @@ A table can have **multiple functional dependencies**.
 > [!important] Where do functional dependencies come from?
 > Functional dependencies come from the rules (the meaning of the real world), not from the sample rows.
 
-
+>[!important] Basic Knowledge
+>**Prime Attributes:** Attributes (columns) that participate in or help form the candidate key (or primary key) of a relation/table 
+>
+>**Non-Prime Attributes:** Attributes that do not participate in forming any candidate key 
+>
+>**candidate key**: is a minimal set of attributes (columns) that can **uniquely identify** every single tuple (row) in a relation (table).
 ---
 ## First Normal Form (`1NF`)
 
@@ -129,14 +134,6 @@ A transitive dependency occurs when an attribute depends indirectly on the prima
 > 
 > Indirect relationship with primary key, it's called transitive dependency
 > 
-
->[!important] Basic Knowledge
->**Prime Attributes:** Attributes (columns) that participate in or help form the candidate key (or primary key) of a relation/table 
->
->**Non-Prime Attributes:** Attributes that do not participate in forming any candidate key 
->
->**candidate key**: is a minimal set of attributes (columns) that can **uniquely identify** every single tuple (row) in a relation (table).
-
 
 
 | SID | Student Name | DID | Department Name |
