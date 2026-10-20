@@ -121,4 +121,14 @@ Why this violates `3NF`:
 
 ## Boyce - Codd Normal Form
 
-**Boyce-Codd Normal Form** (`BCNF`) is a stricter version of ***Third Normal From (3NF)*** while `3NF` resolves most data redundancies BCNF addresses edge cases involving overlaping candidate key
+**Boyce-Codd Normal Form** (`BCNF`) is a stricter version of ***Third Normal From (3NF)*** while `3NF` resolves most data redundancies `BCNF` addresses edge cases involving overlapping candidate keys. 
+
+>[!important] **The Rule of BCNF**
+>A relation *R* is in **BCNF** if and only if for **every non-trival functional dependency** *X -> Y* that holds in R
+>- ***X must be a Super key of R***
+
+**Key difference between 3NF and BCNF**
+
+to see why `BCNF` is stricter, compare their requirements for non-trivial dependency  ***X ->Y**
+- **3NF rule:** `X` must be a superkey, or `y` must be a prime attri
+
