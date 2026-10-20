@@ -130,5 +130,7 @@ Why this violates `3NF`:
 **Key difference between 3NF and BCNF**
 
 to see why `BCNF` is stricter, compare their requirements for non-trivial dependency  ***X ->Y**
-- **3NF rule:** `X` must be a superkey, or `y` must be a prime attri
+
+- **3NF rule:** `X` must be a superkey, or `Y` must be a prime attribute (part of a candidate key)
+- **BCNF rule:** `X` must be a super key. BCNF removes the second option, meaning that even if `Y` is a prime attribute, the dependency is invalid unless `X` is a superkey
 
