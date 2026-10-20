@@ -118,3 +118,6 @@ Why this violates `3NF`:
 
 ![[Drawing 2026-10-20 14.10.13.excalidraw|800]]
 
+
+## Boyce - Codd Normal Form
+
