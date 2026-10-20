@@ -114,3 +114,7 @@ Why this violates `3NF`:
 >- **Non-Prime $\rightarrow$ Non-Prime** 
  >       _Example:_ If a non-prime attribute determines another non-prime attribute (e.g., `State ->  City` , where both are non-prime), it creates a transitive dependency that violates the **Third Normal Form (3NF)** 
 
+**Example:**
+
+![[Drawing 2026-10-20 14.10.13.excalidraw|800]]
+
