@@ -100,7 +100,10 @@ Relation `R(A,B,C,D)` with functional dependencies
 - `(A,C) → D`
 compute `A+`:
 - start `(A)`
-- `A → B` applies, so `{A`
+- `A → B` applies, so `{A , B}`
+- `B → C` applies, so `{A, B, C}`
+- `(A, C) → D` applies (both A and C are present), so `{A, B, C, D}`
+`A+` contains every column of relation so **A** is a super key. it is also minimal (one column) so its also a **candidate key**
 
 ---
 ## First Normal Form (`1NF`)
