@@ -121,3 +121,4 @@ Why this violates `3NF`:
 
 ## Boyce - Codd Normal Form
 
+**Boyce-Codd Normal Form** (`BCNF`) is a stricter version of ***Third Normal From (3NF)*** while `3NF` resolves most data redundancies BCNF addresses edge cases involving overlaping candidate key
