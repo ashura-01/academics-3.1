@@ -81,6 +81,10 @@ formally for every non-trivial functional dependency   $x \rightarrow y$  at lea
 
 A transitive dependency occurs when an attribute depends indirectly on the primary key through another non-key attribute. if attribute `A` determines `B` **(A -> B)** and B determines `C`**(B -> C)**, then `C` transitively depends on `A` through `B`.
 
+> 
+> Indirect relationship with primary key, it's called transitive dependency
+> 
+
 >[!important] Basic Knowledge
 >**Prime Attributes:** Attributes (columns) that participate in or help form the candidate key (or primary key) of a relation/table 
 >
