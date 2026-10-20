@@ -98,6 +98,7 @@ A transitive dependency occurs when an attribute depends indirectly on the prima
 | --- | ------------ | --- | --------------- |
 | 101 | Jamal        | D1  | CSE             |
 | 102 | Kamal        | D2  | EEE             |
+| 103 | hamal        | D1  | CSE             |
 
 **Functional Dependencies in this table**
 
