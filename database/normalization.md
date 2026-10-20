@@ -31,6 +31,18 @@ date: 2026-10-19
 - 4NF
 - 5NF
 - 6NF
+
+|Term|Meaning|Example|
+|---|---|---|
+|**Superkey**|Any set of columns that uniquely identifies every row. It may contain extra, unnecessary columns.|`{sid}`, `{sid, se}`, `{se}`, `{se, sn}`, `{sid, sn}`, `{sid, se, sn}`|
+|**Candidate key**|A **minimal** superkey: remove any column and it stops being unique.|`{sid}` and `{se}`|
+|**Primary key**|The one candidate key that the designer picks.|`{sid}`|
+|**Alternate key**|Candidate keys that were not picked as primary.|`{se}`|
+|**Prime attribute**|Any column that is part of **at least one** candidate key.|`sid`, `se`|
+|**Non-prime attribute**|A column that is in no candidate key.|`sn`, `sa`|
+
+Why is `{sid, se}` a superkey but not a candidate key? Because you can remove `se` and `{sid}` is still unique. It is not minimal.
+
 ---
 ## First Normal Form (`1NF`)
 
