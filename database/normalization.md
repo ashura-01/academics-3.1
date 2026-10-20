@@ -105,4 +105,7 @@ Why this violates `3NF`:
 - Both `DID` and `DN` are non-key attributes
 - `DN` depends on `DID` which creates an indirect relationship with the primary key `SID`
 
->[!note] Wehn it causes problem
+>[!note]  When it **CAUSES A PROBLEM** (Violation):
+>- **Non-Prime $\rightarrow$ Non-Prime** 
+ >       _Example:_ If a non-prime attribute determines another non-prime attribute (e.g., `State ->  City` , where both are non-prime), it creates a transitive dependency that violates the **Third Normal Form (3NF)** 
+
