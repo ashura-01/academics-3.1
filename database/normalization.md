@@ -59,7 +59,7 @@ The left side `X` is called the **determinant**.
 - **Trivial functional dependency:** the right side is already inside the left side. Example: `(eid, name) → eid`. It is always true and tells us nothing new.
 - **Non-trivial functional dependency:** the right side is **not** inside the left side. Example: `eid → name`. These are the ones that matter.
 
-### Example 2 from your notes: Enrollment table
+### Example 2: Enrollment table
 
 `Enrollment(sid, sn, cid, ct, crd, grade)` where `ct` = course title, `crd` = credit.
 
@@ -73,8 +73,7 @@ Functional dependencies:
 A table can have **multiple functional dependencies**.
 
 > [!important] Where do functional dependencies come from?
-> **Functional dependencies come from the rules (the meaning of the real world), not from the sample rows.**
-
+> Functional dependencies come from the rules (the meaning of the real world), not from the sample rows.
 
 
 ---
