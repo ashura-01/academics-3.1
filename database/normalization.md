@@ -88,7 +88,19 @@ A table can have **multiple functional dependencies**.
 
 the closure of an attribute set X, written `X+` is the set of all attributes functionally determined by X, based on the given functional dependencies,
 
+**Algorithm:**
+1. start with `X+ = X`.
+2. look at every functional dependency `L → R`. if all columns of `L` are already in `X+` add `R` to `X+`
+3. repeat step 2 until nothing new can be added
 
+**Example:**
+Relation `R(A,B,C,D)` with functional dependencies
+- `A → B`
+- `B → C`
+- `(A,C) → D`
+compute `A+`:
+- start `(A)`
+- `A → B` applies, so `{A`
 
 ---
 ## First Normal Form (`1NF`)
