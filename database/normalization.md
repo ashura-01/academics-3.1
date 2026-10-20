@@ -43,6 +43,40 @@ date: 2026-10-19
 
 Why is `{sid, se}` a superkey but not a candidate key? Because you can remove `se` and `{sid}` is still unique. It is not minimal.
 
+
+## Functional dependency: what it is and how to find it
+
+### Definition
+
+We write `X → Y` and say "X functionally determines Y" if the value of column set X **uniquely identifies** the value of Y. In other words, if two rows have the same X, they must have the same Y.
+
+Example: in `Employee(Eid, EN)`, `Eid → EN` because each employee identifier gives exactly one employee name.
+
+The left side `X` is called the **determinant**.
+
+### Trivial versus non-trivial
+
+- **Trivial functional dependency:** the right side is already inside the left side. Example: `(eid, name) → eid`. It is always true and tells us nothing new.
+- **Non-trivial functional dependency:** the right side is **not** inside the left side. Example: `eid → name`. These are the ones that matter.
+
+### Example 2 from your notes: Enrollment table
+
+`Enrollment(sid, sn, cid, ct, crd, grade)` where `ct` = course title, `crd` = credit.
+
+Functional dependencies:
+
+1. `sid → sn` (a student identifier gives one student name)
+2. `(sid, cid) → everything about the student's enrollment` (the pair identifies the full row, so it is a key)
+3. `cid → (ct, crd)` (a course identifier gives its title and credit)
+4. `cid → ct` (follows from number 3)
+
+A table can have **multiple functional dependencies**.
+
+> [!important] Where do functional dependencies come from?
+> **Functional dependencies come from the rules (the meaning of the real world), not from the sample rows.**
+
+
+
 ---
 ## First Normal Form (`1NF`)
 
