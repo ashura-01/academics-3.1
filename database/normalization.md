@@ -83,7 +83,9 @@ A transitive dependency occurs when an attribute depends indirectly on the prima
 
 >[!important] Basic Knowledge
 >**Prime Attributes:** Attributes (columns) that participate in or help form the candidate key (or primary key) of a relation/table 
+>
 >**Non-Prime Attributes:** Attributes that do not participate in forming any candidate key 
+>
 >**candidate key**: is a minimal set of attributes (columns) that can **uniquely identify** every single tuple (row) in a relation (table).
 
 
@@ -102,4 +104,5 @@ A transitive dependency occurs when an attribute depends indirectly on the prima
 Why this violates `3NF`:
 - Both `DID` and `DN` are non-key attributes
 - `DN` depends on `DID` which creates an indirect relationship with the primary key `SID`
-- 
+
+>[!note] Wehn it causes problem
