@@ -174,7 +174,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -213,8 +212,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a55bc71658ff215e",
+  "active": "7cb9af7cb1c7a235",
   "lastOpenFiles": [
+    "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
     "database/normalization.md",
     "Excalidraw/Drawing 2026-10-19 23.40.50.excalidraw.md",
     "database/transaction.md",
@@ -228,7 +228,6 @@
     "Excalidraw/Drawing 2026-10-17 20.35.08.excalidraw.md",
     "Excalidraw/raid3.md",
     "Excalidraw/raid1.md",
-    "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
     "database/before_MID/Transactions-DB.md",
     "database/before_MID/sql-transaction-isolation-levels.md",
     "database/before_MID/RA-SQL-Practice.md",
