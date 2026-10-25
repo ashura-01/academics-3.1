@@ -160,6 +160,7 @@ Also written on the slide: the CPU communicates with and controls these peripher
 ## 4. I/O port address decoding (8-bit and 16-bit) 🧩🔧
 
 ### 4.1 The big idea (same as memory)
+
 > "Memory map similar to Memory address decoding. The difference is in the **address pin number**: memory uses A0-A31, A0-A23 or A0-A19; **isolated I/O uses only A0-A15**."
 
 So: a port decoder = **an address decoder fed by A0-A15** (isolated I/O has only 64K ports), plus the **I/O strobes** (`IORC` for reading, `IOWC` for writing) or the `M/IO` signal.
