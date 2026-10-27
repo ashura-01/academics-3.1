@@ -11,14 +11,10 @@
             "id": "a55bc71658ff215e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MNM/Lecture7_IO_Interfacing/Lecture 7 - IO Interfacing and 8255 PPI.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lecture 7 - IO Interfacing and 8255 PPI"
+              "title": "New tab"
             }
           }
         ]
@@ -174,7 +170,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MNM/Lecture7_IO_Interfacing/Lecture 7 - IO Interfacing and 8255 PPI.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
