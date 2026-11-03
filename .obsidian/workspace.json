@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Econimics & accounting/Economics_Exam_Pack_Obsidian/Economics_Exam_Crash_Notes.md",
+                "file": "Econimics & accounting/econ_vault/Economics Exam Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Economics_Exam_Crash_Notes"
+              "title": "Economics Exam Notes"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5,
-    "collapsed": true
+    "width": 289.5
   },
   "right": {
     "id": "a13cf556feee131e",
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Econimics & accounting/Economics_Exam_Pack_Obsidian/Economics_Exam_Crash_Notes.md",
+                "file": "Econimics & accounting/econ_vault/Economics Exam Notes.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -199,8 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 293.8828125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,6 +215,7 @@
   },
   "active": "a55bc71658ff215e",
   "lastOpenFiles": [
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/Economics_Exam_Crash_Notes.md",
     "Econimics & accounting/econ_vault/attachments/ppf_growth.png",
     "Econimics & accounting/econ_vault/attachments/pc_profit.png",
     "Econimics & accounting/econ_vault/attachments/pc_loss.png",
@@ -231,11 +230,9 @@
     "Econimics & accounting/econ_vault/Economics Exam Notes.md",
     "Econimics & accounting/econ_vault",
     "Econimics & accounting/econ_vault.zip",
-    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs/theory_of_production_slide_08.png",
     "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs",
     "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/README.md",
     "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments",
-    "Econimics & accounting/Economics_Exam_Pack_Obsidian/Economics_Exam_Crash_Notes.md",
     "Econimics & accounting/Economics_Exam_Pack_Obsidian",
     "Econimics & accounting/Economics_Exam_Pack_Obsidian.zip",
     "Econimics & accounting/Economics_Exam_Pack/Economics_Exam_Crash_Notes.md",

@@ -172,12 +172,12 @@ Beyond a certain point, adding more units of an input while holding other inputs
 
 ## 2.4 Factors of production and their returns
 
-| Factor | Meaning | Reward |
-|---|---|---|
-| Land | natural resources: minerals, forests, water, unimproved land | Rent |
-| Labor | physical and mental talents people contribute | Wage |
-| Capital | produced goods used for further production: factories, machinery, tools, computers, buildings | Interest |
-| Entrepreneurship | talent for organizing land, labor and capital, seeking opportunities | Profit |
+| Factor           | Meaning                                                                                       | Reward   |
+| ---------------- | --------------------------------------------------------------------------------------------- | -------- |
+| Land             | natural resources: minerals, forests, water, unimproved land                                  | Rent     |
+| Labor            | physical and mental talents people contribute                                                 | Wage     |
+| Capital          | produced goods used for further production: factories, machinery, tools, computers, buildings | Interest |
+| Entrepreneurship | talent for organizing land, labor and capital, seeking opportunities                          | Profit   |
 
 ## 2.5 Production Possibilities Frontier (PPF)
 
