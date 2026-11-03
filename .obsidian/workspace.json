@@ -11,10 +11,14 @@
             "id": "a55bc71658ff215e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Econimics & accounting/Economics_Exam_Pack_Obsidian/Economics_Exam_Crash_Notes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Economics_Exam_Crash_Notes"
             }
           }
         ]
@@ -170,6 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Econimics & accounting/Economics_Exam_Pack_Obsidian/Economics_Exam_Crash_Notes.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -210,6 +215,24 @@
   },
   "active": "a55bc71658ff215e",
   "lastOpenFiles": [
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs/theory_of_production_slide_08.png",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs/theory_of_production_slide_07.png",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs/theory_of_production_slide_06.png",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs/theory_of_production_slide_04.png",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs/theory_of_elasticity_slide_07.png",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs/theory_of_elasticity_slide_05.png",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs/national_income_accounting_slide_05.png",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs/money_inflation_and_unemployment_slide_09.png",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs/mathematical_applications_slide_09.png",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs/mathematical_applications_slide_06.png",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs/mathematical_applications_slide_03.png",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/README.md",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian/Economics_Exam_Crash_Notes.md",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian",
+    "Econimics & accounting/Economics_Exam_Pack_Obsidian.zip",
+    "Econimics & accounting/Economics_Exam_Pack/Economics_Exam_Crash_Notes.md",
     "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
     "database/normalization.md",
     "Excalidraw/Drawing 2026-10-19 23.40.50.excalidraw.md",
@@ -232,30 +255,12 @@
     "database/before_MID/03 - Relational Algebra - Binary Operations.md",
     "database/before_MID/02 - Relational Algebra - Unary Operations.md",
     "database/before_MID/01 - ER Modeling.md",
-    "database/before_MID/00 - Introduction to DBMS.md",
-    "database/before_MID/00 - CSE3103 Database - Index.md",
     "database/before_MID",
-    "MNM/Lecture6_Memory_Interfacing/attachments/slide-25.png",
-    "MNM/Lecture6_Memory_Interfacing/attachments/slide-07.png",
-    "MNM/Lecture6_Memory_Interfacing/attachments/slide-18.png",
-    "MNM/Lecture6_Memory_Interfacing/attachments/slide-04.png",
-    "MNM/Lecture6_Memory_Interfacing/attachments/slide-30.png",
-    "MNM/Lecture6_Memory_Interfacing/attachments/slide-27.png",
-    "MNM/Lecture6_Memory_Interfacing/attachments/slide-13.png",
-    "MNM/Lecture6_Memory_Interfacing/attachments/slide-10.png",
-    "MNM/Lecture6_Memory_Interfacing/attachments/slide-15.png",
-    "MNM/Lecture6_Memory_Interfacing/attachments/slide-03.png",
     "MNM/Lecture6_Memory_Interfacing/attachments",
     "MNM/Lecture6_Memory_Interfacing",
     "MNM/Lecture6_Memory_Interfacing_Obsidian.zip",
-    "Econimics & accounting/Profit_Maximization_Q1_Q5_Q6_Explained.md",
-    "DSD/DSD FINAL.md",
     "Excalidraw",
     "sap-archi.canvas",
-    "database",
-    "Econimics & accounting/attachments",
-    "Econimics & accounting",
-    "MNM/attachments",
-    "sus"
+    "database"
   ]
 }
