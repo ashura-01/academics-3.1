@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSD/dsd_notes/DSD_Lecture10_Control_Logic_Design.md",
+                "file": "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSD_Lecture10_Control_Logic_Design"
+              "title": "06 - RAM (Memory & Programmable Logic - Part 2)"
             }
           }
         ]
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSD/dsd_notes/DSD_Lecture10_Control_Logic_Design.md",
+                "file": "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,16 +217,16 @@
   "lastOpenFiles": [
     "DSD/dsd_notes/attachments/seq_reg_decoder.png",
     "DSD/dsd_notes/attachments/ex1_state_diagram_2.png",
-    "DSD/dsd_notes/attachments/ex1_boolean_table.png",
+    "DSD/dsd_notes/DSD_Lecture10_Control_Logic_Design.md",
+    "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
     "DSD/dsd_notes/attachments",
     "DSD/dsd_notes/Index.md",
-    "DSD/dsd_notes/DSD_Lecture10_Control_Logic_Design.md",
     "DSD/dsd_notes/Quick_Reference.md",
     "DSD/dsd_notes",
     "DSD/DSD_Lecture10_Notes.zip",
+    "DSD/dsd_notes/attachments/ex1_boolean_table.png",
     "DSD/dsd_notes_lecture10/Quick_Reference.md",
     "DSD/dsd_notes_lecture10/DSD_Lecture10_Control_Logic_Design.md",
-    "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
     "DSD/dsd_notes_lecture10/attachments",
     "DSD/dsd_notes_lecture10/Index.md",
     "DSD/dsd_notes_lecture10",
@@ -241,7 +241,6 @@
     "Econimics & accounting/econ_vault/attachments/elasticity_supply.png",
     "Econimics & accounting/econ_vault/attachments/monopoly_q3.png",
     "Econimics & accounting/econ_vault/attachments/elasticity_demand.png",
-    "Econimics & accounting/econ_vault/attachments/phillips.png",
     "Econimics & accounting/econ_vault/attachments",
     "Econimics & accounting/econ_vault/Economics Exam Notes.md",
     "Econimics & accounting/econ_vault",
