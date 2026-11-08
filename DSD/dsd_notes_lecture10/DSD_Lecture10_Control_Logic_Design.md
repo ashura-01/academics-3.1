@@ -175,6 +175,7 @@ This reduces all 8 cases to 4: **(±A) + (±B)**
 ## Step 4: Flowchart
 
 ```mermaid
+
 flowchart TD
     START([Initial State x=1]) --> INIT_CHECK{qs=1?}
     INIT_CHECK -->|Yes| COMP_BS["Bs ← ~Bs (complement B sign)"]
