@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
+                "file": "DSD/DSD_Lecture9_ControlLogicDesign/DSD Lecture 9 - Control Logic Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - RAM (Memory & Programmable Logic - Part 2)"
+              "title": "DSD Lecture 9 - Control Logic Design"
             }
           }
         ]
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
+                "file": "DSD/DSD_Lecture9_ControlLogicDesign/DSD Lecture 9 - Control Logic Design.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -215,17 +215,27 @@
   },
   "active": "a55bc71658ff215e",
   "lastOpenFiles": [
-    "DSD/DSD_Lecture9_ControlLogicDesign.zip",
-    "DSD/dsd_notes/attachments/seq_reg_decoder.png",
-    "DSD/dsd_notes/attachments/ex1_state_diagram_2.png",
-    "DSD/dsd_notes/DSD_Lecture10_Control_Logic_Design.md",
     "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
+    "DSD/DSD_Lecture9_ControlLogicDesign/attachments/23_ex2_pla_block_diagram.jpg",
+    "DSD/DSD_Lecture9_ControlLogicDesign/attachments/10_ex1_state_diagram_alt_design.jpg",
+    "DSD/DSD_Lecture9_ControlLogicDesign/attachments/05_microprogram_control_logic.jpg",
+    "DSD/DSD_Lecture9_ControlLogicDesign/attachments/19_ex2_data_processor.jpg",
+    "DSD/DSD_Lecture9_ControlLogicDesign/attachments/02_one_ff_per_state_method.jpg",
+    "DSD/DSD_Lecture9_ControlLogicDesign/attachments/14_ex1_binary_microprogram_table.jpg",
+    "DSD/DSD_Lecture9_ControlLogicDesign/attachments/20_ex2_jk_excitation_table.jpg",
+    "DSD/DSD_Lecture9_ControlLogicDesign/attachments/18_ex2_state_diagram.jpg",
+    "DSD/DSD_Lecture9_ControlLogicDesign/attachments/07_ex1_data_processor.jpg",
+    "DSD/DSD_Lecture9_ControlLogicDesign/attachments/09_ex1_flowchart_and_state_diagram.jpg",
+    "DSD/DSD_Lecture9_ControlLogicDesign/attachments",
+    "DSD/DSD_Lecture9_ControlLogicDesign/DSD Lecture 9 - Control Logic Design.md",
+    "DSD/DSD_Lecture9_ControlLogicDesign",
+    "DSD/DSD_Lecture9_ControlLogicDesign.zip",
+    "DSD/dsd_notes/DSD_Lecture10_Control_Logic_Design.md",
     "DSD/dsd_notes/attachments",
     "DSD/dsd_notes/Index.md",
     "DSD/dsd_notes/Quick_Reference.md",
     "DSD/dsd_notes",
     "DSD/DSD_Lecture10_Notes.zip",
-    "DSD/dsd_notes/attachments/ex1_boolean_table.png",
     "DSD/dsd_notes_lecture10/Quick_Reference.md",
     "DSD/dsd_notes_lecture10/DSD_Lecture10_Control_Logic_Design.md",
     "DSD/dsd_notes_lecture10/attachments",
@@ -235,20 +245,10 @@
     "DSD/07 - Analytical Questions and Answers (ROM, RAM, PLA).md",
     "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
     "Econimics & accounting/Economics_Exam_Pack_Obsidian/Economics_Exam_Crash_Notes.md",
-    "Econimics & accounting/econ_vault/attachments/ppf_growth.png",
-    "Econimics & accounting/econ_vault/attachments/pc_profit.png",
-    "Econimics & accounting/econ_vault/attachments/pc_loss.png",
-    "Econimics & accounting/econ_vault/attachments/ppf.png",
-    "Econimics & accounting/econ_vault/attachments/elasticity_supply.png",
-    "Econimics & accounting/econ_vault/attachments/monopoly_q3.png",
-    "Econimics & accounting/econ_vault/attachments/elasticity_demand.png",
     "Econimics & accounting/econ_vault/attachments",
     "Econimics & accounting/econ_vault/Economics Exam Notes.md",
     "Econimics & accounting/econ_vault",
-    "Econimics & accounting/econ_vault.zip",
-    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/graphs",
     "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/README.md",
-    "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments",
     "Econimics & accounting/Economics_Exam_Pack/Economics_Exam_Crash_Notes.md",
     "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
     "database/normalization.md",
@@ -260,7 +260,6 @@
     "Excalidraw/Drawing 2026-10-17 18.44.43.excalidraw.md",
     "Excalidraw/Drawing 2026-10-19 23.03.05.excalidraw.md",
     "tables.md",
-    "Excalidraw/Drawing 2026-10-17 20.50.30.excalidraw.md",
     "sap-archi.canvas"
   ]
 }
