@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSD/DSD_Lecture9_ControlLogicDesign/DSD Lecture 9 - Control Logic Design.md",
+                "file": "DSD/07 - Analytical Questions and Answers (ROM, RAM, PLA).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSD Lecture 9 - Control Logic Design"
+              "title": "07 - Analytical Questions and Answers (ROM, RAM, PLA)"
             }
           }
         ]
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSD/DSD_Lecture9_ControlLogicDesign/DSD Lecture 9 - Control Logic Design.md",
+                "file": "DSD/07 - Analytical Questions and Answers (ROM, RAM, PLA).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -216,6 +216,8 @@
   "active": "a55bc71658ff215e",
   "lastOpenFiles": [
     "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
+    "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
+    "DSD/DSD_Lecture9_ControlLogicDesign/DSD Lecture 9 - Control Logic Design.md",
     "DSD/DSD_Lecture9_ControlLogicDesign/attachments/23_ex2_pla_block_diagram.jpg",
     "DSD/DSD_Lecture9_ControlLogicDesign/attachments/10_ex1_state_diagram_alt_design.jpg",
     "DSD/DSD_Lecture9_ControlLogicDesign/attachments/05_microprogram_control_logic.jpg",
@@ -227,7 +229,6 @@
     "DSD/DSD_Lecture9_ControlLogicDesign/attachments/07_ex1_data_processor.jpg",
     "DSD/DSD_Lecture9_ControlLogicDesign/attachments/09_ex1_flowchart_and_state_diagram.jpg",
     "DSD/DSD_Lecture9_ControlLogicDesign/attachments",
-    "DSD/DSD_Lecture9_ControlLogicDesign/DSD Lecture 9 - Control Logic Design.md",
     "DSD/DSD_Lecture9_ControlLogicDesign",
     "DSD/DSD_Lecture9_ControlLogicDesign.zip",
     "DSD/dsd_notes/DSD_Lecture10_Control_Logic_Design.md",
@@ -243,7 +244,6 @@
     "DSD/dsd_notes_lecture10",
     "DSD/dsd_notes-chapter9/DSD_Lecture10_Control_Logic_Design.md",
     "DSD/07 - Analytical Questions and Answers (ROM, RAM, PLA).md",
-    "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
     "Econimics & accounting/Economics_Exam_Pack_Obsidian/Economics_Exam_Crash_Notes.md",
     "Econimics & accounting/econ_vault/attachments",
     "Econimics & accounting/econ_vault/Economics Exam Notes.md",
