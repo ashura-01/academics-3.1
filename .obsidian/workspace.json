@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/normalization.md",
+                "file": "database/RAID.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "normalization"
+              "title": "RAID"
             }
           }
         ]
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "database/normalization.md",
+                "file": "database/RAID.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -215,6 +215,7 @@
   },
   "active": "a55bc71658ff215e",
   "lastOpenFiles": [
+    "database/normalization.md",
     "DSD/06 - RAM (Memory & Programmable Logic - Part 2).md",
     "DSD/07 - Analytical Questions and Answers (ROM, RAM, PLA).md",
     "DSD/05 - ROM and PLA (Memory & Programmable Logic - Part 1).md",
@@ -251,7 +252,6 @@
     "Econimics & accounting/Economics_Exam_Pack_Obsidian/attachments/README.md",
     "Econimics & accounting/Economics_Exam_Pack/Economics_Exam_Crash_Notes.md",
     "MNM/Lecture6_Memory_Interfacing/Lecture 6 - Memory Interfacing.md",
-    "database/normalization.md",
     "Excalidraw/Drawing 2026-10-19 23.40.50.excalidraw.md",
     "database/transaction.md",
     "Excalidraw/Drawing 2026-10-20 14.10.13.excalidraw.md",
